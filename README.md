@@ -1,10 +1,11 @@
 # Introduction
-Thank you for becoming a sponsor, your support makes my work on the satellite-image-deep-learning repository and newsletter possible 🙏 
+Thank you for becoming a sponsor, your support makes my work on the satellite-image-deep-learning repository and newsletter possible 🙏
 
 This repository is divided into three main parts:
-- [Remote sensing datasets for machine and deep learning](https://github.com/satellite-image-deep-learning/remote-sensing-datasets#datasets)
-- [Model deployment](https://github.com/satellite-image-deep-learning/remote-sensing-datasets#deployment)
-- [Software for working with remote sensing data](https://github.com/satellite-image-deep-learning/remote-sensing-datasets#software)
+
+- Datasets
+- Model deployment
+- Software for working with remote sensing data
 
 # Datasets
 This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. **Warning** satellite image files can be LARGE, and even a small datasets may comprise 50GB+ of imagery
@@ -608,7 +609,7 @@ Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
 * https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset -> segment roads
 
-# Deployment
+# Model deployment
 This section discusses how to get a trained machine learning & specifically deep learning model into production. For an overview on serving deep learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). There are many options if you are happy to dedicate a server, although you may want a GPU for batch processing. For serverless use AWS lambda.
 
 ## Rest API on dedicated server
@@ -726,7 +727,7 @@ An overview of the most relevant services provided by AWS, Google and Microsoft.
 * Computer vision traditionally delivered high performance image processing on a CPU by using compiled languages like C++, as used by OpenCV for example. The advent of GPUs are changing the paradigm, with alternatives optimised for GPU being created, such as [Kornia](https://github.com/kornia/kornia)
 * Whilst the combo of python and keras/tensorflow/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
-# Software
+# Software for working with remote sensing data
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
 * [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
