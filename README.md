@@ -1,8 +1,10 @@
 # Introduction
-Thank you for becoming a sponsor, your support makes my work on the satellite-image-deep-learning repository and newsletter possible 🙏 This repository is divided into three main parts:
-- Remote sensing datasets for machine and deep learning
-- Model deployment
-- Software for working with remote sensing data
+Thank you for becoming a sponsor, your support makes my work on the satellite-image-deep-learning repository and newsletter possible 🙏 
+
+This repository is divided into three main parts:
+- [Remote sensing datasets for machine and deep learning](https://github.com/satellite-image-deep-learning/remote-sensing-datasets#datasets)
+- [Model deployment](https://github.com/satellite-image-deep-learning/remote-sensing-datasets#deployment)
+- [Software for working with remote sensing data](https://github.com/satellite-image-deep-learning/remote-sensing-datasets#software)
 
 # Datasets
 This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. **Warning** satellite image files can be LARGE, and even a small datasets may comprise 50GB+ of imagery
