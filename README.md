@@ -11,7 +11,9 @@ This repository is divided into three main parts:
 This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. **Warning** satellite image files can be LARGE, and even a small datasets may comprise 50GB+ of imagery
 
 ## Lists of datasets
+<!-- markdown-link-check-disable -->
 * [Earth Observation Database](https://eod-grss-ieee.com/)
+<!-- markdown-link-check-enable -->
 * [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 * [Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets)
 * [Callisto-Dataset-Collection](https://github.com/Agri-Hub/Callisto-Dataset-Collection) -> datasets that use Copernicus/sentinel data
