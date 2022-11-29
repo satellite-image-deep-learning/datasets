@@ -146,9 +146,16 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://github.com/hust-rslab/SAR-aircraft-data
 * 2966 nonoverlapped 224×224 slices are collected with 7835 aircraft targets
 
-## xView Challenge Datasets for Humanitarian Assistance and Disaster Response
-* [xView1](http://xviewdataset.org/) - Objects in context for overhead imagery. A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery. Paper available on [arXiv](https://arxiv.org/abs/1802.07856).
-* [xView2/xBD](https://xview2.org/) - Finding and assessing damaged buildings on pre- and post-natural disaster imagery. With over 850,000 annotated buildings across over 45,000 km^2 of 0.3m resolution imagery, this dataset provides precise segmentation masks and damage labels on a four-level spectrum. Paper available on [arXiv](https://arxiv.org/abs/1911.09296).
+## xView1: Objects in context for overhead imagery.
+* [xView1](http://xviewdataset.org/) -> A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery. 
+* Paper available on [arXiv](https://arxiv.org/abs/1802.07856).
+* [paperswithcode](https://paperswithcode.com/dataset/xview)
+
+## xView2: xBD building damage assessment
+Annotated high-resolution satellite imagery for building damage assessment
+* [xView2/xBD](https://xview2.org/) -> Finding and assessing damaged buildings on pre and post-natural disaster imagery. With over 850,000 annotated buildings across over 45,000 km^2 of 0.3m resolution imagery, this dataset provides precise segmentation masks and damage labels on a four-level spectrum. Paper available on [arXiv](https://arxiv.org/abs/1911.09296)
+
+## xView3
 * [xView3](https://iuu.xview.us/) - Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels. Paper available on [arXiv](https://arxiv.org/abs/2206.00897).
 * All reference code, dataset processing utilities, and winning model codes + weights are available on the (xView GitHub organization page)[https://github.com/DIUx-xView).
 
