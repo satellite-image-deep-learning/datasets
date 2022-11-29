@@ -18,9 +18,8 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets)
 * [Callisto-Dataset-Collection](https://github.com/Agri-Hub/Callisto-Dataset-Collection) -> datasets that use Copernicus/sentinel data
 
-## Sentinel
-* As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
-* 13 bands, Spatial resolution of 10 m, 20 m and 60 m, 290 km swath, the temporal resolution is 5 days
+## Sentinel 1 & 2
+As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions)
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
 * [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F) 
@@ -46,7 +45,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
 
 ## Landsat
-* Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
+Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Landsat 4, 5, 7, and 8 imagery on Google](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with Landsat 8 imagery in COG format analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
 * [Landsat 8 imagery on AWS](https://registry.opendata.aws/landsat-8/), with many tutorials and tools listed
@@ -55,7 +54,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> This repo hosts all the code for landsatlive.live website and APIs.
 
 ## Maxar
-* Satellites owned by [Maxar](https://www.maxar.com/) (formerly DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
+Satellites owned by [Maxar](https://www.maxar.com/) (formerly DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
 * [Open Data images for humanitarian response](https://www.maxar.com/open-data)
 * Maxar ARD (COG plus data masks, with STAC) [sample data in S3](https://ard.maxar.com/docs/sdk/examples/outputs/)
 * [Dataset on AWS](https://spacenet.ai/datasets/) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
@@ -68,15 +67,14 @@ This section contains a short list of datasets relevant to deep learning, partic
 * Planet have made imagery available via kaggle competitions
 
 ## UC Merced
-* Land use classification dataset with 21 classes and 100 RGB TIFF images for each class
-* Each image measures 256x256 pixels with a pixel resolution of 1 foot
+Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
 * http://weegee.vision.ucmerced.edu/datasets/landuse.html
 * Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
 * Also [available as a multi-label dataset](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d)
 * Read [Vision Transformers for Remote Sensing Image Classification](https://www.mdpi.com/2072-4292/13/3/516/htm) where a Vision Transformer classifier achieves 98.49% classification accuracy on Merced
 
 ## EuroSAT
-* Land use classification dataset of Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples. Available in RGB and 13 band versions
+Land use classification dataset of Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples. Available in RGB and 13 band versions
 * [EuroSAT: Land Use and Land Cover Classification with Sentinel-2](https://github.com/phelber/EuroSAT) -> publication where a CNN achieves a classification accuracy 98.57%
 * Repos using fastai [here](https://github.com/shakasom/Deep-Learning-for-Satellite-Imagery) and [here](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html)
 * [evolved_channel_selection](http://matpalm.com/blog/evolved_channel_selection/) -> explores the trade off between mixed resolutions and whether to use a channel at all, with [repo](https://github.com/matpalm/evolved_channel_selection)
@@ -84,37 +82,37 @@ This section contains a short list of datasets relevant to deep learning, partic
 * RGB and 13 band versions [in tensorflow](https://www.tensorflow.org/datasets/catalog/eurosat)
 
 ## PatternNet
-* Land use classification dataset with 38 classes and 800 RGB JPG images for each class
+Land use classification dataset with 38 classes and 800 RGB JPG images for each class
 * https://sites.google.com/view/zhouwx/dataset?authuser=0
 * Publication: [PatternNet: A Benchmark Dataset for Performance Evaluation of Remote Sensing Image Retrieval](https://arxiv.org/abs/1706.03424)
 
 ## Million-AID
+A large-scale benchmark dataset containing million instances for RS scene classification, 51 scene categories organized by the hierarchical category
 * https://captain-whu.github.io/DiRS/
-* a new large-scale benchmark dataset containing million instances for RS scene classification
-* 51 scene categories organized by the hierarchical category
 * [Pretrained models](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
 * Also see [AID](https://captain-whu.github.io/AID/), [AID-Multilabel-Dataset](https://github.com/Hua-YS/AID-Multilabel-Dataset) & [DFC15-multilabel-dataset](https://github.com/Hua-YS/DFC15-Multilabel-Dataset)
 
 ## DIOR object detection dataset
+A large-scale benchmark dataset for object detection in optical remote sensing images, which consists of 23,463 images and 192,518 object instances annotated with horizontal bounding boxes
 * https://gcheng-nwpu.github.io/
 * https://arxiv.org/abs/1909.00133
-* "DIOR" is a large-scale benchmark dataset for object detection in optical remote sensing images, which consists of 23,463 images and 192,518 object instances annotated with horizontal bounding boxes
 * [ors-detection](https://github.com/Vlad15lav/ors-detection) -> Object Detection on the DIOR dataset using YOLOv3
 * [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 * [Tools](https://github.com/CrazyStoneonRoad/Tools) -> for dealing with the DIOR
 
 ## Multiscene
+MultiScene dataset aims at two tasks: Developing algorithms for multi-scene recognition & Network learning with noisy labels
 * https://multiscene.github.io/ & https://github.com/Hua-YS/Multi-Scene-Recognition
-* MultiScene dataset aims at two tasks: Developing algorithms for multi-scene recognition & Network learning with noisy labels
 
 ## FAIR1M object detection dataset
-* [FAIR1M: A Benchmark Dataset for Fine-grained Object Recognition in High-Resolution Remote Sensing Imagery](https://arxiv.org/abs/2103.05569)
+A Benchmark Dataset for Fine-grained Object Recognition in High-Resolution Remote Sensing Imagery
+* [arxiv papr](https://arxiv.org/abs/2103.05569)
 * Download at gaofen-challenge.com
 * [2020Gaofen](https://github.com/AICyberTeam/2020Gaofen) -> 2020 Gaofen Challenge data, baselines, and metrics
 
 ## DOTA object detection dataset
+A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
 * https://captain-whu.github.io/DOTA/index.html
-* A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
 * [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) for loading dataset
 * [Arxiv paper](https://arxiv.org/abs/1711.10398)
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
@@ -122,9 +120,10 @@ This section contains a short list of datasets relevant to deep learning, partic
 * Segmentation annotations available in iSAID dataset
 
 ## iSAID instance segmentation dataset
+A Large-scale Dataset for Instance Segmentation in Aerial Images
 * https://captain-whu.github.io/iSAID/dataset.html
-* A Large-scale Dataset for Instance Segmentation in Aerial Images
 * Uses images from the DOTA dataset
+* [Object Detection in Aerial Imagery](https://arxiv.org/abs/2211.15479) -> shows the performance of two-stage, one-stage and attention based object detectors on the iSAID dataset
 
 ## HRSC RGB ship object detection dataset
 * https://www.kaggle.com/datasets/guofeng/hrsc2016
@@ -136,73 +135,75 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [Rotation-RetinaNet-PyTorch](https://github.com/HsLOL/Rotation-RetinaNet-PyTorch)
 
 ## LEVIR ship dataset
+A dataset for tiny ship detection under medium-resolution remote sensing images
 * [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship)
-* A dataset for tiny ship detection under medium-resolution remote sensing images
 <!-- markdown-link-check-disable -->
 * Hosted on [Nucleus](https://dashboard.scale.com/nucleus/ds_cbsghny30nf00b1x3w7g?utm_source=open_dataset&utm_medium=github&utm_campaign=levir_ships)
 <!-- markdown-link-check-enable -->
 
-## SAR Aircraft Detection Dataset 
+## SAR Aircraft Detection Dataset
+2966 non-overlapped 224×224 slices are collected with 7835 aircraft targets
 * https://github.com/hust-rslab/SAR-aircraft-data
-* 2966 nonoverlapped 224×224 slices are collected with 7835 aircraft targets
 
-## xView1: Objects in context for overhead imagery.
-* [xView1](http://xviewdataset.org/) -> A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery. 
-* Paper available on [arXiv](https://arxiv.org/abs/1802.07856).
+## xView1: Objects in context for overhead imagery
+A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery
+* [Official website](http://xviewdataset.org/)
+* [arXiv paper](https://arxiv.org/abs/1802.07856).
 * [paperswithcode](https://paperswithcode.com/dataset/xview)
 
 ## xView2: xBD building damage assessment
-Annotated high-resolution satellite imagery for building damage assessment
-* [xView2/xBD](https://xview2.org/) -> Finding and assessing damaged buildings on pre and post-natural disaster imagery. With over 850,000 annotated buildings across over 45,000 km^2 of 0.3m resolution imagery, this dataset provides precise segmentation masks and damage labels on a four-level spectrum. Paper available on [arXiv](https://arxiv.org/abs/1911.09296)
+Annotated high-resolution satellite imagery for building damage assessment, precise segmentation masks and damage labels on a four-level spectrum, 0.3m resolution imagery
+* [Official website](https://xview2.org/)
+* [arXiv paper](https://arxiv.org/abs/1911.09296)
+* [paperswithcode](https://paperswithcode.com/paper/xbd-a-dataset-for-assessing-building-damage)
 
-## xView3
-* [xView3](https://iuu.xview.us/) - Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels. Paper available on [arXiv](https://arxiv.org/abs/2206.00897).
-* All reference code, dataset processing utilities, and winning model codes + weights are available on the (xView GitHub organization page)[https://github.com/DIUx-xView).
+## xView3: Detecting dark vessels in SAR
+Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels
+* [Official website](https://iuu.xview.us/)
+* [arXiv paper](https://arxiv.org/abs/2206.00897)
+* [Github](https://github.com/DIUx-xView) -> all reference code, dataset processing utilities, and winning model codes + weights
+* [paperswithcode](https://paperswithcode.com/dataset/xview3-sar)
 
 ## Vehicle Detection in Aerial Imagery (VEDAI)
-* Link in the repo below possibly broken
-* [pytorch-vedai](https://github.com/MichelHalmes/pytorch-vedai) -> object detection on the VEDAI dataset: Vehicle Detection in Aerial Imagery
+Vehicle Detection in Aerial Imagery
+* [pytorch-vedai](https://github.com/MichelHalmes/pytorch-vedai)
 
 ## Cars Overhead With Context (COWC)
+Large set of annotated cars from overhead. Established baseline for detection and counting tasks
 * http://gdo152.ucllnl.org/cowc/
 * https://github.com/LLNL/cowc
-* Large set of annotated cars from overhead
-* Established baseline for detection and counting tasks
 
 ## AI-TOD - tiny object detection
+The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets
 * https://github.com/jwwangchn/AI-TOD
-* The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets
 * [NWD](https://github.com/jwwangchn/NWD) -> code for 2021 [paper](https://arxiv.org/abs/2110.13389): A Normalized Gaussian Wasserstein Distance for Tiny Object Detection. Uses AI-TOD dataset
 * [AI-TOD-v2](https://chasel-tsui.github.io/AI-TOD-v2/) -> meticulously relabelling of the v1 dataset
 
 ## Counting from Sky
-* A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
+A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
 * https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method
 
 ## AIRS (Aerial Imagery for Roof Segmentation)
+Public dataset for roof segmentation from very-high-resolution aerial imagery (7.5cm). Covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
 * https://www.airs-dataset.com
-* Public dataset for roof segmentation from very-high-resolution aerial imagery (7.5cm)
-* AIRS dataset covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
 * [Also on Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation)
 * [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 
 ## Inria building/not building segmentation dataset
+RGB GeoTIFF at spatial resolution of 0.3 m. Data covering Austin, Chicago, Kitsap County, Western & Easter Tyrol, Innsbruck, San Francisco & Vienna
 * https://project.inria.fr/aerialimagelabeling/contest/
-* RGB GeoTIFF at spatial resolution of 0.3 m
-* Data covering Austin, Chicago, Kitsap County, Western & Easter Tyrol, Innsbruck, San Francisco & Vienna
 * [SemSegBuildings](https://github.com/SharpestProjects/SemSegBuildings) -> Project using fast.ai framework for semantic segmentation on Inria building segmentation dataset
 * [UNet_keras_for_RSimage](https://github.com/loveswine/UNet_keras_for_RSimage) -> keras code for binary semantic segmentation
 
-## AICrowd Mapping Challenge \building segmentation dataset
+## AICrowd Mapping Challenge: building segmentation dataset
+300x300 pixel RGB images with annotations in COCO format. Imagery appears to be global but with significant fraction from North America
 * Dataset release as part of the [mapping-challenge](https://www.aicrowd.com/challenges/mapping-challenge)
-* 300x300 pixel RGB images with annotations in COCO format
-* Imagery appears to be global but with significant fraction from North America
 * Winning solution published by neptune.ai [here](https://github.com/neptune-ai/open-solution-mapping-challenge), achieved precision 0.943 and recall 0.954 using Unet with Resnet.
 * [mappingchallenge](https://github.com/krishanr/mappingchallenge) -> YOLOv5 applied to the AICrowd Mapping Challenge dataset
 
 ## BONAI - building footprint dataset
+BONAI (Buildings in Off-Nadir Aerial Images) is a dataset for building footprint extraction (BFE) in off-nadir aerial images
 * https://github.com/jwwangchn/BONAI
-* BONAI (Buildings in Off-Nadir Aerial Images) is a dataset for building footprint extraction (BFE) in off-nadir aerial images
 
 ## GID15 large scale semantic segmentation dataset
 * https://captain-whu.github.io/GID15/
@@ -213,13 +214,12 @@ Annotated high-resolution satellite imagery for building damage assessment
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset uses LEVIR-CD imagery
 
 ## ISPRS
+Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
 * https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx
-* Semantic segmentation dataset
-* 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
 
 ## SpaceNet
+SpaceNet ran a series consisting of seven challenges with datasets and utilities provided. Challenges covered (1&2) building segmentation, (3) road segmentation, (4) off-nadir buildings, (5) road network extraction, (6)multi-senor mapping, (7) multi-temporal urban change
 * [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools. Note that [CosmiQ Ended its Leadership of SpaceNet](https://medium.com/the-downlinq/closing-time-cosmiq-works-is-closing-down-and-ending-its-leadership-of-spacenet-a53ba239745b), handing over the reigns to Maxar
-* SpaceNet ran a series consisting of seven challenges with datasets and utilities provided. Challenges covered (1&2) building segmentation, (3) road segmentation, (4) off-nadir buildings, (5) road network extraction, (6)multi-senor mapping, (7) multi-temporal urban change
 * Building datasets covered a number of cities including: Rio, Paris, Vegas, Shanghai, Khartoum, Atlana, Moscow, Mumbai & Rotterdam
 * [The SpaceNet 7 Multi-Temporal Urban Development Challenge: Dataset Release](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)
 * [spacenet-three-topcoder](https://github.com/snakers4/spacenet-three-topcoder) solution
@@ -228,11 +228,16 @@ Annotated high-resolution satellite imagery for building damage assessment
 * [Spacenet-Building-Detection](https://github.com/IdanC1s2/Spacenet-Building-Detection) -> uses keras and [Spacenet 1 dataset](https://spacenet.ai/spacenet-buildings-dataset-v1/)
 
 ## WorldStrat Dataset
+Nearly 10,000 km² of free high-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities.
 * https://github.com/worldstrat/worldstrat
 * [Quick tour of the WorldStrat Dataset](https://www.satellite-image-deep-learning.com/p/quick-tour-of-the-worldstrat-dataset)
-* Nearly 10,000 km² of free high-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities.
 * Each high-resolution image (1.5 m/pixel) comes with multiple temporally-matched low-resolution images from the freely accessible lower-resolution Sentinel-2 satellites (10 m/pixel)
 * Several super-resolution benchmark models trained on it
+
+## Satlas
+A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annotates all modalities (classification, segmentation, object detection etc)
+* https://satlas.allenai.org/
+* Dataset release in January 2023
 
 ## RF100: object detection benchmark
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
