@@ -43,6 +43,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Canadian-cropland-dataset](https://github.com/bioinfoUQAM/Canadian-cropland-dataset) -> a novel patch-based dataset compiled using optical satellite images of Canadian agricultural croplands retrieved from Sentinel-2
 * [Sentinel-2 Cloud Cover Segmentation Dataset](https://mlhub.earth/data/ref_cloud_cover_detection_challenge_v1) on Radiant mlhub
 * [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
+* [fMoW-Sentinel](https://purl.stanford.edu/vg497cb6002) -> The Functional Map of the World - Sentinel-2 corresponding images (fMoW-Sentinel) dataset consists of image time series collected by the Sentinel-2 satellite, corresponding to locations from the Functional Map of the World (fMoW) dataset across several different times. Used in [SatMAE](https://github.com/sustainlab-group/SatMAE)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
