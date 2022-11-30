@@ -284,7 +284,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset contains 10077 pairs of bi-temporal remote sensing images and 50385 sentences describing the differences between images. Uses LEVIR-CD imagery
 
 ## Weather Datasets
-* UK metoffice -> https://www.metoffice.gov.uk/datapoint
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
