@@ -134,6 +134,10 @@ A Large-scale Dataset for Instance Segmentation in Aerial Images
 * https://github.com/TianwenZhang0825/Official-SSDD
 * [Rotation-RetinaNet-PyTorch](https://github.com/HsLOL/Rotation-RetinaNet-PyTorch)
 
+## High-Resolution SAR Rotation Ship Detection Dataset (SRSDD)
+* [Github](https://github.com/HeuristicLU/SRSDD-V1.0)
+* [A Lightweight Model for Ship Detection and Recognition in Complex-Scene SAR Images](https://www.mdpi.com/2072-4292/14/23/6053)
+
 ## LEVIR ship dataset
 A dataset for tiny ship detection under medium-resolution remote sensing images
 * [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship)
