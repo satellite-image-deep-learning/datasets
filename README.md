@@ -554,6 +554,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/airbusgeo/airbus-oil-storage-detection-dataset
 * [Oil-Storage Tank Instance Segmentation with Mask R-CNN](https://github.com/georgiosouzounis/instance-segmentation-mask-rcnn/blob/main/mask_rcnn_oiltanks_gpu.ipynb) with [accompanying article](https://medium.com/@georgios.ouzounis/oil-storage-tank-instance-segmentation-with-mask-r-cnn-77c94433045f)
 * [Oil Storage Detection on Airbus Imagery with YOLOX](https://medium.com/artificialis/oil-storage-detection-on-airbus-imagery-with-yolox-9e38eb6f7e62) -> uses the Kaggle Airbus Oil Storage Detection dataset
+* [Oil-Storage-Tanks-Data-Preparation-YOLO-Format](https://github.com/shah0nawaz/Oil-Storage-Tanks-Data-Preparation-YOLO-Format)
 
 ### Kaggle - Satellite images of hurricane damage
 * https://www.kaggle.com/kmader/satellite-images-of-hurricane-damage
@@ -1124,7 +1125,7 @@ Using lambda functions allows inference without having to configure or manage th
 * [Example deployment behind an API Gateway Proxy](https://github.com/philschmid/cdk-samples/tree/master/sagemaker-serverless-huggingface-endpoint)
 
 ## Inferencing on large images
-Models are typically trained and inferenced on relatively small images, e.g. 640x640 pixels for YOLOv5m. To inference on a large image it is necessary to use a sliding window over the image, inference on each window, then combine the results. However lower confidence predicitons will be made at the edges of the window where objects may be partially cropped. To overcome this a framework called [sahi](https://github.com/obss/sahi) has been developed. An example of how to use sahi with yolo [is here](https://github.com/open-mmlab/mmyolo/blob/dev/demo/large_image_demo.py)
+Models are typically trained and inferenced on relatively small images, e.g. 640x640 pixels for YOLOv5m. To inference on a large image it is necessary to use a sliding window over the image, inference on each window, then combine the results. However lower confidence predicitons will be made at the edges of the window where objects may be partially cropped. To overcome this a framework called [sahi](https://github.com/obss/sahi) has been developed. An example of how to use sahi with yolo [is here](https://github.com/open-mmlab/mmyolo/blob/dev/demo/large_image_demo.py). For an example of using threading to process a large image see [Fast-Large-Image-Object-Detection-yolov7](https://github.com/shah0nawaz/Fast-Large-Image-Object-Detection-yolov7)
 
 ## Models in the browser
 The model is run in the browser itself on live images, ensuring processing is always with the latest model available and removing the requirement for dedicated server side inferencing
