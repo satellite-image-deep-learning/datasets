@@ -191,8 +191,7 @@ A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
 
 ## AIRS (Aerial Imagery for Roof Segmentation)
 Public dataset for roof segmentation from very-high-resolution aerial imagery (7.5cm). Covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
-* https://www.airs-dataset.com
-* [Also on Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation)
+* [On Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation)
 * [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 
 ## Inria building/not building segmentation dataset
@@ -774,7 +773,6 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
 * Climate data is often in netcdf format, which can be opened using xarray
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options.
-* [BigVector database](https://deepai.org/bigvector) -> A fully-managed, highly-scalable, and cost-effective database for vectors. Vectorize structured data or orbital imagery and discover new insights
 * Read about [Serverless PostGIS on AWS Aurora](https://blog.addresscloud.com/serverless-postgis/)
 * [Hub](https://github.com/activeloopai/Hub) -> The fastest way to store, access & manage datasets with version-control for PyTorch/TensorFlow. Works locally or on any cloud. Read [Faster Machine Learning Using Hub by Activeloop: A code walkthrough of using the hub package for satellite imagery](https://towardsdatascience.com/faster-machine-learning-using-hub-by-activeloop-4ffb3420c005)
 * [A Comparison of Spatial Functions: PostGIS, Athena, PrestoDB, BigQuery vs RedShift](https://ual.sg/post/2020/07/03/a-comparison-of-spatial-functions-postgis-athena-prestodb-bigquery-vs-redshift/)
