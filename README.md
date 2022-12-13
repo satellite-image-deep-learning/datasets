@@ -223,14 +223,14 @@ Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting o
 * https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx
 
 ## SpaceNet
-SpaceNet ran a series consisting of seven challenges with datasets and utilities provided. Challenges covered (1&2) building segmentation, (3) road segmentation, (4) off-nadir buildings, (5) road network extraction, (6)multi-senor mapping, (7) multi-temporal urban change
-* [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools. Note that [CosmiQ Ended its Leadership of SpaceNet](https://medium.com/the-downlinq/closing-time-cosmiq-works-is-closing-down-and-ending-its-leadership-of-spacenet-a53ba239745b), handing over the reigns to Maxar
-* Building datasets covered a number of cities including: Rio, Paris, Vegas, Shanghai, Khartoum, Atlana, Moscow, Mumbai & Rotterdam
+SpaceNet is a series of competitions with datasets and utilities provided. The challenges covered are: (1 & 2) building segmentation, (3) road segmentation, (4) off-nadir buildings, (5) road network extraction, (6) multi-senor mapping, (7) multi-temporal urban change, (8) Flood Detection Challenge Using Multiclass Segmentation
+* [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools
 * [The SpaceNet 7 Multi-Temporal Urban Development Challenge: Dataset Release](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)
 * [spacenet-three-topcoder](https://github.com/snakers4/spacenet-three-topcoder) solution
-* [official utilities](https://github.com/SpaceNetChallenge/utilities) -> Packages intended to assist in the preprocessing of SpaceNet satellite imagery data corpus to a format that is consumable by machine learning algorithms
+* [official utilities](https://github.com/SpaceNetChallenge/utilities) -> Packages intended to assist in the preprocessing of SpaceNet satellite imagery dataset to a format that is consumable by machine learning algorithms
 * [andraugust spacenet-utils](https://github.com/andraugust/spacenet-utils) -> Display geotiff image with building-polygon overlay & label buildings using kNN on the pixel spectra
 * [Spacenet-Building-Detection](https://github.com/IdanC1s2/Spacenet-Building-Detection) -> uses keras and [Spacenet 1 dataset](https://spacenet.ai/spacenet-buildings-dataset-v1/)
+* [Spacenet 8 winners blog post](https://medium.com/@SpaceNet_Project/spacenet-8-a-closer-look-at-the-winning-approaches-75ff4033bf53)
 
 ## WorldStrat Dataset
 Nearly 10,000 km² of free high-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities.
