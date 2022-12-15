@@ -141,7 +141,7 @@ A Large-scale Dataset for Instance Segmentation in Aerial Images
 * [A Lightweight Model for Ship Detection and Recognition in Complex-Scene SAR Images](https://www.mdpi.com/2072-4292/14/23/6053)
 
 ## LEVIR ship dataset
-A dataset for tiny ship detection under medium-resolution remote sensing images
+A dataset for tiny ship detection under medium-resolution remote sensing images. Annotations in bounding box format
 * [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship)
 <!-- markdown-link-check-disable -->
 * Hosted on [Nucleus](https://dashboard.scale.com/nucleus/ds_cbsghny30nf00b1x3w7g?utm_source=open_dataset&utm_medium=github&utm_campaign=levir_ships)
@@ -152,7 +152,7 @@ A dataset for tiny ship detection under medium-resolution remote sensing images
 * https://github.com/hust-rslab/SAR-aircraft-data
 
 ## xView1: Objects in context for overhead imagery
-A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery
+A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery. Annotations in bounding box format
 * [Official website](http://xviewdataset.org/)
 * [arXiv paper](https://arxiv.org/abs/1802.07856).
 * [paperswithcode](https://paperswithcode.com/dataset/xview)
@@ -171,16 +171,18 @@ Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fis
 * [paperswithcode](https://paperswithcode.com/dataset/xview3-sar)
 
 ## Vehicle Detection in Aerial Imagery (VEDAI)
-Vehicle Detection in Aerial Imagery
+Vehicle Detection in Aerial Imagery. Bounding box annotations
+* https://downloads.greyc.fr/vedai/
 * [pytorch-vedai](https://github.com/MichelHalmes/pytorch-vedai)
 
 ## Cars Overhead With Context (COWC)
-Large set of annotated cars from overhead. Established baseline for detection and counting tasks
+Large set of annotated cars from overhead. Established baseline for object detection and counting tasks. Annotations in bounding box format
 * http://gdo152.ucllnl.org/cowc/
 * https://github.com/LLNL/cowc
+* [Detecting cars from aerial imagery for the NATO Innovation Challenge](https://arthurdouillard.com/post/nato-challenge/)
 
 ## AI-TOD - tiny object detection
-The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets
+The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets. Annotations in bounding box format
 * https://github.com/jwwangchn/AI-TOD
 * [NWD](https://github.com/jwwangchn/NWD) -> code for 2021 [paper](https://arxiv.org/abs/2110.13389): A Normalized Gaussian Wasserstein Distance for Tiny Object Detection. Uses AI-TOD dataset
 * [AI-TOD-v2](https://chasel-tsui.github.io/AI-TOD-v2/) -> meticulously relabelling of the v1 dataset
@@ -317,20 +319,16 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Many on https://www.visualdata.io
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
-* [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime) 
-* [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
-* [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
-* [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
-* [OpenDroneMap](https://github.com/OpenDroneMap/ODM) -> generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
+* [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime) -> bounding boxes
+* [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6) -> bounding boxes
 * [Dataset of thermal and visible aerial images for multi-modal and multi-spectral image registration and fusion](https://www.sciencedirect.com/science/article/pii/S2352340920302201) -> The dataset consists of 30 visible images and their metadata, 80 thermal images and their metadata, and a visible georeferenced orthoimage.
-* [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://ieeexplore.ieee.org/document/9093284) -> TIR videos of humans and animals with several challenging scenarios like scale variations, background clutter due to thermal reflections, large camera rotations, and motion blur
+* [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://ieeexplore.ieee.org/document/9093284) -> Thermal IR videos of humans and animals. With [Github repo](https://github.com/exb7900/BIRDSAI)
 * [ERA: A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
-* [DroneVehicle](https://github.com/VisDrone/DroneVehicle) -> Drone-based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning
-* [UAVOD10](https://github.com/weihancug/10-category-UAV-small-weak-object-detection-dataset-UAVOD10) -> 10 class of objects at 15 cm resolution. Classes are; building, ship, vehicle, prefabricated house, well, cable tower, pool, landslide, cultivation mesh cage, and quarry.
-* [Busy-parking-lot-dataset---vehicle-detection-in-UAV-video](https://github.com/zhu-xlab/Busy-parking-lot-dataset---vehicle-detection-in-UAV-video)
-* [OpenAerialMap](https://map.openaerialmap.org/) -> a set of tools for searching, sharing, and using openly licensed satellite and unmanned aerial vehicle (UAV) imagery
+* [DroneVehicle](https://github.com/VisDrone/DroneVehicle) -> Drone-based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning. Annotations are rotated bounding boxes. With [Github repo](https://github.com/SunYM2020/UA-CMDet)
+* [UAVOD10](https://github.com/weihancug/10-category-UAV-small-weak-object-detection-dataset-UAVOD10) -> 10 class of objects at 15 cm resolution. Classes are; building, ship, vehicle, prefabricated house, well, cable tower, pool, landslide, cultivation mesh cage, and quarry. Bounding boxes
+* [Busy-parking-lot-dataset---vehicle-detection-in-UAV-video](https://github.com/zhu-xlab/Busy-parking-lot-dataset---vehicle-detection-in-UAV-video) -> Vehicle instance segmentation. Unsure format of annotations, possible Matlab specific
 * [dd-ml-segmentation-benchmark](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) -> DroneDeploy Machine Learning Segmentation Benchmark
-* [SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee) -> Vision Benchmark for Maritime Search and Rescue
+* [SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee) -> Vision Benchmark for Maritime Search and Rescue. Bounding box object detection, single-object tracking and multi-object tracking annotations
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
