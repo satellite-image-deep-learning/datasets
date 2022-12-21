@@ -46,6 +46,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [fMoW-Sentinel](https://purl.stanford.edu/vg497cb6002) -> The Functional Map of the World - Sentinel-2 corresponding images (fMoW-Sentinel) dataset consists of image time series collected by the Sentinel-2 satellite, corresponding to locations from the Functional Map of the World (fMoW) dataset across several different times. Used in [SatMAE](https://github.com/sustainlab-group/SatMAE)
 * [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.Y4iEFezP1hE) -> a dataset for deep learning of surface water features on Sentinel-2 satellite images. See [this ref using it in torchgeo](https://towardsdatascience.com/artificial-intelligence-for-geospatial-analysis-with-pytorchs-torchgeo-part-1-52d17e409f09)
 * [Ship-S2-AIS dataset](https://zenodo.org/record/7229756#.Y5GsgOzP1hE) -> 13k tiles extracted from 29 free Sentinel-2 products. 2k images showing ships in Denmark sovereign waters: one may detect cargos, fishing, or container ships
+* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -300,6 +302,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [awesome-forests](https://github.com/blutjens/awesome-forests) -> A curated list of ground-truth forest datasets for the machine learning and forestry community
 * [ReforesTree](https://github.com/gyrrei/ReforesTree) -> A dataset for estimating tropical forest biomass based on drone and field data
 * [yosemite-tree-dataset](https://github.com/nightonion/yosemite-tree-dataset) -> a benchmark dataset for tree counting from aerial images
+* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
 
 ## Geospatial datasets
 * [Resource Watch](https://resourcewatch.org/data/explore) provides a wide range of geospatial datasets and a UI to visualise them
