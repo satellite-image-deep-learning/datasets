@@ -18,6 +18,8 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 * [Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets)
 * [Callisto-Dataset-Collection](https://github.com/Agri-Hub/Callisto-Dataset-Collection) -> datasets that use Copernicus/sentinel data
+* [geospatial-data-catalogs](https://github.com/giswqs/geospatial-data-catalogs) -> A list of open geospatial datasets available on AWS, Earth Engine, Planetary Computer, and STAC Index
+* [BED4RS](https://captain-whu.github.io/BED4RS/)
 
 ## Sentinel
 As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions)
@@ -90,6 +92,10 @@ Land use classification dataset of Sentinel-2 satellite images covering 13 spect
 Land use classification dataset with 38 classes and 800 RGB JPG images for each class
 * https://sites.google.com/view/zhouwx/dataset?authuser=0
 * Publication: [PatternNet: A Benchmark Dataset for Performance Evaluation of Remote Sensing Image Retrieval](https://arxiv.org/abs/1706.03424)
+
+## Gaofen Image Dataset (GID) for classification
+- https://captain-whu.github.io/GID/
+- a large-scale classification set and a fine land-cover classification set
 
 ## Million-AID
 A large-scale benchmark dataset containing million instances for RS scene classification, 51 scene categories organized by the hierarchical category
@@ -222,6 +228,10 @@ BONAI (Buildings in Off-Nadir Aerial Images) is a dataset for building footprint
 * https://justchenhao.github.io/LEVIR/
 * [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> pytorch implemention of FCCDN for change detection task
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset uses LEVIR-CD imagery
+
+## SECOND - semantic change detection
+* https://captain-whu.github.io/SCD/
+* Change detection at the pixel level
 
 ## ISPRS
 Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
