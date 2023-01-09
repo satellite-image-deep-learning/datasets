@@ -344,6 +344,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Busy-parking-lot-dataset---vehicle-detection-in-UAV-video](https://github.com/zhu-xlab/Busy-parking-lot-dataset---vehicle-detection-in-UAV-video) -> Vehicle instance segmentation. Unsure format of annotations, possible Matlab specific
 * [dd-ml-segmentation-benchmark](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) -> DroneDeploy Machine Learning Segmentation Benchmark
 * [SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee) -> Vision Benchmark for Maritime Search and Rescue. Bounding box object detection, single-object tracking and multi-object tracking annotations
+* [aeroscapes](https://github.com/ishann/aeroscapes) -> semantic segmentation benchmark comprises of images captured using a commercial drone from an altitude range of 5 to 50 metres.
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
