@@ -309,6 +309,15 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 * [DeepWeather](https://github.com/adamhazimeh/DeepWeather) -> improve weather forecasting accuracy by analyzing satellite images
 
+## Cloud datasets
+* [Planet-CR](https://github.com/zhu-xlab/Planet-CR) -> A Multi-Modal and Multi-Resolution Dataset for Cloud Removal in High Resolution Optical Remote Sensing Imagery, 3m resolution, with [paper](https://arxiv.org/abs/2301.03432)
+* [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
+* [Sentinel-2 Cloud Cover Segmentation Dataset](https://mlhub.earth/data/ref_cloud_cover_detection_challenge_v1) on Radiant mlhub
+* [cloudsen12](https://cloudsen12.github.io/) -> see [video](https://www.satellite-image-deep-learning.com/p/cloudsen12-with-cesar-aybar)
+* [HRC_WHU](https://github.com/dr-lizhiwei/HRC_WHU) -> High-Resolution Cloud Detection Dataset comprising 150 RGB images and a resolution varying from 0.5 to 15 m in different global regions
+* [AIR-CD](https://github.com/AICyberTeam/AIR-CD) -> a challenging cloud detection data set called AIR-CD, with higher spatial resolution and more representative landcover types
+* [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
+
 ## Forest datasets
 * [awesome-forests](https://github.com/blutjens/awesome-forests) -> A curated list of ground-truth forest datasets for the machine learning and forestry community
 * [ReforesTree](https://github.com/gyrrei/ReforesTree) -> A dataset for estimating tropical forest biomass based on drone and field data
