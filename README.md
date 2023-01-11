@@ -256,7 +256,7 @@ Nearly 10,000 km² of free high-resolution satellite imagery of unique locations
 
 ## Satlas
 A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annotates all modalities (classification, segmentation, object detection etc)
-* https://satlas.allenai.org/
+* Was at satlas dot allenai dot org - update when new URL is published
 * Dataset release in January 2023
 
 ## RF100: object detection benchmark
