@@ -405,7 +405,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [urban-tree-detection-data](https://github.com/jonathanventura/urban-tree-detection-data) -> Dataset for training and evaluating tree detectors in urban environments with aerial imagery
 * [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
 * [Attribute-Cooperated-Classification-Datasets](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets) -> Three datasets based on AID, UCM, and Sydney. For each image, there is a label of scene classification and a label vector of attribute items.
-* [RarePlanes](https://www.cosmiqworks.org/rareplanes-public-user-guide/) is a dataset of real (Maxar) and simulated images of planes. Utility functions at [VisionSystemsInc - RarePlanes](https://github.com/VisionSystemsInc/RarePlanes)
+* [RarePlanes](https://registry.opendata.aws/rareplanes/) is a dataset of real (Maxar) and simulated images of planes. Utility functions at [VisionSystemsInc - RarePlanes](https://github.com/VisionSystemsInc/RarePlanes)
 * [dynnet](https://github.com/aysim/dynnet) -> DynamicEarthNet: Daily Multi-Spectral Satellite Dataset for Semantic Change Segmentation
 * [open_earth_map](https://github.com/bao18/open_earth_map) -> a benchmark dataset for global high-resolution land cover mapping
 * [Satellite imagery datasets containing ships](https://github.com/NaLiu613/Satellite-Imagery-Datasets-Containing-Ships) -> A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks
