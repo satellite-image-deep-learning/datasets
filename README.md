@@ -1,5 +1,6 @@
 # Introduction
-Thank you for becoming a sponsor, your support makes maintainence of this work sustainable 🙏
+Discovering the right dataset for a new project can be a hugely time consuming and frustrating process. Information about datasets is scattered all over the internet, and often if can be hard to get started with a dataset without examples of how it can be loaded and used. I created this repository to address this pain point, and it has matured over several years to become a comprehensive source of information about remote sensing datasets. The datasets listed cover a wide range of challenges from object detection, to data fusion and change detection.
+
 This repository is divided into several parts: datasets are listed on this page whilst there are seperate pages for:
 
 - ANNOTATION - how to annotate raw imagery & create an ML training dataset
