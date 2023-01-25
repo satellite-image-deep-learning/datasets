@@ -8,15 +8,7 @@ This page lists datasets for deep learning applied to satellite and aerial image
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown).
 
-## Repository structure
-This repository is divided into several parts: datasets are listed on this page whilst there are seperate pages for:
-
-- MODEL TRAINING - how and where to train ML models
-- MODEL DEPLOYMENT - how to serve an ML model to end users
-- SOFTWARE - for working with image datasets
-- MISCELLANEOUS - covers general utilities, graphing and visualisation, and more!
-
-## Lists of datasets
+# Lists of datasets
 <!-- markdown-link-check-disable -->
 * [Earth Observation Database](https://eod-grss-ieee.com/)
 <!-- markdown-link-check-enable -->
