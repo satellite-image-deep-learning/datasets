@@ -1,6 +1,14 @@
-# Introduction
-Discovering the right dataset for a new project can be a hugely time consuming and frustrating process. Information about datasets is scattered all over the internet, and often if can be hard to get started with a dataset without examples of how it can be loaded and used. I created this repository to address this pain point, and it has matured over several years to become a comprehensive source of information about remote sensing datasets. The datasets listed cover a wide range of challenges from object detection, to data fusion and change detection.
+<p align="center">
+<img src="logo.png" width="700">
+</p>
 
+This page lists datasets for deep learning applied to satellite and aerial imagery. Learn more at:
+
+# 👉 [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/) 👈
+
+**How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown).
+
+## Repository structure
 This repository is divided into several parts: datasets are listed on this page whilst there are seperate pages for:
 
 - ANNOTATION - how to annotate raw imagery & create an ML training dataset
@@ -8,9 +16,6 @@ This repository is divided into several parts: datasets are listed on this page 
 - MODEL DEPLOYMENT - how to serve an ML model to end users
 - SOFTWARE - for working with image datasets
 - MISCELLANEOUS - covers general utilities, graphing and visualisation, and more!
-
-# Datasets
-This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. **Warning** satellite image files can be LARGE, and even a small datasets may comprise 50GB+ of imagery
 
 ## Lists of datasets
 <!-- markdown-link-check-disable -->
