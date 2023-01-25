@@ -11,7 +11,6 @@ This page lists datasets for deep learning applied to satellite and aerial image
 ## Repository structure
 This repository is divided into several parts: datasets are listed on this page whilst there are seperate pages for:
 
-- ANNOTATION - how to annotate raw imagery & create an ML training dataset
 - MODEL TRAINING - how and where to train ML models
 - MODEL DEPLOYMENT - how to serve an ML model to end users
 - SOFTWARE - for working with image datasets
