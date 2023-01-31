@@ -588,12 +588,17 @@ In this challenge, you will build a model to classify cloud organization pattern
 * classify a images of Austin into one of its zones, such as residential, industrial, etc. 3667 satellite images
 
 ### Kaggle - Statoil/C-CORE Iceberg Classifier Challenge
+Classify the target in a SAR image chip as either a ship or an iceberg. The dataset for the competition included 5000 images extracted from multichannel SAR data collected by the Sentinel-1 satellite. Top entries used ensembles to boost prediction accuracy from about 92% to 97%.
 * https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data
+* [An interview with David Austin: 1st place winner](https://pyimagesearch.com/2018/03/26/interview-david-austin-1st-place-25000-kaggles-popular-competition/)
 * [Deep Learning for Iceberg detection in Satellite Images](https://towardsdatascience.com/deep-learning-for-iceberg-detection-in-satellite-images-c667acf4bad0)
 * [radar-image-recognition](https://github.com/siarez/radar-image-recognition)
-* [Iceberg-Classification-Using-Deep-Learning](https://github.com/mankadronit/Iceberg-Classification-Using-Deep-Learning)
-* [Deep-Learning-Project](https://github.com/singh-shakti94/Deep-Learning-Project)
-* [iceberg-classifier-challenge solution by ShehabSunny](https://github.com/ShehabSunny/iceberg-classifier-challenge)
+* [Iceberg-Classification-Using-Deep-Learning](https://github.com/mankadronit/Iceberg-Classification-Using-Deep-Learning) -> uses keras
+* [Deep-Learning-Project](https://github.com/singh-shakti94/Deep-Learning-Project) -> uses keras
+* [iceberg-classifier-challenge solution by ShehabSunny](https://github.com/ShehabSunny/iceberg-classifier-challenge) -> uses keras
+* [Analyzing Satellite Radar Imagery with Deep Learning](https://uk.mathworks.com/company/newsletters/articles/analyzing-satellite-radar-imagery-with-deep-learning.html) -> by Matlab, uses ensemble with greedy search
+* [16th place solution](https://github.com/sergeyshilin/kaggle-statoil-iceberg-classifier-challenge)
+* [fastai solution](https://github.com/smarkochev/ds_notebooks/blob/master/Statoil_Kaggle_competition_google_colab_notebook.ipynb)
 
 ### Kaggle - Land Cover Classification Dataset from DeepGlobe Challenge - segmentation
 * https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset
