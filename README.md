@@ -353,6 +353,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [dd-ml-segmentation-benchmark](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) -> DroneDeploy Machine Learning Segmentation Benchmark
 * [SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee) -> Vision Benchmark for Maritime Search and Rescue. Bounding box object detection, single-object tracking and multi-object tracking annotations
 * [aeroscapes](https://github.com/ishann/aeroscapes) -> semantic segmentation benchmark comprises of images captured using a commercial drone from an altitude range of 5 to 50 metres.
+* [ALTO](https://github.com/MetaSLAM/ALTO) -> Aerial-view Large-scale Terrain-Oriented. For deep learning based UAV visual place recognition and localization tasks.
+* [HIT-UAV-Infrared-Thermal-Dataset](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) -> A High-altitude Infrared Thermal Object Detection Dataset for Unmanned Aerial Vehicles
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
