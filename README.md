@@ -2,7 +2,7 @@
 <img src="logo.png" width="700">
 </p>
 
-This page lists datasets for deep learning applied to satellite and aerial imagery. Learn more at:
+Datasets for deep learning applied to satellite and aerial imagery. Learn more at:
 
 # 👉 [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/) 👈
 
