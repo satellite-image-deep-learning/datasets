@@ -678,14 +678,9 @@ Competitions are an excellent source for accessing clean, ready-to-use satellite
 * https://codalab.lisn.upsaclay.fr/competitions/9603 -> object detection from diversified satellite imagery
 * https://www.drivendata.org/competitions/143/tick-tick-bloom/ -> detect and classify algal bloom
 
-
 ## Completed
 * https://www.drivendata.org/competitions/81/detect-flood-water/ -> map floodwater from radar imagery
 * https://platform.ai4eo.eu/enhanced-sentinel2-agriculture -> map cultivated land using Sentinel imagery
-* https://spaceml.org/repo/project/6269285b14d764000d798fde -> ML for floods
-* https://spaceml.org/repo/project/60002402f5647f00129f7287 -> lightning and extreme weather
-* https://spaceml.org/repo/project/6025107d79c197001219c481/true -> ~1TB dataset for precipitation forecasting
-* https://spaceml.org/repo/project/61c0a1b9ff8868000dfb79e1/true -> Sentinel-2 image super-resolution
 * https://www.diu.mil/ai-xview-challenge -> multiple challenges ranging from detecting fishing vessals to estimating building damages
 * https://competitions.codalab.org/competitions/30440 -> flood detection
 * https://www.drivendata.org/competitions/83/cloud-cover/ -> cloud cover detection
@@ -693,3 +688,9 @@ Competitions are an excellent source for accessing clean, ready-to-use satellite
 * https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/ -> building segmentation
 * https://captain-whu.github.io/DOTA/ -> large dataset for object detection in aerial imagery
 * https://spacenet.ai/ -> set of 8 challenges such as road network detection
+<!-- markdown-link-check-disable -->
+* https://spaceml.org/repo/project/6269285b14d764000d798fde -> ML for floods
+* https://spaceml.org/repo/project/60002402f5647f00129f7287 -> lightning and extreme weather
+* https://spaceml.org/repo/project/6025107d79c197001219c481/true -> ~1TB dataset for precipitation forecasting
+* https://spaceml.org/repo/project/61c0a1b9ff8868000dfb79e1/true -> Sentinel-2 image super-resolution
+<!-- markdown-link-check-enable --
