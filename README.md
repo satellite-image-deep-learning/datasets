@@ -18,6 +18,7 @@
 <!-- markdown-link-check-enable -->
 * [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 * [Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets)
+* [awesome-remote-sensing-change-detection](https://github.com/wenhwu/awesome-remote-sensing-change-detection) -> dedicated to change detection
 * [Callisto-Dataset-Collection](https://github.com/Agri-Hub/Callisto-Dataset-Collection) -> datasets that use Copernicus/sentinel data
 * [geospatial-data-catalogs](https://github.com/giswqs/geospatial-data-catalogs) -> A list of open geospatial datasets available on AWS, Earth Engine, Planetary Computer, and STAC Index
 * [BED4RS](https://captain-whu.github.io/BED4RS/)
