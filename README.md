@@ -23,6 +23,12 @@
 * [geospatial-data-catalogs](https://github.com/giswqs/geospatial-data-catalogs) -> A list of open geospatial datasets available on AWS, Earth Engine, Planetary Computer, and STAC Index
 * [BED4RS](https://captain-whu.github.io/BED4RS/)
 
+# Remote sensing dataset hubs
+* [Radiant MLHub](https://mlhub.earth/) -> both datasets and models
+* [Registry of Open Data on AWS](https://registry.opendata.aws)
+* [Microsoft Planetary Computer data catalog](https://planetarycomputer.microsoft.com/catalog)
+* [Google Earth Engine Data Catalog](https://developers.google.com/earth-engine/datasets)
+
 ## Sentinel
 As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions)
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -277,10 +283,6 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * [BigEarthNet](https://www.tensorflow.org/datasets/catalog/bigearthnet) -> a large-scale Sentinel-2 land use classification dataset, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels. Official website includes version of the dataset with Sentinel 1 & 2 chips
 * [so2sat](https://www.tensorflow.org/datasets/catalog/so2sat) -> a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by Sentinel 1 & 2
 
-## AWS datasets
-* [Earth on AWS](https://aws.amazon.com/earth/) is the AWS equivalent of Google Earth Engine
-* Currently 36 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
-
 ## Microsoft datasets
 * [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints), [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints), [Kenya-Nigeria](https://github.com/microsoft/KenyaNigeriaBuildingFootprints) and [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
 * [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) is a Dask-Gateway enabled JupyterHub deployment focused on supporting scalable geospatial analysis, [source repo](https://github.com/microsoft/planetary-computer-hub)
@@ -301,10 +303,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ee-fastapi](https://github.com/csaybar/ee-fastapi) is a simple FastAPI web application for performing flood detection using Google Earth Engine in the backend.
 * [How to Download High-Resolution Satellite Data for Anywhere on Earth](https://towardsdatascience.com/how-to-download-high-resolution-satellite-data-for-anywhere-on-earth-5e6dddee2803)
 * [wxee](https://github.com/aazuspan/wxee) -> Export data from GEE to xarray using wxee then train with pytorch or tensorflow models. Useful since GEE only suports tfrecord export natively
-
-## Radiant Earth
-* https://www.radiant.earth/
-* Datasets and also models on https://mlhub.earth/
 
 ## Image captioning datasets
 * [RSICD](https://github.com/201528014227051/RSICD_optimal) -> 10921 images with five sentences descriptions per image. Used in  [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd), models at [this repo](https://github.com/arampacha/CLIP-rsicd)
