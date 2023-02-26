@@ -185,6 +185,7 @@ Annotated high-resolution satellite imagery for building damage assessment, prec
 * [paperswithcode](https://paperswithcode.com/paper/xbd-a-dataset-for-assessing-building-damage)
 * [xView2_baseline](https://github.com/DIUx-xView/xView2_baseline) -> baseline solution in tensorflow
 * [metadamagenet](https://github.com/nimaafshar/metadamagenet) -> pytorch solution
+* [U-Net models from michal2409](https://github.com/michal2409/xView2)
 
 ## xView3: Detecting dark vessels in SAR
 Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels
