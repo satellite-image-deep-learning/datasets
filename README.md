@@ -422,6 +422,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Roofline-Extraction](https://github.com/loosgagnet/Roofline-Extraction) -> dataset for paper 'Knowledge-Based 3D Building Reconstruction (3DBR) Using Single Aerial Images and Convolutional Neural Networks (CNNs)'
 * [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> datasets for the paper 'A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image'
 * [PanCollection](https://github.com/liangjiandeng/PanCollection) -> Pansharpening Datasets from WorldView 2, WorldView 3, QuickBird, Gaofen 2 sensors
+* [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Synthetic dataset and pretrained models for Detectron2
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
