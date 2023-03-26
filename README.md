@@ -134,13 +134,13 @@ A Benchmark Dataset for Fine-grained Object Recognition in High-Resolution Remot
 * [2020Gaofen](https://github.com/AICyberTeam/2020Gaofen) -> 2020 Gaofen Challenge data, baselines, and metrics
 
 ## DOTA object detection dataset
-A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
+A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images. Segmentation annotations available in iSAID dataset
 * https://captain-whu.github.io/DOTA/index.html
 * [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) for loading dataset
 * [Arxiv paper](https://arxiv.org/abs/1711.10398)
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
 * [DOTA2VOCtools](https://github.com/Complicateddd/DOTA2VOCtools) -> dataset split and transform to voc format
-* Segmentation annotations available in iSAID dataset
+* [dotatron](https://github.com/naivelogic/dotatron) -> 2021 Learning to Understand Aerial Images Challenge on DOTA dataset
 
 ## iSAID instance segmentation dataset
 A Large-scale Dataset for Instance Segmentation in Aerial Images
@@ -193,6 +193,7 @@ Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fis
 * [arXiv paper](https://arxiv.org/abs/2206.00897)
 * [Github](https://github.com/DIUx-xView) -> all reference code, dataset processing utilities, and winning model codes + weights
 * [paperswithcode](https://paperswithcode.com/dataset/xview3-sar)
+* [xview3_ship_detection](https://github.com/naivelogic/xview3_ship_detection)
 
 ## Vehicle Detection in Aerial Imagery (VEDAI)
 Vehicle Detection in Aerial Imagery. Bounding box annotations
