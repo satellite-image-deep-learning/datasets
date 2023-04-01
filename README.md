@@ -427,6 +427,11 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Synthetic dataset and pretrained models for Detectron2
 * [Remote Sensing Satellite Video Dataset for Super-resolution](https://zenodo.org/record/6969604#.ZCBd-OzMJhE)
 * [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo) -> A Challenging Benchmark for Stereo Matching of High-Resolution Satellite Images
+* [BH-POOLS & BH-WATERTANKS](http://patreo.dcc.ufmg.br/2020/07/29/bh-pools-watertanks-datasets/) -> segmentation dataset of swimming pools and water tanks in Brazil
+* [BrazilDAM Dataset](http://patreo.dcc.ufmg.br/2020/01/27/brazildam-dataset/) -> a multi sensor (Landsat 8 and Sentinel 2) and multitemporal dataset that consists of multispectral images of ore tailings dams throughout Brazil
+* [Bridge Dataset](http://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/) -> 500 images each containing at least one bridge
+* [Brazilian Cerrado-Savanna Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-cerrado-savanna-scenes-dataset/) -> 1,311 multi-spectral scenes extracted from images acquired by the RapidEye are partitioned into 4 classes: Agriculture, Arboreal, Herbaceous and Shrubby Vegetation
+* [Brazilian Coffee Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
