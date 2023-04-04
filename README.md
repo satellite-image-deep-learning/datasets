@@ -432,6 +432,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Bridge Dataset](http://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/) -> 500 images each containing at least one bridge
 * [Brazilian Cerrado-Savanna Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-cerrado-savanna-scenes-dataset/) -> 1,311 multi-spectral scenes extracted from images acquired by the RapidEye are partitioned into 4 classes: Agriculture, Arboreal, Herbaceous and Shrubby Vegetation
 * [Brazilian Coffee Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/)
+* [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
+* [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
