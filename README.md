@@ -178,6 +178,7 @@ A fine-grained object detection dataset with 60 object classes along an ontology
 * [Official website](http://xviewdataset.org/)
 * [arXiv paper](https://arxiv.org/abs/1802.07856).
 * [paperswithcode](https://paperswithcode.com/dataset/xview)
+* [Satellite_Imagery_Detection_YOLOV7](https://github.com/Radhika-Keni/Satellite_Imagery_Detection_YOLOV7) -> YOLOV7 applied to xView1
 
 ## xView2: xBD building damage assessment
 Annotated high-resolution satellite imagery for building damage assessment, precise segmentation masks and damage labels on a four-level spectrum, 0.3m resolution imagery
