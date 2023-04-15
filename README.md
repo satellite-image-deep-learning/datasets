@@ -63,6 +63,10 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
 * [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
 * [MATTER](https://github.com/periakiva/MATTER) -> a Sentinel 2 dataset for Self-Supervised Training
+* [Industrial Smoke Plumes](https://zenodo.org/record/4250706)
+* [MARIDA: Marine Debris Archive](https://zenodo.org/record/5151941#.ZDq-GuzMLdo)
+* [S2GLC](https://s2glc.cbk.waw.pl/) -> High resolution Land Cover Map of Europe
+* [Generating Imperviousness Maps from Multispectral Sentinel-2 Satellite Imagery](https://zenodo.org/record/7058860#.ZDrAeuzMLdo)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -80,7 +84,7 @@ Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.
 * [Dataset on AWS](https://spacenet.ai/datasets/) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
 * [cloud_optimized_geotif here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
 * [WorldView cloud optimized geotiffs](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
-* For more Worldview imagery see Kaggle DSTL competition.
+* [WorldView-2 European Cities](https://earth.esa.int/eogateway/catalog/worldview-2-european-cities) -> dataset covering the most populated areas in Europe at 40 cm resolution
 
 ## Planet
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
@@ -281,7 +285,7 @@ Nearly 10,000 km² of free high-resolution satellite imagery of unique locations
 
 ## Satlas
 A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annotates all modalities (classification, segmentation, object detection etc)
-* Was at satlas dot allenai dot org - update when new URL is published
+* [Website](https://satlas.apps.allenai.org/)
 * Dataset release in January 2023
 
 ## RF100: object detection benchmark
@@ -697,11 +701,8 @@ Inspired by the above dataset, using different data sources
 # Competitions
 Competitions are an excellent source for accessing clean, ready-to-use satellite datasets and model benchmarks.  
 
-## Active
 * https://codalab.lisn.upsaclay.fr/competitions/9603 -> object detection from diversified satellite imagery
 * https://www.drivendata.org/competitions/143/tick-tick-bloom/ -> detect and classify algal bloom
-
-## Completed
 * https://www.drivendata.org/competitions/81/detect-flood-water/ -> map floodwater from radar imagery
 * https://platform.ai4eo.eu/enhanced-sentinel2-agriculture -> map cultivated land using Sentinel imagery
 * https://www.diu.mil/ai-xview-challenge -> multiple challenges ranging from detecting fishing vessals to estimating building damages
@@ -711,6 +712,7 @@ Competitions are an excellent source for accessing clean, ready-to-use satellite
 * https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/ -> building segmentation
 * https://captain-whu.github.io/DOTA/ -> large dataset for object detection in aerial imagery
 * https://spacenet.ai/ -> set of 8 challenges such as road network detection
+* https://huggingface.co/spaces/competitions/ChaBuD-ECML-PKDD2023 -> binary image segmentation task on forest fires monitored over California
 <!-- markdown-link-check-disable -->
 * https://spaceml.org/repo/project/6269285b14d764000d798fde -> ML for floods
 * https://spaceml.org/repo/project/60002402f5647f00129f7287 -> lightning and extreme weather
