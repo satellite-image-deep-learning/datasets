@@ -446,6 +446,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Brazilian Coffee Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/)
 * [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
 * [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
+* [3DCD](https://sites.google.com/uniroma1.it/3dchangedetection/home-page) -> infer 3D CD maps using only remote sensing optical bitemporal images as input without the need of Digital Elevation Models (DEMs)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
