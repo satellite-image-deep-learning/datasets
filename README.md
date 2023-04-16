@@ -687,6 +687,10 @@ Inspired by the above dataset, using different data sources
 * RGB Land Cover and Land Use Classification using Sentinel-2 Satellite
 * Used in paper [Image Augmentation for Satellite Images](https://arxiv.org/abs/2207.14580)
 
+## Kaggle - Satellite Images of Water Bodies
+* https://www.kaggle.com/datasets/franciscoescobar/satellite-images-of-water-bodies
+* [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
+
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
 * https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial oil tanks with bounding box annotations, estimate tank fill % from shadows
