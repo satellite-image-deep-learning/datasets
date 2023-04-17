@@ -68,6 +68,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [S2GLC](https://s2glc.cbk.waw.pl/) -> High resolution Land Cover Map of Europe
 * [Generating Imperviousness Maps from Multispectral Sentinel-2 Satellite Imagery](https://zenodo.org/record/7058860#.ZDrAeuzMLdo)
 * [Sentinel-2 Water Edges Dataset (SWED)](https://openmldata.ukho.gov.uk/)
+* [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -456,6 +457,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
 * [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
 * [3DCD](https://sites.google.com/uniroma1.it/3dchangedetection/home-page) -> infer 3D CD maps using only remote sensing optical bitemporal images as input without the need of Digital Elevation Models (DEMs)
+* [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
@@ -699,6 +701,10 @@ Inspired by the above dataset, using different data sources
 ## Kaggle - Satellite Images of Water Bodies
 * https://www.kaggle.com/datasets/franciscoescobar/satellite-images-of-water-bodies
 * [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
+
+## Kaggle - NOAA sea lion count
+* https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count
+* [noaa](https://github.com/darraghdog/noaa) -> UNET, object detection and image level regression approaches
 
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
