@@ -259,6 +259,14 @@ BONAI (Buildings in Off-Nadir Aerial Images) is a dataset for building footprint
 * [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> pytorch implemention of FCCDN for change detection task
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset uses LEVIR-CD imagery
 
+## Onera Sentinel-2 change detection dataset
+It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018. 
+* [Onera Satellite Change Detection Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018
+* [Website](https://rcdaudt.github.io/oscd/)
+* [change_detection_onera_baselines](https://github.com/previtus/change_detection_onera_baselines) -> Siamese version of U-Net baseline model
+* [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection) -> with [paper](https://ieeexplore.ieee.org/abstract/document/8518015)
+* [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
+
 ## SECOND - semantic change detection
 * https://captain-whu.github.io/SCD/
 * Change detection at the pixel level
@@ -353,7 +361,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 ## Time series & change detection datasets
 * [BreizhCrops](https://github.com/dl4sits/BreizhCrops) -> A Time Series Dataset for Crop Type Mapping
 * The SeCo dataset contains image patches from Sentinel-2 tiles captured at different timestamps at each geographical location. [Download SeCo here](https://github.com/ElementAI/seasonal-contrast)
-* [Onera Satellite Change Detection Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018
 * [SYSU-CD](https://github.com/liumency/SYSU-CD) -> The dataset contains 20000 pairs of 0.5-m aerial images of size 256×256 taken between the years 2007 and 2014 in Hong Kong
 
 ### DEM (digital elevation maps)
