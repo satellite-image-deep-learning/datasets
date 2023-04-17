@@ -67,6 +67,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MARIDA: Marine Debris Archive](https://zenodo.org/record/5151941#.ZDq-GuzMLdo)
 * [S2GLC](https://s2glc.cbk.waw.pl/) -> High resolution Land Cover Map of Europe
 * [Generating Imperviousness Maps from Multispectral Sentinel-2 Satellite Imagery](https://zenodo.org/record/7058860#.ZDrAeuzMLdo)
+* [Sentinel-2 Water Edges Dataset (SWED)](https://openmldata.ukho.gov.uk/)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -266,6 +267,7 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * [change_detection_onera_baselines](https://github.com/previtus/change_detection_onera_baselines) -> Siamese version of U-Net baseline model
 * [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection) -> with [paper](https://ieeexplore.ieee.org/abstract/document/8518015)
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
+* [ChangeDetection_wOnera](https://github.com/tonydp03/ChangeDetection_wOnera)
 
 ## SECOND - semantic change detection
 * https://captain-whu.github.io/SCD/
