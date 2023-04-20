@@ -296,6 +296,10 @@ A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annota
 * [Website](https://satlas.apps.allenai.org/)
 * Dataset release in January 2023
 
+## FLAIR
+* https://ignf.github.io/FLAIR/
+* The FLAIR-one semantic segmentation dataset consists of 77,412 high resolution patches (512x512 at 0.2 m spatial resolution) with 19 semantic classes
+
 ## RF100: object detection benchmark
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
 * https://www.rf100.org/
@@ -454,6 +458,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
 * [3DCD](https://sites.google.com/uniroma1.it/3dchangedetection/home-page) -> infer 3D CD maps using only remote sensing optical bitemporal images as input without the need of Digital Elevation Models (DEMs)
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
+* [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> soybean dataset
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
