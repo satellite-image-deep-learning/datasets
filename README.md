@@ -22,6 +22,7 @@
 * [Callisto-Dataset-Collection](https://github.com/Agri-Hub/Callisto-Dataset-Collection) -> datasets that use Copernicus/sentinel data
 * [geospatial-data-catalogs](https://github.com/giswqs/geospatial-data-catalogs) -> A list of open geospatial datasets available on AWS, Earth Engine, Planetary Computer, and STAC Index
 * [BED4RS](https://captain-whu.github.io/BED4RS/)
+* [Satellite-Image-Time-Series-Datasets](https://github.com/corentin-dfg/Satellite-Image-Time-Series-Datasets)
 
 # Remote sensing dataset hubs
 * [Radiant MLHub](https://mlhub.earth/) -> both datasets and models
