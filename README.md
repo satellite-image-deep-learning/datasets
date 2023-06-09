@@ -297,9 +297,10 @@ A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annota
 * [Website](https://satlas.apps.allenai.org/)
 * Dataset release in January 2023
 
-## FLAIR
+## FLAIR 1 & 2 Segmentation datasets
 * https://ignf.github.io/FLAIR/
-* The FLAIR-one semantic segmentation dataset consists of 77,412 high resolution patches (512x512 at 0.2 m spatial resolution) with 19 semantic classes
+* The FLAIR #1 semantic segmentation dataset consists of 77,412 high resolution patches (512x512 at 0.2 m spatial resolution) with 19 semantic classes
+* FLAIR #2 includes an expanded dataset of Sentinel-2 time series for multi-modal semantic segmentation
 
 ## RF100: object detection benchmark
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
