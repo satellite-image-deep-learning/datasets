@@ -721,6 +721,9 @@ Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/cici118/swimming-pool-detection-algarves-landscape
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
 * https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset -> segment roads
+* https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks -> Image data of industrial Oil Storage Tanks with bounding box annotations
+* https://www.kaggle.com/datasets/eba5cd4e52d5143594ae149e68a496f2b3dce25ad6ed76dd9c60e7069b0d18fb -> Center Pivot Irrigation Systems
+* https://www.kaggle.com/competitions/widsdatathon2019/ -> Palm oil plantations
 
 # Competitions
 Competitions are an excellent source for accessing clean, ready-to-use satellite datasets and model benchmarks.  
