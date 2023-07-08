@@ -725,6 +725,7 @@ Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/datasets/eba5cd4e52d5143594ae149e68a496f2b3dce25ad6ed76dd9c60e7069b0d18fb -> Center Pivot Irrigation Systems
 * https://www.kaggle.com/competitions/widsdatathon2019/ -> Palm oil plantations
 * https://www.kaggle.com/datasets/siddharthkumarsah/ships-in-aerial-images -> Ships/Vessels in Aerial Images
+* https://www.kaggle.com/datasets/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects -> Aerial dataset for maritime Search and Rescue applications
 
 # Competitions
 Competitions are an excellent source for accessing clean, ready-to-use satellite datasets and model benchmarks.  
