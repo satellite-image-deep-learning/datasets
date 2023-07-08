@@ -65,7 +65,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
 * [MATTER](https://github.com/periakiva/MATTER) -> a Sentinel 2 dataset for Self-Supervised Training
 * [Industrial Smoke Plumes](https://zenodo.org/record/4250706)
-* [MARIDA: Marine Debris Archive](https://zenodo.org/record/5151941#.ZDq-GuzMLdo)
+* [MARIDA: Marine Debris Archive](https://github.com/marine-debris/marine-debris.github.io)
 * [S2GLC](https://s2glc.cbk.waw.pl/) -> High resolution Land Cover Map of Europe
 * [Generating Imperviousness Maps from Multispectral Sentinel-2 Satellite Imagery](https://zenodo.org/record/7058860#.ZDrAeuzMLdo)
 * [Sentinel-2 Water Edges Dataset (SWED)](https://openmldata.ukho.gov.uk/)
