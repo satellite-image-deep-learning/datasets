@@ -308,7 +308,7 @@ A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annota
 * The FLAIR #1 semantic segmentation dataset consists of 77,412 high resolution patches (512x512 at 0.2 m spatial resolution) with 19 semantic classes
 * FLAIR #2 includes an expanded dataset of Sentinel-2 time series for multi-modal semantic segmentation
 
-## Five-Billion-Pixels segmentation dataset
+## Five Billion Pixels segmentation dataset
 * https://x-ytong.github.io/project/Five-Billion-Pixels.html
 * 4m Gaofen-2 imagery over China
 * 24 land cover classes
