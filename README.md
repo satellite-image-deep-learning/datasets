@@ -77,6 +77,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sentinel-1&2 Image Pairs (SAR & Optical)](https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain)
 * [Sentinel-2 Image Time Series for Crop Mapping](https://www.kaggle.com/datasets/ignazio/sentinel2-crop-mapping) -> data for the Lombardy region in Italy
 * [Deforestation in Ukraine from Sentinel2 data](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine)
+* [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
+* [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -257,9 +259,6 @@ RGB GeoTIFF at spatial resolution of 0.3 m. Data covering Austin, Chicago, Kitsa
 BONAI (Buildings in Off-Nadir Aerial Images) is a dataset for building footprint extraction (BFE) in off-nadir aerial images
 * https://github.com/jwwangchn/BONAI
 
-## GID15 large scale semantic segmentation dataset
-* https://captain-whu.github.io/GID15/
-
 ## LEVIR-CD building change detection dataset
 * https://justchenhao.github.io/LEVIR/
 * [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> pytorch implemention of FCCDN for change detection task
@@ -313,6 +312,13 @@ A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annota
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
 * https://www.rf100.org/
 * https://github.com/roboflow-ai/roboflow-100-benchmark
+
+## Five-Billion-Pixels segmentation dataset
+* https://x-ytong.github.io/project/Five-Billion-Pixels.html
+* 4m Gaofen-2 imagery over China
+* 24 land cover classes
+* Paper and code demonstrating domain adaptation to Sentinel-2 and Planetscope imagery
+* Extends the [GID15 large scale semantic segmentation dataset](https://captain-whu.github.io/GID15/)
 
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
@@ -734,6 +740,7 @@ Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/competitions/widsdatathon2019/ -> Palm oil plantations
 * https://www.kaggle.com/datasets/siddharthkumarsah/ships-in-aerial-images -> Ships/Vessels in Aerial Images
 * https://www.kaggle.com/datasets/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects -> Aerial dataset for maritime Search and Rescue applications
+* https://www.kaggle.com/datasets/yaroslavnaychuk/satelliteimagesegmentation -> Segmentation on Gaofen Satellite Image, extracted from GID-15 dataset
 
 # Competitions
 Competitions are an excellent source for accessing clean, ready-to-use satellite datasets and model benchmarks.  
