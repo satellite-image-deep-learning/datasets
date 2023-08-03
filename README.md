@@ -308,17 +308,17 @@ A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annota
 * The FLAIR #1 semantic segmentation dataset consists of 77,412 high resolution patches (512x512 at 0.2 m spatial resolution) with 19 semantic classes
 * FLAIR #2 includes an expanded dataset of Sentinel-2 time series for multi-modal semantic segmentation
 
-## RF100: object detection benchmark
-RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
-* https://www.rf100.org/
-* https://github.com/roboflow-ai/roboflow-100-benchmark
-
 ## Five-Billion-Pixels segmentation dataset
 * https://x-ytong.github.io/project/Five-Billion-Pixels.html
 * 4m Gaofen-2 imagery over China
 * 24 land cover classes
 * Paper and code demonstrating domain adaptation to Sentinel-2 and Planetscope imagery
 * Extends the [GID15 large scale semantic segmentation dataset](https://captain-whu.github.io/GID15/)
+
+## RF100 object detection benchmark
+RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
+* https://www.rf100.org/
+* https://github.com/roboflow-ai/roboflow-100-benchmark
 
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
