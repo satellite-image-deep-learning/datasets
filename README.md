@@ -294,7 +294,7 @@ SpaceNet is a series of competitions with datasets and utilities provided. The c
 ## WorldStrat Dataset
 Nearly 10,000 km² of free high-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities.
 * https://github.com/worldstrat/worldstrat
-* [Quick tour of the WorldStrat Dataset](https://www.satellite-image-deep-learning.com/p/quick-tour-of-the-worldstrat-dataset)
+* [Quick tour of the WorldStrat Dataset](https://medium.com/@robmarkcole/quick-tour-of-the-worldstrat-dataset-b2d1c2d435db)
 * Each high-resolution image (1.5 m/pixel) comes with multiple temporally-matched low-resolution images from the freely accessible lower-resolution Sentinel-2 satellites (10 m/pixel)
 * Several super-resolution benchmark models trained on it
 
