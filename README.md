@@ -298,10 +298,10 @@ Nearly 10,000 km² of free high-resolution satellite imagery of unique locations
 * Each high-resolution image (1.5 m/pixel) comes with multiple temporally-matched low-resolution images from the freely accessible lower-resolution Sentinel-2 satellites (10 m/pixel)
 * Several super-resolution benchmark models trained on it
 
-## Satlas
-A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding. Annotates all modalities (classification, segmentation, object detection etc)
-* [Website](https://satlas.apps.allenai.org/)
-* Dataset release in January 2023
+## Satlas Pretrain
+SatlasPretrain is a large-scale pre-training dataset for tasks that involve understanding satellite images. Regularly-updated satellite data is publicly available for much of the Earth through sources such as Sentinel-2 and NAIP, and can inform numerous applications from tackling illegal deforestation to monitoring marine infrastructure. 
+* [Website](https://satlas-pretrain.allen.ai/)
+* [Code](https://github.com/allenai/satlas)
 
 ## FLAIR 1 & 2 Segmentation datasets
 * https://ignf.github.io/FLAIR/
