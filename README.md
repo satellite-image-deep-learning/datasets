@@ -79,6 +79,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Deforestation in Ukraine from Sentinel2 data](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine)
 * [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
 * [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
+* [satellite-change-events](https://www.cs.cornell.edu/projects/satellite-change-events/) -> CaiRoad & CalFire change detection Sentinel 2 datasets
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
