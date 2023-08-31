@@ -407,7 +407,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime) -> bounding boxes
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6) -> bounding boxes
 * [Dataset of thermal and visible aerial images for multi-modal and multi-spectral image registration and fusion](https://www.sciencedirect.com/science/article/pii/S2352340920302201) -> The dataset consists of 30 visible images and their metadata, 80 thermal images and their metadata, and a visible georeferenced orthoimage.
-* [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://ieeexplore.ieee.org/document/9093284) -> Thermal IR videos of humans and animals. With [Github repo](https://github.com/exb7900/BIRDSAI)
+* [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://github.com/exb7900/BIRDSAI) -> Thermal IR videos of humans and animals
 * [ERA: A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
 * [DroneVehicle](https://github.com/VisDrone/DroneVehicle) -> Drone-based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning. Annotations are rotated bounding boxes. With [Github repo](https://github.com/SunYM2020/UA-CMDet)
 * [UAVOD10](https://github.com/weihancug/10-category-UAV-small-weak-object-detection-dataset-UAVOD10) -> 10 class of objects at 15 cm resolution. Classes are; building, ship, vehicle, prefabricated house, well, cable tower, pool, landslide, cultivation mesh cage, and quarry. Bounding boxes
