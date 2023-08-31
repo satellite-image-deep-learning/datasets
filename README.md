@@ -80,6 +80,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
 * [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
 * [satellite-change-events](https://www.cs.cornell.edu/projects/satellite-change-events/) -> CaiRoad & CalFire change detection Sentinel 2 datasets
+* [OMS2CD](https://github.com/Dibz15/OpenMineChangeDetection) -> hand-labelled images for change-detection in open-pit mining areas
+* [coal power plants’ emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants’ emissions, including images, metadata and labels.
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -277,6 +279,17 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 ## SECOND - semantic change detection
 * https://captain-whu.github.io/SCD/
 * Change detection at the pixel level
+
+## fMoW - Functional Map of the World
+* https://github.com/fMoW/dataset
+* RGB & multispectral variants
+* High resolution, chip classification dataset
+* Purpose: predicting the functional purpose of buildings and land use from temporal sequences of satellite images and a rich set of metadata features
+
+## HRSCD change detection
+* https://rcdaudt.github.io/hrscd/
+* 291 coregistered image pairs of high resolution RGB aerial images
+* Pixel-level change and land cover annotations are provided
 
 ## ISPRS
 Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
