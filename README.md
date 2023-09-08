@@ -82,6 +82,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [satellite-change-events](https://www.cs.cornell.edu/projects/satellite-change-events/) -> CaiRoad & CalFire change detection Sentinel 2 datasets
 * [OMS2CD](https://github.com/Dibz15/OpenMineChangeDetection) -> hand-labelled images for change-detection in open-pit mining areas
 * [coal power plants’ emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants’ emissions, including images, metadata and labels.
+* [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -267,7 +268,7 @@ BONAI (Buildings in Off-Nadir Aerial Images) is a dataset for building footprint
 * [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> pytorch implemention of FCCDN for change detection task
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset uses LEVIR-CD imagery
 
-## Onera Sentinel-2 change detection dataset
+## Onera (OSCD) Sentinel-2 change detection dataset
 It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018. 
 * [Onera Satellite Change Detection Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018
 * [Website](https://rcdaudt.github.io/oscd/)
@@ -275,6 +276,7 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection) -> with [paper](https://ieeexplore.ieee.org/abstract/document/8518015)
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 * [ChangeDetection_wOnera](https://github.com/tonydp03/ChangeDetection_wOnera)
+* [https://github.com/granularai/fabric](OSCD + additional Dates) -> extended with three different dates
 
 ## SECOND - semantic change detection
 * https://captain-whu.github.io/SCD/
@@ -489,6 +491,11 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
 * [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> soybean dataset
 * [HySpecNet-11k](https://hyspecnet.rsim.berlin/) -> a large-scale hyperspectral benchmark dataset
+* [Mumbai-Semantic-Segmentation-Dataset](https://github.com/GeoAI-Research-Lab/Mumbai-Semantic-Segmentation-Dataset)
+* [SZTAKI](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html) -> A Ground truth collection for change detection in optical aerial images taken with several years time differences
+* [DSIFN](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset) -> change detection dataset, it consists of six large bi-temporal high resolution images covering six cities in China
+* [SV248S](https://github.com/xdai-dlgvv/SV248S) -> Single Object Tracking Dataset, tracking Vehicle, Large-Vehicle, Ship and Airplane
+* [GAMUS](https://github.com/EarthNets/RSI-MMSegmentation) ->  A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
