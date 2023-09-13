@@ -293,6 +293,12 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * 291 coregistered image pairs of high resolution RGB aerial images
 * Pixel-level change and land cover annotations are provided
 
+## MiniFrance-DFC22 - semi-supervised semantic segmentation
+* The [MiniFrance-DFC22 (MF-DFC22) dataset](https://ieee-dataport.org/competitions/data-fusion-contest-2022-dfc2022) extends and modifies the [MiniFrance dataset](https://ieee-dataport.org/open-access/minifrance) for training semi-supervised semantic segmentation models for land use/land cover mapping
+* [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
+* https://github.com/mveo/mveo-challenge
+
+
 ## ISPRS
 Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
 * https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx
