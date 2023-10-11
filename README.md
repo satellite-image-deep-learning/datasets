@@ -346,6 +346,12 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * https://www.rf100.org/
 * https://github.com/roboflow-ai/roboflow-100-benchmark
 
+## SATIN (SATellite ImageNet)
+SATIN is a multi-task remote sensing classification metadataset consisting of 27 datasets grouped into 6 tasks. The imagery spans 5 orders of magnitude of resolution, over 250 distinct class labels, and many field of view sizes. The overall SATIN dataset, as well as each of the 27 constituent datasets, are released via HuggingFace. A public leaderboard is provided to guide and track the progress of vision-language models on SATIN. 
+* [Paper](https://arxiv.org/abs/2304.11619)
+* [Website](https://satinbenchmark.github.io/)
+* [Data](https://huggingface.co/datasets/jonathan-roberts1/SATIN)
+
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) -> EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
