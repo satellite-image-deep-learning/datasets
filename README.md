@@ -507,6 +507,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [SV248S](https://github.com/xdai-dlgvv/SV248S) -> Single Object Tracking Dataset, tracking Vehicle, Large-Vehicle, Ship and Airplane
 * [GAMUS](https://github.com/EarthNets/RSI-MMSegmentation) ->  A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
 * [Oil and Gas Infrastructure Mapping (OGIM) database](https://zenodo.org/record/7922117) -> includes locations and facility attributes of oil and gas infrastructure types that are important sources of methane emissions
+* [openWUSU](https://github.com/AngieNikki/openWUSU) -> WUSU is a semantic understanding dataset focusing on urban structure and the urbanization process in Wuhan
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
