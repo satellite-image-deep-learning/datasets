@@ -347,6 +347,11 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * https://www.rf100.org/
 * https://github.com/roboflow-ai/roboflow-100-benchmark
 
+## SODA-A rotated bounding boxes
+* https://shaunyuan22.github.io/SODA/
+* SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes
+* https://github.com/shaunyuan22/CFINet
+
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) -> EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
