@@ -84,6 +84,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
 * [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
 * [MS-HS-BCD-dataset](https://github.com/arcgislearner/MS-HS-BCD-dataset) -> multisource change detection dataset used in paper: Building Change Detection with Deep Learning by Fusing Spectral and Texture Features of Multisource Remote Sensing Images: A GF-1 and Sentinel 2B Data Case
+* [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -278,6 +279,7 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 * [ChangeDetection_wOnera](https://github.com/tonydp03/ChangeDetection_wOnera)
 * [OSCD + additional Dates](https://github.com/granularai/fabric) -> extended with three different dates
+* [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
 
 ## SECOND - semantic change detection
 * https://captain-whu.github.io/SCD/
