@@ -584,7 +584,7 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 ### Kaggle - Ships in Google Earth
 * https://www.kaggle.com/tomluther/ships-in-google-earth
 * 794 jpegs showing various sized ships in satellite imagery, annotations in Pascal VOC format for object detection models
-* [kaggle-ships-in-Google-Earth-yolov5](https://github.com/robmarkcole/kaggle-ships-in-Google-Earth-yolov5)
+* [/kaggle-ships-in-satellite-imagery-with-YOLOv8](https://github.com/robmarkcole/kaggle-ships-in-satellite-imagery-with-YOLOv8)
 
 ### Kaggle - Ships in San Franciso Bay
 * https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery
