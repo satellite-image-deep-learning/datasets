@@ -517,6 +517,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Oil and Gas Infrastructure Mapping (OGIM) database](https://zenodo.org/record/7922117) -> includes locations and facility attributes of oil and gas infrastructure types that are important sources of methane emissions
 * [openWUSU](https://github.com/AngieNikki/openWUSU) -> WUSU is a semantic understanding dataset focusing on urban structure and the urbanization process in Wuhan
 * [Digital Typhoon Dataset](https://github.com/kitamoto-lab/digital-typhoon/) -> aimed at benchmarking machine learning models for long-term spatio-temporal data
+* [RSE_Cross-city](https://github.com/danfenghong/RSE_Cross-city) -> Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
