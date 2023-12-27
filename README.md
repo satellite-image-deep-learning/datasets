@@ -85,6 +85,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
 * [MS-HS-BCD-dataset](https://github.com/arcgislearner/MS-HS-BCD-dataset) -> multisource change detection dataset used in paper: Building Change Detection with Deep Learning by Fusing Spectral and Texture Features of Multisource Remote Sensing Images: A GF-1 and Sentinel 2B Data Case
 * [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
+* [Sentinel-2 dataset for ship detection](https://zenodo.org/records/3923841), also edited and redistributed as [VDS2RAW](https://zenodo.org/records/7982468#.ZIiLxS8QOo4)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -118,6 +119,7 @@ Land use classification dataset of Sentinel-2 satellite images covering 13 spect
 * [evolved_channel_selection](http://matpalm.com/blog/evolved_channel_selection/) -> explores the trade off between mixed resolutions and whether to use a channel at all, with [repo](https://github.com/matpalm/evolved_channel_selection)
 * RGB version available as [dataset in pytorch](https://pytorch.org/vision/stable/generated/torchvision.datasets.EuroSAT.html#torchvision.datasets.EuroSAT) with the 13 band version [in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html#eurosat). Checkout the tutorial on [data augmentation with this dataset](https://torchgeo.readthedocs.io/en/latest/tutorials/transforms.html)
 * RGB and 13 band versions [in tensorflow](https://www.tensorflow.org/datasets/catalog/eurosat)
+* [EuroSAT-SAR](https://huggingface.co/datasets/wangyi111/EuroSAT-SAR) -> matched each Sentinel-2 image in EuroSAT with one Sentinel-1 patch according to the geospatial coordinates
 
 ## PatternNet
 Land use classification dataset with 38 classes and 800 RGB JPG images for each class
@@ -518,6 +520,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [openWUSU](https://github.com/AngieNikki/openWUSU) -> WUSU is a semantic understanding dataset focusing on urban structure and the urbanization process in Wuhan
 * [Digital Typhoon Dataset](https://github.com/kitamoto-lab/digital-typhoon/) -> aimed at benchmarking machine learning models for long-term spatio-temporal data
 * [RSE_Cross-city](https://github.com/danfenghong/RSE_Cross-city) -> Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks
+* [AErial Lane](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> AErial Lane (AEL) Dataset is a first large-scale aerial image dataset built for lane detection, with high-quality polyline lane annotations on high-resolution images of around 80 kilometers of road
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
