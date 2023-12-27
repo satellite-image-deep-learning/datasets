@@ -360,7 +360,7 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) -> EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
 * [BigEarthNet](https://www.tensorflow.org/datasets/catalog/bigearthnet) -> a large-scale Sentinel-2 land use classification dataset, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels. Official website includes version of the dataset with Sentinel 1 & 2 chips
-* [so2sat](https://www.tensorflow.org/datasets/catalog/so2sat) -> a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by Sentinel 1 & 2
+* [so2sat](https://www.tensorflow.org/datasets/catalog/so2sat) -> a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by Sentinel 1 & 2. Also at [So2Sat-LCZ42](https://github.com/zhu-xlab/So2Sat-LCZ42)
 
 ## Microsoft datasets
 * [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints), [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints), [Kenya-Nigeria](https://github.com/microsoft/KenyaNigeriaBuildingFootprints) and [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
@@ -500,11 +500,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Synthetic dataset and pretrained models for Detectron2
 * [Remote Sensing Satellite Video Dataset for Super-resolution](https://zenodo.org/record/6969604#.ZCBd-OzMJhE)
 * [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo) -> A Challenging Benchmark for Stereo Matching of High-Resolution Satellite Images
-* [BH-POOLS & BH-WATERTANKS](http://patreo.dcc.ufmg.br/2020/07/29/bh-pools-watertanks-datasets/) -> segmentation dataset of swimming pools and water tanks in Brazil
-* [BrazilDAM Dataset](http://patreo.dcc.ufmg.br/2020/01/27/brazildam-dataset/) -> a multi sensor (Landsat 8 and Sentinel 2) and multitemporal dataset that consists of multispectral images of ore tailings dams throughout Brazil
-* [Bridge Dataset](http://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/) -> 500 images each containing at least one bridge
-* [Brazilian Cerrado-Savanna Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-cerrado-savanna-scenes-dataset/) -> 1,311 multi-spectral scenes extracted from images acquired by the RapidEye are partitioned into 4 classes: Agriculture, Arboreal, Herbaceous and Shrubby Vegetation
-* [Brazilian Coffee Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/)
 * [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
 * [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
 * [3DCD](https://sites.google.com/uniroma1.it/3dchangedetection/home-page) -> infer 3D CD maps using only remote sensing optical bitemporal images as input without the need of Digital Elevation Models (DEMs)
@@ -570,7 +565,6 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * https://www.kaggle.com/c/airbus-ship-detection/overview
 * Rating - medium, most solutions using deep-learning, many kernels, [good example kernel](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
 * I believe there was a problem with this dataset, which led to many complaints that the competition was ruined
-* [Deep Learning for Ship Detection and Segmentation](https://towardsdatascience.com/deep-learning-for-ship-detection-and-segmentation-71d223aca649) -> treated as instance segmentation problem, with [notebook](https://github.com/abhinavsagar/kaggle-notebooks/blob/master/ship_segmentation.ipynb)
 * [Lessons Learned from Kaggle’s Airbus Challenge](https://towardsdatascience.com/lessons-learned-from-kaggles-airbus-challenge-252e25c5efac)
 * [Airbus-Ship-Detection](https://github.com/kheyer/Airbus-Ship-Detection) -> This solution scored 139 out of 884 for the competition, combines ResNeXt50 based classifier and a U-net segmentation model
 * [Ship-Detection-Project](https://github.com/ZTong1201/Ship-Detection-Project) -> uses Mask R-CNN and UNet model
@@ -703,7 +697,6 @@ In this challenge, you will build a model to classify cloud organization pattern
 Classify the target in a SAR image chip as either a ship or an iceberg. The dataset for the competition included 5000 images extracted from multichannel SAR data collected by the Sentinel-1 satellite. Top entries used ensembles to boost prediction accuracy from about 92% to 97%.
 * https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data
 * [An interview with David Austin: 1st place winner](https://pyimagesearch.com/2018/03/26/interview-david-austin-1st-place-25000-kaggles-popular-competition/)
-* [Deep Learning for Iceberg detection in Satellite Images](https://towardsdatascience.com/deep-learning-for-iceberg-detection-in-satellite-images-c667acf4bad0)
 * [radar-image-recognition](https://github.com/siarez/radar-image-recognition)
 * [Iceberg-Classification-Using-Deep-Learning](https://github.com/mankadronit/Iceberg-Classification-Using-Deep-Learning) -> uses keras
 * [Deep-Learning-Project](https://github.com/singh-shakti94/Deep-Learning-Project) -> uses keras
