@@ -87,6 +87,10 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
 * [Sentinel-2 dataset for ship detection](https://zenodo.org/records/3923841), also edited and redistributed as [VDS2RAW](https://zenodo.org/records/7982468#.ZIiLxS8QOo4)
 * [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> dataset for paper: AN AUTOMATED SYSTEM TO EVALUATE MINING DISTURBED AREA EXTENTS FROM SENTINEL-2 IMAGERY
+* [CropNet: An Open Large-Scale Dataset with Multiple Modalities for Climate Change-aware Crop Yield Predictions](https://anonymous.4open.science/r/CropNet/README.md) -> terabyte-sized, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
+* [Tiny CropNet dataset](https://github.com/fudong03/MMST-ViT)
+* [CaBuAr](https://github.com/DarthReca/CaBuAr) -> California Burned Areas dataset for delineation
+* [sen12mscr](https://patricktum.github.io/cloud_removal/sen12mscr/) -> Multimodal Cloud Removal
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -520,6 +524,10 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [RSE_Cross-city](https://github.com/danfenghong/RSE_Cross-city) -> Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks
 * [AErial Lane](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> AErial Lane (AEL) Dataset is a first large-scale aerial image dataset built for lane detection, with high-quality polyline lane annotations on high-resolution images of around 80 kilometers of road
 * [GeoPile pretraining dataset](https://github.com/mmendiet/GFM) -> compiles imagery from other datasets including RSD46-WHU, MLRSNet and RESISC45 for pretraining of Foundational models
+* [NWPU-MOC](https://github.com/lyongo/NWPU-MOC) -> A Benchmark for Fine-grained Multi-category Object Counting in Aerial Images
+* [Chesapeake Roads Spatial Context (RSC)](https://github.com/isaaccorley/ChesapeakeRSC)
+* [STARCOP dataset: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning Models](https://zenodo.org/records/7863343)
+* [Toulouse Hyperspectral Data Set](https://www.toulouse-hyperspectral-data-set.com/)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
