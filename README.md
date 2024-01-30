@@ -528,6 +528,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Chesapeake Roads Spatial Context (RSC)](https://github.com/isaaccorley/ChesapeakeRSC)
 * [STARCOP dataset: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning Models](https://zenodo.org/records/7863343)
 * [Toulouse Hyperspectral Data Set](https://www.toulouse-hyperspectral-data-set.com/)
+* [CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds](https://zenodo.org/records/10042922) -> the dataset consists of 1,780 MODIS satellite images hand-labeled for the presence of more than 12,000 ship tracks.
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
