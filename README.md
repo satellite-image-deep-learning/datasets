@@ -37,8 +37,6 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F)
 * Paid access to Sentinel & Landsat data via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
-* [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
-* [BigEarthNet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels. Also available [in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html#bigearthnet)
 * [Jupyter Notebooks for working with Sentinel-5P Level 2 data stored on S3](https://github.com/Sentinel-5P/data-on-s3). The data can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
 * [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
 * [Analyzing Sentinel-2 satellite data in Python with Keras](https://github.com/jensleitloff/CNN-Sentinel)
@@ -115,7 +113,6 @@ Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
 * http://weegee.vision.ucmerced.edu/datasets/landuse.html
-* Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
 * Also [available as a multi-label dataset](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d)
 * Read [Vision Transformers for Remote Sensing Image Classification](https://www.mdpi.com/2072-4292/13/3/516/htm) where a Vision Transformer classifier achieves 98.49% classification accuracy on Merced
 
@@ -125,7 +122,6 @@ Land use classification dataset of Sentinel-2 satellite images covering 13 spect
 * Repos using fastai [here](https://github.com/shakasom/Deep-Learning-for-Satellite-Imagery) and [here](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html)
 * [evolved_channel_selection](http://matpalm.com/blog/evolved_channel_selection/) -> explores the trade off between mixed resolutions and whether to use a channel at all, with [repo](https://github.com/matpalm/evolved_channel_selection)
 * RGB version available as [dataset in pytorch](https://pytorch.org/vision/stable/generated/torchvision.datasets.EuroSAT.html#torchvision.datasets.EuroSAT) with the 13 band version [in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html#eurosat). Checkout the tutorial on [data augmentation with this dataset](https://torchgeo.readthedocs.io/en/latest/tutorials/transforms.html)
-* RGB and 13 band versions [in tensorflow](https://www.tensorflow.org/datasets/catalog/eurosat)
 * [EuroSAT-SAR](https://huggingface.co/datasets/wangyi111/EuroSAT-SAR) -> matched each Sentinel-2 image in EuroSAT with one Sentinel-1 patch according to the geospatial coordinates
 
 ## PatternNet
@@ -364,12 +360,6 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes
 * https://github.com/shaunyuan22/CFINet
 
-## Tensorflow datasets
-* [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
-* [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) -> EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
-* [BigEarthNet](https://www.tensorflow.org/datasets/catalog/bigearthnet) -> a large-scale Sentinel-2 land use classification dataset, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels. Official website includes version of the dataset with Sentinel 1 & 2 chips
-* [so2sat](https://www.tensorflow.org/datasets/catalog/so2sat) -> a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by Sentinel 1 & 2. Also at [So2Sat-LCZ42](https://github.com/zhu-xlab/So2Sat-LCZ42)
-
 ## Microsoft datasets
 * [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints), [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints), [Kenya-Nigeria](https://github.com/microsoft/KenyaNigeriaBuildingFootprints) and [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
 * [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) is a Dask-Gateway enabled JupyterHub deployment focused on supporting scalable geospatial analysis, [source repo](https://github.com/microsoft/planetary-computer-hub)
@@ -398,7 +388,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 ## Weather Datasets
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
 * NOAA (requires BigQuery) -> https://www.kaggle.com/datasets/noaa/goes16/home
-* Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
+* Time series weather data for several US cities -> https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data
 * [DeepWeather](https://github.com/adamhazimeh/DeepWeather) -> improve weather forecasting accuracy by analyzing satellite images
 
 ## Cloud datasets
@@ -415,7 +405,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [awesome-forests](https://github.com/blutjens/awesome-forests) -> A curated list of ground-truth forest datasets for the machine learning and forestry community
 * [ReforesTree](https://github.com/gyrrei/ReforesTree) -> A dataset for estimating tropical forest biomass based on drone and field data
 * [yosemite-tree-dataset](https://github.com/nightonion/yosemite-tree-dataset) -> a benchmark dataset for tree counting from aerial images
-* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in the paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
 * [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
 
 ## Geospatial datasets
@@ -633,7 +623,7 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [deep-cnn-sat-image-time-series](https://github.com/MickyDowns/deep-cnn-sat-image-time-series) -> uses LSTM
 
 ### Kaggle - Dubai segmentation
-* https://www.kaggle.com/humansintheloop/semantic-segmentation-of-aerial-imagery
+* https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery
 * 72 satellite images of Dubai, the UAE, and is segmented into 6 classes
 * [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
@@ -655,11 +645,11 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
 ### Kaggle - Deepsat classification challenge
 Not satellite but airborne imagery. Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and near infrared. The training and test labels are one-hot encoded 1x6 vectors. Each image patch is size normalized to 28x28 pixels. Data in `.mat` Matlab format. JPEG?
-* [Sat4](https://www.kaggle.com/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three**
-* [Sat6](https://www.kaggle.com/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
+* [Sat4](https://www.kaggle.com/datasets/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three**
+* [Sat6](https://www.kaggle.com/datasets/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
 
 ### Kaggle - High resolution ship collections 2016 (HRSC2016)
-* https://www.kaggle.com/guofeng/hrsc2016
+* https://www.kaggle.com/datasets/guofeng/hrsc2016
 * Ship images harvested from Google Earth
 * [HRSC2016_SOTA](https://github.com/ming71/HRSC2016_SOTA) -> Fair comparison of different algorithms on the HRSC2016 dataset
 
@@ -702,11 +692,11 @@ In this challenge, you will build a model to classify cloud organization pattern
 * [Oil-Storage-Tanks-Data-Preparation-YOLO-Format](https://github.com/shah0nawaz/Oil-Storage-Tanks-Data-Preparation-YOLO-Format)
 
 ### Kaggle - Satellite images of hurricane damage
-* https://www.kaggle.com/kmader/satellite-images-of-hurricane-damage
+* https://www.kaggle.com/datasets/kmader/satellite-images-of-hurricane-damage
 * https://github.com/dbuscombe-usgs/HurricaneHarvey_buildingdamage
 
 ### Kaggle - Austin Zoning Satellite Images
-* https://www.kaggle.com/franchenstein/austin-zoning-satellite-images
+* https://www.kaggle.com/datasets/franchenstein/austin-zoning-satellite-images
 * classify a images of Austin into one of its zones, such as residential, industrial, etc. 3667 satellite images
 
 ### Kaggle - Statoil/C-CORE Iceberg Classifier Challenge
@@ -722,7 +712,7 @@ Classify the target in a SAR image chip as either a ship or an iceberg. The data
 * [fastai solution](https://github.com/smarkochev/ds_notebooks/blob/master/Statoil_Kaggle_competition_google_colab_notebook.ipynb)
 
 ### Kaggle - Land Cover Classification Dataset from DeepGlobe Challenge - segmentation
-* https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset
+* https://www.kaggle.com/datasets/balraj98/deepglobe-land-cover-classification-dataset
 * [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 * [DeepGlobe Land Cover Classification Challenge solution](https://github.com/GeneralLi95/deepglobe_land_cover_classification_with_deeplabv3plus)
