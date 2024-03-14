@@ -56,7 +56,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [fMoW-Sentinel](https://purl.stanford.edu/vg497cb6002) -> The Functional Map of the World - Sentinel-2 corresponding images (fMoW-Sentinel) dataset consists of image time series collected by the Sentinel-2 satellite, corresponding to locations from the Functional Map of the World (fMoW) dataset across several different times. Used in [SatMAE](https://github.com/sustainlab-group/SatMAE)
 * [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.Y4iEFezP1hE) -> a dataset for deep learning of surface water features on Sentinel-2 satellite images. See [this ref using it in torchgeo](https://towardsdatascience.com/artificial-intelligence-for-geospatial-analysis-with-pytorchs-torchgeo-part-1-52d17e409f09)
 * [Ship-S2-AIS dataset](https://zenodo.org/record/7229756#.Y5GsgOzP1hE) -> 13k tiles extracted from 29 free Sentinel-2 products. 2k images showing ships in Denmark sovereign waters: one may detect cargos, fishing, or container ships
-* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images
 * [Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
 * [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
 * [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
@@ -427,7 +427,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
 * [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime) -> bounding boxes
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6) -> bounding boxes
-* [Dataset of thermal and visible aerial images for multi-modal and multi-spectral image registration and fusion](https://www.sciencedirect.com/science/article/pii/S2352340920302201) -> The dataset consists of 30 visible images and their metadata, 80 thermal images and their metadata, and a visible georeferenced orthoimage.
 * [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://github.com/exb7900/BIRDSAI) -> Thermal IR videos of humans and animals
 * [ERA: A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
 * [DroneVehicle](https://github.com/VisDrone/DroneVehicle) -> Drone-based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning. Annotations are rotated bounding boxes. With [Github repo](https://github.com/SunYM2020/UA-CMDet)
@@ -781,7 +780,6 @@ Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
 * https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset -> segment roads
 * https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks -> Image data of industrial Oil Storage Tanks with bounding box annotations
-* https://www.kaggle.com/datasets/eba5cd4e52d5143594ae149e68a496f2b3dce25ad6ed76dd9c60e7069b0d18fb -> Center Pivot Irrigation Systems
 * https://www.kaggle.com/competitions/widsdatathon2019/ -> Palm oil plantations
 * https://www.kaggle.com/datasets/siddharthkumarsah/ships-in-aerial-images -> Ships/Vessels in Aerial Images
 * https://www.kaggle.com/datasets/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects -> Aerial dataset for maritime Search and Rescue applications
