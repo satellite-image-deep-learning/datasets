@@ -293,7 +293,7 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 
 ## Amazon and Atlantic Forest dataset for semantic segmentation with Sentinel 2
 * [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE)
-* [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> code for paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
 * [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping
 
 ## fMoW - Functional Map of the World
