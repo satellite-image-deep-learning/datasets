@@ -91,6 +91,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Tiny CropNet dataset](https://github.com/fudong03/MMST-ViT)
 * [CaBuAr](https://github.com/DarthReca/CaBuAr) -> California Burned Areas dataset for delineation
 * [sen12mscr](https://patricktum.github.io/cloud_removal/sen12mscr/) -> Multimodal Cloud Removal
+* [Greenearthnet](https://github.com/vitusbenson/greenearthnet/tree/main) -> dataset specifically designed for high-resolution vegetation forecasting
+* [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset 
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
