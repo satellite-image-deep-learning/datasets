@@ -256,7 +256,7 @@ A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
 
 ## AIRS (Aerial Imagery for Roof Segmentation)
 Public dataset for roof segmentation from very-high-resolution aerial imagery (7.5cm). Covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
-* [On Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation)
+* [On Kaggle](https://www.kaggle.com/datasets/atilol/aerialimageryforroofsegmentation)
 * [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 
 ## Inria building/not building segmentation dataset
@@ -397,7 +397,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 
 ## Weather Datasets
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
-* NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
+* NOAA (requires BigQuery) -> https://www.kaggle.com/datasets/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 * [DeepWeather](https://github.com/adamhazimeh/DeepWeather) -> improve weather forecasting accuracy by analyzing satellite images
 
@@ -591,12 +591,12 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Image Segmentation: Kaggle experience](https://towardsdatascience.com/image-segmentation-kaggle-experience-9a41cb8924f0) -> Medium article by gold medal winner Vlad Shmyhlo
 
 ### Kaggle - Shipsnet classification dataset
-* https://www.kaggle.com/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
+* https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
 * 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, 3 meter pixel size
 * [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
 
 ### Kaggle - Ships in Google Earth
-* https://www.kaggle.com/tomluther/ships-in-google-earth
+* https://www.kaggle.com/datasets/tomluther/ships-in-google-earth
 * 794 jpegs showing various sized ships in satellite imagery, annotations in Pascal VOC format for object detection models
 * [/kaggle-ships-in-satellite-imagery-with-YOLOv8](https://github.com/robmarkcole/kaggle-ships-in-satellite-imagery-with-YOLOv8)
 
@@ -607,12 +607,12 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Ship-Detection-Using-Satellite-Imagery](https://github.com/Dhruvisha29/Ship-Detection-Using-Satellite-Imagery)
 
 ### Kaggle - Swimming pool and car detection using satellite imagery
-* https://www.kaggle.com/kbhartiya83/swimming-pool-and-car-detection
+* https://www.kaggle.com/datasets/kbhartiya83/swimming-pool-and-car-detection
 * 3750 satellite images of residential areas with annotation data for swimming pools and cars
 * [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5)
 
 ### Kaggle - Planesnet classification dataset
-* https://www.kaggle.com/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
+* https://www.kaggle.com/datasets/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
 * 20x20 RGB images, the "plane" class includes 8000 images and the "no-plane" class includes 24000 images
 * [Dataset repo](https://github.com/rhammell/planesnet) and [planesnet-detector](https://github.com/rhammell/planesnet-detector) demonstrates a small CNN classifier on this dataset
 * [ergo-planes-detector](https://github.com/evilsocket/ergo-planes-detector) -> An ergo based project that relies on a convolutional neural network to detect airplanes from satellite imagery, uses the PlanesNet dataset
@@ -729,12 +729,12 @@ Classify the target in a SAR image chip as either a ship or an iceberg. The data
 
 ### Kaggle - Next Day Wildfire Spread
 A Data Set to Predict Wildfire Spreading from Remote-Sensing Data
-* https://www.kaggle.com/fantineh/next-day-wildfire-spread
+* https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread
 * https://arxiv.org/abs/2112.02447
 
 ### Kaggle - Satellite Next Day Wildfire Spread
 Inspired by the above dataset, using different data sources
-* https://www.kaggle.com/satellitevu/satellite-next-day-wildfire-spread
+* https://www.kaggle.com/datasets/satellitevu/satellite-next-day-wildfire-spread
 * https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon
 
 ## Kaggle - Spacenet 7 Multi-Temporal Urban Change Detection
@@ -757,7 +757,7 @@ Inspired by the above dataset, using different data sources
 
 ## Kaggle - Overhead-MNIST
 * A Benchmark Satellite Dataset as Drop-In Replacement for MNIST
-* https://www.kaggle.com/datamunge/overheadmnist -> kaggle
+* https://www.kaggle.com/datasets/datamunge/overheadmnist -> kaggle
 * https://arxiv.org/abs/2102.04266 -> paper
 * https://github.com/reveondivad/ov-mnist -> github
 
@@ -779,15 +779,15 @@ Inspired by the above dataset, using different data sources
 * [noaa](https://github.com/darraghdog/noaa) -> UNET, object detection and image level regression approaches
 
 ### Kaggle - miscellaneous
-* https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
-* https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial oil tanks with bounding box annotations, estimate tank fill % from shadows
-* https://www.kaggle.com/airbusgeo/airbus-wind-turbines-patches -> Airbus SPOT satellites images over wind turbines for classification
-* https://www.kaggle.com/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes -> CGI planes object detection dataset
-* https://www.kaggle.com/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
-* https://www.kaggle.com/andrewmvd/ship-detection -> 621 images of boats and ships
-* https://www.kaggle.com/alpereniek/vehicle-detection-from-satellite-images-data-set
-* https://www.kaggle.com/sergiishchus/maxar-satellite-data -> Example Maxar data at 15 cm resolution
-* https://www.kaggle.com/cici118/swimming-pool-detection-algarves-landscape
+* https://www.kaggle.com/datasets/reubencpereira/spatial-data-repo -> Satellite + loan data
+* https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks -> Image data of industrial oil tanks with bounding box annotations, estimate tank fill % from shadows
+* https://www.kaggle.com/datasets/airbusgeo/airbus-wind-turbines-patches -> Airbus SPOT satellites images over wind turbines for classification
+* https://www.kaggle.com/datasets/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes -> CGI planes object detection dataset
+* https://www.kaggle.com/datasets/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
+* https://www.kaggle.com/datasets/andrewmvd/ship-detection -> 621 images of boats and ships
+* https://www.kaggle.com/datasets/alpereniek/vehicle-detection-from-satellite-images-data-set
+* https://www.kaggle.com/datasets/sergiishchus/maxar-satellite-data -> Example Maxar data at 15 cm resolution
+* https://www.kaggle.com/datasets/cici118/swimming-pool-detection-algarves-landscape
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
 * https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset -> segment roads
 * https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks -> Image data of industrial Oil Storage Tanks with bounding box annotations
