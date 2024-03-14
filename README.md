@@ -406,7 +406,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ReforesTree](https://github.com/gyrrei/ReforesTree) -> A dataset for estimating tropical forest biomass based on drone and field data
 * [yosemite-tree-dataset](https://github.com/nightonion/yosemite-tree-dataset) -> a benchmark dataset for tree counting from aerial images
 * [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in the paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
-* [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
 
 ## Geospatial datasets
 * [Resource Watch](https://resourcewatch.org/data/explore) provides a wide range of geospatial datasets and a UI to visualise them
