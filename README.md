@@ -360,6 +360,10 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes
 * https://github.com/shaunyuan22/CFINet
 
+## Sen2Venµs (sen2venus)
+* https://zenodo.org/records/6514159 -> a dataset for the training of Sentinel-2 super-resolution algorithms
+* [sen2venus-pytorch-dataset](https://github.com/piclem/sen2venus-pytorch-dataset) -> torch dataloader and other utilities
+
 ## Microsoft datasets
 * [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints), [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints), [Kenya-Nigeria](https://github.com/microsoft/KenyaNigeriaBuildingFootprints) and [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
 * [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) is a Dask-Gateway enabled JupyterHub deployment focused on supporting scalable geospatial analysis, [source repo](https://github.com/microsoft/planetary-computer-hub)
@@ -437,6 +441,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [aeroscapes](https://github.com/ishann/aeroscapes) -> semantic segmentation benchmark comprises of images captured using a commercial drone from an altitude range of 5 to 50 metres.
 * [ALTO](https://github.com/MetaSLAM/ALTO) -> Aerial-view Large-scale Terrain-Oriented. For deep learning based UAV visual place recognition and localization tasks.
 * [HIT-UAV-Infrared-Thermal-Dataset](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) -> A High-altitude Infrared Thermal Object Detection Dataset for Unmanned Aerial Vehicles
+* [caltech-aerial-rgbt-dataset](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset) -> synchronized RGB, thermal, GPS, and IMU data
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
@@ -521,6 +526,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Toulouse Hyperspectral Data Set](https://www.toulouse-hyperspectral-data-set.com/)
 * [CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds](https://zenodo.org/records/10042922) -> the dataset consists of 1,780 MODIS satellite images hand-labeled for the presence of more than 12,000 ship tracks.
 * [Vehicle Perception from Satellite](https://github.com/Chenxi1510/Vehicle-Perception-from-Satellite-Videos) -> a large-scale benchmark for traffic monitoring from satellite
+* [SARDet-100K](https://github.com/zcablii/SARDet_100K) -> Large-Scale Synthetic Aperture Radar (SAR) Object Detection
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
