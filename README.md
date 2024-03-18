@@ -213,6 +213,7 @@ Annotated high-resolution satellite imagery for building damage assessment, prec
 * [U-Net models from michal2409](https://github.com/michal2409/xView2)
 * [DAHiTra](https://github.com/nka77/DAHiTra) -> code for 2022 [paper](https://arxiv.org/abs/2208.02205): Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 * [Damage assessment using Amazon SageMaker geospatial capabilities and custom SageMaker models](https://aws.amazon.com/blogs/machine-learning/damage-assessment-using-amazon-sagemaker-geospatial-capabilities-and-custom-sagemaker-models/)
+* [Xview2_Strong_Baseline](https://github.com/PaulBorneP/Xview2_Strong_Baseline) -> a simple implementation of a strong baseline
 
 ## xView3: Detecting dark vessels in SAR
 Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels
