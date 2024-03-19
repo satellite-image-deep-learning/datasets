@@ -528,6 +528,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds](https://zenodo.org/records/10042922) -> the dataset consists of 1,780 MODIS satellite images hand-labeled for the presence of more than 12,000 ship tracks.
 * [Vehicle Perception from Satellite](https://github.com/Chenxi1510/Vehicle-Perception-from-Satellite-Videos) -> a large-scale benchmark for traffic monitoring from satellite
 * [SARDet-100K](https://github.com/zcablii/SARDet_100K) -> Large-Scale Synthetic Aperture Radar (SAR) Object Detection
+* [So2Sat-POP-DL](https://github.com/zhu-xlab/So2Sat-POP-DL) -> Dataset discovery: So2Sat Population dataset covering 98 EU cities
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
