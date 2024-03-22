@@ -90,7 +90,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [CaBuAr](https://github.com/DarthReca/CaBuAr) -> California Burned Areas dataset for delineation
 * [sen12mscr](https://patricktum.github.io/cloud_removal/sen12mscr/) -> Multimodal Cloud Removal
 * [Greenearthnet](https://github.com/vitusbenson/greenearthnet/tree/main) -> dataset specifically designed for high-resolution vegetation forecasting
-* [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset 
+* [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset
+* [Floating-Marine-Debris-Data](https://github.com/miguelmendesduarte/Floating-Marine-Debris-Data) -> floating marine debris, with annotations for six debris classes, including plastic, driftwood, seaweed, pumice, sea snot, and sea foam.
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
