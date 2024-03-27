@@ -101,6 +101,7 @@ Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat
 * https://github.com/kylebarron/landsat-mosaic-latest -> Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
 * [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> This repo hosts all the code for landsatlive.live website and APIs.
+* [LandsatSCD](https://github.com/ggsDing/SCanNet/tree/main) -> a change detection dataset, it consists of 8468 pairs of images, each having the spatial resolution of 416 × 416
 
 ## Maxar
 Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
