@@ -149,6 +149,7 @@ A large-scale benchmark dataset for object detection in optical remote sensing i
 * [ors-detection](https://github.com/Vlad15lav/ors-detection) -> Object Detection on the DIOR dataset using YOLOv3
 * [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 * [Tools](https://github.com/CrazyStoneonRoad/Tools) -> for dealing with the DIOR
+* [Object_Detection_Satellite_Imagery_Yolov8_DIOR](https://github.com/JohnPPinto/Object_Detection_Satellite_Imagery_Yolov8_DIOR)
 
 ## Multiscene
 MultiScene dataset aims at two tasks: Developing algorithms for multi-scene recognition & Network learning with noisy labels
@@ -532,6 +533,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Vehicle Perception from Satellite](https://github.com/Chenxi1510/Vehicle-Perception-from-Satellite-Videos) -> a large-scale benchmark for traffic monitoring from satellite
 * [SARDet-100K](https://github.com/zcablii/SARDet_100K) -> Large-Scale Synthetic Aperture Radar (SAR) Object Detection
 * [So2Sat-POP-DL](https://github.com/zhu-xlab/So2Sat-POP-DL) -> Dataset discovery: So2Sat Population dataset covering 98 EU cities
+* [Urban Vehicle Segmentation Dataset (UV6K)](https://zenodo.org/records/8404754)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
