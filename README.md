@@ -93,6 +93,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset
 * [Floating-Marine-Debris-Data](https://github.com/miguelmendesduarte/Floating-Marine-Debris-Data) -> floating marine debris, with annotations for six debris classes, including plastic, driftwood, seaweed, pumice, sea snot, and sea foam.
 * [Sen2Fire](https://zenodo.org/records/10881058) -> A Challenging Benchmark Dataset for Wildfire Detection using Sentinel Data
+* [L1BSR](https://zenodo.org/records/7826696) -> 3740 pairs of overlapping image crops extracted from two L1B products
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
