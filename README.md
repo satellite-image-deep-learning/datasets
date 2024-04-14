@@ -95,6 +95,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sen2Fire](https://zenodo.org/records/10881058) -> A Challenging Benchmark Dataset for Wildfire Detection using Sentinel Data
 * [L1BSR](https://zenodo.org/records/7826696) -> 3740 pairs of overlapping image crops extracted from two L1B products
 * [GloSoFarID](https://github.com/yzyly1992/GloSoFarID) -> Global multispectral dataset for Solar Farm IDentification
+* [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -537,6 +538,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [So2Sat-POP-DL](https://github.com/zhu-xlab/So2Sat-POP-DL) -> Dataset discovery: So2Sat Population dataset covering 98 EU cities
 * [Urban Vehicle Segmentation Dataset (UV6K)](https://zenodo.org/records/8404754)
 * [TimeMatch](https://zenodo.org/records/5636422) -> dataset for cross-region adaptation for crop identification from SITS in four different regions in Europe
+* [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
