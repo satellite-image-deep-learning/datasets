@@ -95,7 +95,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [L1BSR](https://zenodo.org/records/7826696) -> 3740 pairs of overlapping image crops extracted from two L1B products
 * [GloSoFarID](https://github.com/yzyly1992/GloSoFarID) -> Global multispectral dataset for Solar Farm IDentification
 * [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
-* [MARIDA](https://marine-debris.github.io/index.html) -> Marine Debris detection from Sentinel-2 remote sensing data
+* [MARIDA](https://marine-debris.github.io/index.html) -> Marine Debris detection from Sentinel-2
+* [MADOS](https://github.com/gkakogeorgiou/mados) -> Marine Debris and Oil Spill from Sentinel-2
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
