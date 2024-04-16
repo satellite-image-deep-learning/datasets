@@ -70,7 +70,6 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sentinel2 Munich480](https://www.kaggle.com/datasets/artelabsuper/sentinel2-munich480) -> dataset for crop mapping by exploiting the time series of Sentinel-2 satellite
 * [Meadows vs Orchards](https://www.kaggle.com/datasets/baptistel/meadows-vs-orchards) -> a pixel time series dataset
 * [SEN12_GUM](https://zenodo.org/record/6914898) -> SEN12 Global Urban Mapping Dataset
-* [Sentinel-2 dataset for ship detection](https://zenodo.org/record/3923841) -> includes AIS data
 * [Sentinel-1&2 Image Pairs (SAR & Optical)](https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain)
 * [Sentinel-2 Image Time Series for Crop Mapping](https://www.kaggle.com/datasets/ignazio/sentinel2-crop-mapping) -> data for the Lombardy region in Italy
 * [Deforestation in Ukraine from Sentinel2 data](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine)
@@ -96,6 +95,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [L1BSR](https://zenodo.org/records/7826696) -> 3740 pairs of overlapping image crops extracted from two L1B products
 * [GloSoFarID](https://github.com/yzyly1992/GloSoFarID) -> Global multispectral dataset for Solar Farm IDentification
 * [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
+* [MARIDA](https://marine-debris.github.io/index.html) -> Marine Debris detection from Sentinel-2 remote sensing data
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
