@@ -540,6 +540,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Urban Vehicle Segmentation Dataset (UV6K)](https://zenodo.org/records/8404754)
 * [TimeMatch](https://zenodo.org/records/5636422) -> dataset for cross-region adaptation for crop identification from SITS in four different regions in Europe
 * [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
+* [PureForest](https://huggingface.co/datasets/IGNF/PureForest) -> VHR RGB + Near-Infrared & lidar, each patch represents a monospecific forest
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
