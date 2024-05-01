@@ -97,6 +97,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
 * [MARIDA](https://marine-debris.github.io/index.html) -> Marine Debris detection from Sentinel-2
 * [MADOS](https://github.com/gkakogeorgiou/mados) -> Marine Debris and Oil Spill from Sentinel-2
+* [Sentinel-1 and Sentinel-2 Vessel Detection](https://github.com/allenai/vessel-detection-sentinels)
+* [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -420,6 +422,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [yosemite-tree-dataset](https://github.com/nightonion/yosemite-tree-dataset) -> a benchmark dataset for tree counting from aerial images
 * [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in the paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
 * [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
+* [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
+* [PureForest](https://huggingface.co/datasets/IGNF/PureForest) -> VHR RGB + Near-Infrared & lidar, each patch represents a monospecific forest
 
 ## Geospatial datasets
 * [Resource Watch](https://resourcewatch.org/data/explore) provides a wide range of geospatial datasets and a UI to visualise them
@@ -540,7 +544,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Urban Vehicle Segmentation Dataset (UV6K)](https://zenodo.org/records/8404754)
 * [TimeMatch](https://zenodo.org/records/5636422) -> dataset for cross-region adaptation for crop identification from SITS in four different regions in Europe
 * [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
-* [PureForest](https://huggingface.co/datasets/IGNF/PureForest) -> VHR RGB + Near-Infrared & lidar, each patch represents a monospecific forest
+* [OpenSARWake](https://github.com/libzzluo/OpenSARWake) -> A SAR ship wake rotation detection benchmark dataset.
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
