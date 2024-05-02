@@ -99,6 +99,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MADOS](https://github.com/gkakogeorgiou/mados) -> Marine Debris and Oil Spill from Sentinel-2
 * [Sentinel-1 and Sentinel-2 Vessel Detection](https://github.com/allenai/vessel-detection-sentinels)
 * [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
+* [Sentinel-2 dataset for ship detection and characterization](https://zenodo.org/records/10418786)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
