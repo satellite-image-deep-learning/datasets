@@ -105,6 +105,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [UKFields](https://github.com/Spiruel/UKFields) -> over 2.3 million automatically delineated field boundaries spanning England, Wales, Scotland, and Northern Ireland
 * [ShipWakes](https://zenodo.org/records/7947694) -> Keypoints Method for Recognition of Ship Wake Components in Sentinel-2 Images by Deep Learning
 * [TimeSen2Crop](https://zenodo.org/records/4715631) -> a Million Labeled Samples Dataset of Sentinel 2 Image Time Series for Crop Type Classification
+* [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
