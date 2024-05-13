@@ -471,6 +471,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ALTO](https://github.com/MetaSLAM/ALTO) -> Aerial-view Large-scale Terrain-Oriented. For deep learning based UAV visual place recognition and localization tasks.
 * [HIT-UAV-Infrared-Thermal-Dataset](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) -> A High-altitude Infrared Thermal Object Detection Dataset for Unmanned Aerial Vehicles
 * [caltech-aerial-rgbt-dataset](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset) -> synchronized RGB, thermal, GPS, and IMU data
+* [Leafy Spurge Dataset](https://leafy-spurge-dataset.github.io/) -> Real-world Weed Classification Within Aerial Drone Imagery
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
@@ -610,6 +611,7 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 ### Kaggle - Airbus ship detection challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
 * Rating - medium, most solutions using deep-learning, many kernels, [good example kernel](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
+* [Detecting ships in satellite imagery: five years later…](https://medium.com/artificialis/detecting-ships-in-satellite-imagery-five-years-later-28df2e83f987)
 * I believe there was a problem with this dataset, which led to many complaints that the competition was ruined
 * [Lessons Learned from Kaggle’s Airbus Challenge](https://towardsdatascience.com/lessons-learned-from-kaggles-airbus-challenge-252e25c5efac)
 * [Airbus-Ship-Detection](https://github.com/kheyer/Airbus-Ship-Detection) -> This solution scored 139 out of 884 for the competition, combines ResNeXt50 based classifier and a U-net segmentation model
