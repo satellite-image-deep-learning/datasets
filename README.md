@@ -195,7 +195,6 @@ A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images. Se
 A Large-scale Dataset for Instance Segmentation in Aerial Images
 * https://captain-whu.github.io/iSAID/dataset.html
 * Uses images from the DOTA dataset
-* [Object Detection in Aerial Imagery](https://arxiv.org/abs/2211.15479) -> shows the performance of two-stage, one-stage and attention based object detectors on the iSAID dataset
 
 ## HRSC RGB ship object detection dataset
 * https://www.kaggle.com/datasets/guofeng/hrsc2016
