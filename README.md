@@ -106,6 +106,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [ShipWakes](https://zenodo.org/records/7947694) -> Keypoints Method for Recognition of Ship Wake Components in Sentinel-2 Images by Deep Learning
 * [TimeSen2Crop](https://zenodo.org/records/4715631) -> a Million Labeled Samples Dataset of Sentinel 2 Image Time Series for Crop Type Classification
 * [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
+* [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) -> a new multimodal benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -258,11 +259,12 @@ Large set of annotated cars from overhead. Established baseline for object detec
 * https://github.com/LLNL/cowc
 * [Detecting cars from aerial imagery for the NATO Innovation Challenge](https://arthurdouillard.com/post/nato-challenge/)
 
-## AI-TOD - tiny object detection
-The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets. Annotations in bounding box format
+## AI-TOD & AI-TOD-v2 - tiny object detection
+The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets. Annotations in bounding box format. V2 is a meticulous relabelling of the v1 dataset
 * https://github.com/jwwangchn/AI-TOD
+* https://chasel-tsui.github.io/AI-TOD-v2/
 * [NWD](https://github.com/jwwangchn/NWD) -> code for 2021 [paper](https://arxiv.org/abs/2110.13389): A Normalized Gaussian Wasserstein Distance for Tiny Object Detection. Uses AI-TOD dataset
-* [AI-TOD-v2](https://chasel-tsui.github.io/AI-TOD-v2/) -> meticulously relabelling of the v1 dataset
+* [ORFENet](https://github.com/dyl96/ORFENet) -> Tiny Object Detection in Remote Sensing Images Based on Object Reconstruction and Multiple Receptive Field Adaptive Feature Enhancement. Uses LEVIR-ship & AI-TOD-v2
 
 ## RarePlanes
 * [RarePlanes](https://registry.opendata.aws/rareplanes/) -> incorporates both real and synthetically generated satellite imagery including aircraft. Read the [arxiv paper](https://arxiv.org/abs/2006.02963) and checkout [this repo](https://github.com/jdc08161063/RarePlanes). Note the dataset is available through the AWS Open-Data Program for free download
