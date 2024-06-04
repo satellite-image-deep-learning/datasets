@@ -340,6 +340,13 @@ For semantic segmentation with Sentinel 2
 * [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 * https://github.com/mveo/mveo-challenge
 
+## FLAIR
+Semantic segmentation and domain adaptation challenge proposed by the French National Institute of Geographical and Forest Information (IGN). Uses a dataset composed of over 70,000 aerial imagery patches with pixel-based annotations and 50,000 Sentinel-2 satellite acquisitions.
+* [Challenge on codalab](https://codalab.lisn.upsaclay.fr/competitions/13447)
+* [FLAIR-2 github](https://github.com/IGNF/FLAIR-2)
+* [flair-2 8th place solution](https://github.com/association-rosia/flair-2)
+* [IGNF HuggingFace](https://huggingface.co/IGNF)
+
 ## ISPRS
 Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
 * https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx
@@ -566,6 +573,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [OpenSARWake](https://github.com/libzzluo/OpenSARWake) -> A SAR ship wake rotation detection benchmark dataset.
 * [TUE-CD](https://github.com/RSMagneto/MSI-Net) -> A change detection detection for building damage estimation after earthquake
 * [Overhead Wind Turbine Dataset - NAIP](https://zenodo.org/records/7385227#.Y419qezMLdr)
+* [RRSD300](https://github.com/chdwyb/RSHazeNet) -> Remote Sensing Image Dehazing Dataset
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
