@@ -108,6 +108,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
 * [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) -> a new multimodal benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations
 * [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
+* [MuS2: A Benchmark for Sentinel-2 Multi-Image Super-Resolution](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F1JMRAT)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -384,6 +385,7 @@ SatlasPretrain is a large-scale pre-training dataset for tasks that involve unde
 * 24 land cover classes
 * Paper and code demonstrating domain adaptation to Sentinel-2 and Planetscope imagery
 * Extends the [GID15 large scale semantic segmentation dataset](https://captain-whu.github.io/GID15/)
+* [GID](https://x-ytong.github.io/project/GID.html) -> the Gaofen Image Dataset is a large-scale land-cover dataset with Gaofen-2 (GF-2) satellite images
 
 ## RF100 object detection benchmark
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
@@ -481,6 +483,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [HIT-UAV-Infrared-Thermal-Dataset](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) -> A High-altitude Infrared Thermal Object Detection Dataset for Unmanned Aerial Vehicles
 * [caltech-aerial-rgbt-dataset](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset) -> synchronized RGB, thermal, GPS, and IMU data
 * [Leafy Spurge Dataset](https://leafy-spurge-dataset.github.io/) -> Real-world Weed Classification Within Aerial Drone Imagery
+* [UAV-HSI-Crop-Dataset](https://github.com/MrSuperNiu/UAV-HSI-Crop-Dataset) -> dataset for "HSI-TransUNet: A Transformer based semantic segmentation model for crop mapping from UAV hyperspectral imagery"
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
@@ -574,6 +577,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [TUE-CD](https://github.com/RSMagneto/MSI-Net) -> A change detection detection for building damage estimation after earthquake
 * [Overhead Wind Turbine Dataset - NAIP](https://zenodo.org/records/7385227#.Y419qezMLdr)
 * [RRSD300](https://github.com/chdwyb/RSHazeNet) -> Remote Sensing Image Dehazing Dataset
+* [Toulouse Hyperspectral Data Set](https://github.com/Romain3Ch216/TlseHypDataSet)
+* [Hi-UCD](https://github.com/Daisy-7/Hi-UCD-S) -> ultra-High Urban Change Detection for urban semantic change detection
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
