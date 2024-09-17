@@ -580,10 +580,10 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [OpenSARWake](https://github.com/libzzluo/OpenSARWake) -> A SAR ship wake rotation detection benchmark dataset.
 * [TUE-CD](https://github.com/RSMagneto/MSI-Net) -> A change detection detection for building damage estimation after earthquake
 * [Overhead Wind Turbine Dataset - NAIP](https://zenodo.org/records/7385227#.Y419qezMLdr)
-* [RRSD300](https://github.com/chdwyb/RSHazeNet) -> Remote Sensing Image Dehazing Dataset
 * [Toulouse Hyperspectral Data Set](https://github.com/Romain3Ch216/TlseHypDataSet)
 * [Hi-UCD](https://github.com/Daisy-7/Hi-UCD-S) -> ultra-High Urban Change Detection for urban semantic change detection
 * [LEVIR-CC-Dataset](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) -> A Large Dataset for Remote Sensing Image Change Captioning
+* [ShipRSImageNet](https://github.com/zzndream/ShipRSImageNet) -> A Large-scale Fine-Grained Dataset for Ship Detection in High-Resolution Optical Remote Sensing Images
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
