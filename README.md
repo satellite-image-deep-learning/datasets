@@ -109,6 +109,9 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) -> a new multimodal benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations
 * [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
 * [MuS2: A Benchmark for Sentinel-2 Multi-Image Super-Resolution](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F1JMRAT)
+* [Sen4Map](https://datapub.fz-juelich.de/sen4map/) -> Sentinel-2 time series images, covering over 335,125 geo-tagged locations across the European Union. These geo-tagged locations are associated with detailed landcover and land-use information
+* [CloudSEN12Plus](https://huggingface.co/datasets/isp-uv-es/CloudSEN12Plus) -> the largest cloud detection dataset to date for Sentinel-2
+* [mayrajeo S2 ship detection](https://github.com/mayrajeo/ship-detection) -> labels for Detecting marine vessels from Sentinel-2 imagery with YOLOv8
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -484,6 +487,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [caltech-aerial-rgbt-dataset](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset) -> synchronized RGB, thermal, GPS, and IMU data
 * [Leafy Spurge Dataset](https://leafy-spurge-dataset.github.io/) -> Real-world Weed Classification Within Aerial Drone Imagery
 * [UAV-HSI-Crop-Dataset](https://github.com/MrSuperNiu/UAV-HSI-Crop-Dataset) -> dataset for "HSI-TransUNet: A Transformer based semantic segmentation model for crop mapping from UAV hyperspectral imagery"
+* [UAVVaste](https://github.com/PUTvision/UAVVaste) -> COCO-like dataset and effective waste detection in aerial images
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
@@ -579,6 +583,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [RRSD300](https://github.com/chdwyb/RSHazeNet) -> Remote Sensing Image Dehazing Dataset
 * [Toulouse Hyperspectral Data Set](https://github.com/Romain3Ch216/TlseHypDataSet)
 * [Hi-UCD](https://github.com/Daisy-7/Hi-UCD-S) -> ultra-High Urban Change Detection for urban semantic change detection
+* [LEVIR-CC-Dataset](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) -> A Large Dataset for Remote Sensing Image Change Captioning
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
