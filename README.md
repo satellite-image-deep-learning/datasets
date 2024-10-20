@@ -112,6 +112,10 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sen4Map](https://datapub.fz-juelich.de/sen4map/) -> Sentinel-2 time series images, covering over 335,125 geo-tagged locations across the European Union. These geo-tagged locations are associated with detailed landcover and land-use information
 * [CloudSEN12Plus](https://huggingface.co/datasets/isp-uv-es/CloudSEN12Plus) -> the largest cloud detection dataset to date for Sentinel-2
 * [mayrajeo S2 ship detection](https://github.com/mayrajeo/ship-detection) -> labels for Detecting marine vessels from Sentinel-2 imagery with YOLOv8
+* [Fields of The World](https://fieldsofthe.world/) -> instance segmentation of agricultural field boundaries
+* [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> field boundaries with Sentinel-2 and aerial photography
+* [California Wildfire GeoImaging Dataset - CWGID](https://arxiv.org/abs/2409.16380) -> Development and Application of a Sentinel-2 Satellite Imagery Dataset for Deep-Learning Driven Forest Wildfire Detection
+* [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -122,6 +126,7 @@ Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
 * [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> This repo hosts all the code for landsatlive.live website and APIs.
 * [LandsatSCD](https://github.com/ggsDing/SCanNet/tree/main) -> a change detection dataset, it consists of 8468 pairs of images, each having the spatial resolution of 416 × 416
+* [The Landsat Irish Coastal Segmentation Dataset](https://zenodo.org/records/8414665)
 
 ## VENμS
 Vegetation and Environment monitoring on a New Micro-Satellite ([VENμS](https://en.wikipedia.org/wiki/VEN%CE%BCS))
@@ -138,6 +143,7 @@ Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.
 ## Planet
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 * Planet have made imagery available via kaggle competitions
+* [Alberta Wells Dataset](https://zenodo.org/records/13743323) -> Pinpointing Oil and Gas Wells from Satellite Imagery
 
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
@@ -584,6 +590,9 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Hi-UCD](https://github.com/Daisy-7/Hi-UCD-S) -> ultra-High Urban Change Detection for urban semantic change detection
 * [LEVIR-CC-Dataset](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) -> A Large Dataset for Remote Sensing Image Change Captioning
 * [ShipRSImageNet](https://github.com/zzndream/ShipRSImageNet) -> A Large-scale Fine-Grained Dataset for Ship Detection in High-Resolution Optical Remote Sensing Images
+* [pangaea-bench](https://github.com/yurujaja/pangaea-bench) -> A Global and Inclusive Benchmark for Geospatial Foundation Models
+* [VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding](https://vrsbench.github.io/)
+* [SeeFar](https://coastalcarbon.ai/seefar) -> Satellite Agnostic Multi-Resolution Dataset for Geospatial Foundation Models
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
