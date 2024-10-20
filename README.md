@@ -116,6 +116,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> field boundaries with Sentinel-2 and aerial photography
 * [California Wildfire GeoImaging Dataset - CWGID](https://arxiv.org/abs/2409.16380) -> Development and Application of a Sentinel-2 Satellite Imagery Dataset for Deep-Learning Driven Forest Wildfire Detection
 * [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
+* [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations dataset
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
