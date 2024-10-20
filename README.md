@@ -117,6 +117,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [California Wildfire GeoImaging Dataset - CWGID](https://arxiv.org/abs/2409.16380) -> Development and Application of a Sentinel-2 Satellite Imagery Dataset for Deep-Learning Driven Forest Wildfire Detection
 * [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
 * [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations dataset
+* [PhilEO-downstream](https://huggingface.co/datasets/PhilEO-community/PhilEO-downstream) -> a 400GB Sentinel-2 dataset for building density estimation, road segmentation, and land cover classification.
+* [PhilEO-pretrain](https://huggingface.co/datasets/PhilEO-community/PhilEO-pretrain) -> a 500GB global dataset of Sentinel-2 images for model pre-training.
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
