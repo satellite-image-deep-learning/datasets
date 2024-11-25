@@ -708,7 +708,6 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * 72 satellite images of Dubai, the UAE, and is segmented into 6 classes
 * [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
-* [Multiclass-semantic-segmentation-in-satallite-images](https://github.com/tahirjhan/Multiclass-semantic-segmentation-in-satallite-images) -> uses keras
 * [Semantic-Segmentation-using-U-Net](https://github.com/Anay21110/Semantic-Segmentation-using-U-Net) -> uses keras
 * [unet_satelite_image_segmentation](https://github.com/nassimaliou/unet_satelite_image_segmentation)
 
