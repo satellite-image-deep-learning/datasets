@@ -148,9 +148,12 @@ Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.
 * [WorldView-2 European Cities](https://earth.esa.int/eogateway/catalog/worldview-2-european-cities) -> dataset covering the most populated areas in Europe at 40 cm resolution
 
 ## Planet
+Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later in this page
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 * Planet have made imagery available via kaggle competitions
 * [Alberta Wells Dataset](https://zenodo.org/records/13743323) -> Pinpointing Oil and Gas Wells from Satellite Imagery
+* [ARGO ship classification dataset](https://zenodo.org/records/6058710) -> 1750 labelled images from PlanetScope-4-Band satelites
+* [Marine Debris Dataset for Object Detection in Planetscope Imagery](https://cmr.earthdata.nasa.gov/search/concepts/C2781412735-MLHUB.html)
 
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
