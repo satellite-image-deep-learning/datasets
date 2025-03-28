@@ -661,26 +661,17 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
 * [Image Segmentation: Kaggle experience](https://towardsdatascience.com/image-segmentation-kaggle-experience-9a41cb8924f0) -> Medium article by gold medal winner Vlad Shmyhlo
 
-### Kaggle - Shipsnet classification dataset
-* https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
-* 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, 3 meter pixel size
-* [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
-
 ### Kaggle - Ships in Google Earth
 * https://www.kaggle.com/datasets/tomluther/ships-in-google-earth
 * 794 jpegs showing various sized ships in satellite imagery, annotations in Pascal VOC format for object detection models
 * [/kaggle-ships-in-satellite-imagery-with-YOLOv8](https://github.com/robmarkcole/kaggle-ships-in-satellite-imagery-with-YOLOv8)
 
-### Kaggle - Ships in San Franciso Bay
+### Kaggle - Classify Ships in San Franciso Bay using Planet satellite imagery
 * https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery
-* 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, provided by Planet
+* 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, 3 meter pixel size
+* [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
 * [DeepLearningShipDetection](https://github.com/PenguinDan/DeepLearningShipDetection)
 * [Ship-Detection-Using-Satellite-Imagery](https://github.com/Dhruvisha29/Ship-Detection-Using-Satellite-Imagery)
-
-### Kaggle - Swimming pool and car detection using satellite imagery
-* https://www.kaggle.com/datasets/kbhartiya83/swimming-pool-and-car-detection
-* 3750 satellite images of residential areas with annotation data for swimming pools and cars
-* [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5)
 
 ### Kaggle - Planesnet classification dataset
 * https://www.kaggle.com/datasets/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
@@ -695,6 +686,11 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * 500 computer generated satellite images of planes
 * [Faster RCNN to detect airplanes](https://github.com/ShubhankarRawat/Airplane-Detection-for-Satellites)
 * [aircraft-detection-from-satellite-images-yolov3](https://github.com/emrekrtorun/aircraft-detection-from-satellite-images-yolov3)
+
+### Kaggle - Swimming pool and car detection using satellite imagery
+* https://www.kaggle.com/datasets/kbhartiya83/swimming-pool-and-car-detection
+* 3750 satellite images of residential areas with annotation data for swimming pools and cars
+* [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5)
 
 ### Kaggle - Draper challenge to place images in order of time
 * https://www.kaggle.com/c/draper-satellite-image-chronology/data
