@@ -605,6 +605,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [RSHaze+](https://zenodo.org/records/13837162) -> remote sensing dehazing datasets in PhDnet: A novel physic-aware dehazing network for remote sensing images
 * [GDCLD](https://zenodo.org/records/13612636) -> A globally distributed dataset of coseismic landslide mapping via multi-source high-resolution remote sensing images
 * [10,000 Crop Field Boundaries across India](https://zenodo.org/records/7315090) -> using Airbus SPOT
+* [BANet change dataset - RS image to cadastral map](https://github.com/lqycrystal/BANet)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
