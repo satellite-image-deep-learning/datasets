@@ -607,6 +607,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [10,000 Crop Field Boundaries across India](https://zenodo.org/records/7315090) -> using Airbus SPOT
 * [BANet change dataset - RS image to cadastral map](https://github.com/lqycrystal/BANet)
 * [VME: A Satellite Imagery Dataset and Benchmark for Detecting Vehicles in the Middle East and Beyond](https://github.com/nalemadi/VME_CDSI_dataset_benchmark)
+* [HouseTS](https://www.kaggle.com/datasets/shengkunwang/housets-dataset) -> Long-term, Multimodal Housing Dataset Across 30 U.S. Metropolitan Area. Uses NAIP. [With paper](https://arxiv.org/abs/2506.00765)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
