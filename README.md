@@ -57,7 +57,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.Y4iEFezP1hE) -> a dataset for deep learning of surface water features on Sentinel-2 satellite images. See [this ref using it in torchgeo](https://towardsdatascience.com/artificial-intelligence-for-geospatial-analysis-with-pytorchs-torchgeo-part-1-52d17e409f09)
 * [Ship-S2-AIS dataset](https://zenodo.org/record/7229756#.Y5GsgOzP1hE) -> 13k tiles extracted from 29 free Sentinel-2 products. 2k images showing ships in Denmark sovereign waters: one may detect cargos, fishing, or container ships
 * [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images
-* [Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
+* [Gold Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
 * [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
 * [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
 * [MATTER](https://github.com/periakiva/MATTER) -> a Sentinel 2 dataset for Self-Supervised Training
