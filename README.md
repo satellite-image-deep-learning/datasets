@@ -32,24 +32,21 @@
 
 ## Sentinel
 As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions)
-* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
+
+### Sentinel-1 (SAR)
+* [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
+* [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
+* [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
+
+### Sentinel-2 (Optical)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
 * [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F)
-* Paid access to Sentinel & Landsat data via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
-* [Jupyter Notebooks for working with Sentinel-5P Level 2 data stored on S3](https://github.com/Sentinel-5P/data-on-s3). The data can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
-* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
 * [Analyzing Sentinel-2 satellite data in Python with Keras](https://github.com/jensleitloff/CNN-Sentinel)
-* [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
 * [SEN2VENµS](https://zenodo.org/record/6514159#.YoRxM5PMK3I) -> a dataset for the training of Sentinel-2 super-resolution algorithms
-* [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion. Checkout [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS) and many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
 * [Sen4AgriNet](https://github.com/Orion-AI-Lab/S4A) -> A Sentinel-2 multi-year, multi-country benchmark dataset for crop classification and segmentation with deep learning, with and [models](https://github.com/Orion-AI-Lab/S4A-Models)
-* [earthspy](https://github.com/AdrienWehrle/earthspy) -> Monitor and study any place on Earth and in Near Real-Time (NRT) using the Sentinel Hub services developed by the EO research team at Sinergise
-* [Space2Ground](https://github.com/Agri-Hub/Space2Ground) -> dataset with Space (Sentinel-1/2) and Ground (street-level images) components, annotated with crop-type labels for agriculture monitoring.
 * [sentinel2tools](https://github.com/QuantuMobileSoftware/sentinel2tools) -> downloading & basic processing of Sentinel 2 imagesry. Read [Sentinel2tools: simple lib for downloading Sentinel-2 satellite images](https://medium.com/geekculture/sentinel2tools-simple-lib-for-downloading-sentinel-2-satellite-images-f8a6be3ee894)
 * [open-sentinel-map](https://github.com/VisionSystemsInc/open-sentinel-map) -> The OpenSentinelMap dataset contains Sentinel-2 imagery and per-pixel semantic label masks derived from OpenStreetMap
-* [MSCDUnet](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
-* [OMBRIA](https://github.com/geodrak/OMBRIA) -> Sentinel-1 & 2 dataset for adressing the flood mapping problem
 * [Canadian-cropland-dataset](https://github.com/bioinfoUQAM/Canadian-cropland-dataset) -> a novel patch-based dataset compiled using optical satellite images of Canadian agricultural croplands retrieved from Sentinel-2
 * [Sentinel-2 Cloud Cover Segmentation Dataset](https://mlhub.earth/data/ref_cloud_cover_detection_challenge_v1) on Radiant mlhub
 * [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
@@ -57,48 +54,26 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.Y4iEFezP1hE) -> a dataset for deep learning of surface water features on Sentinel-2 satellite images. See [this ref using it in torchgeo](https://towardsdatascience.com/artificial-intelligence-for-geospatial-analysis-with-pytorchs-torchgeo-part-1-52d17e409f09)
 * [Ship-S2-AIS dataset](https://zenodo.org/record/7229756#.Y5GsgOzP1hE) -> 13k tiles extracted from 29 free Sentinel-2 products. 2k images showing ships in Denmark sovereign waters: one may detect cargos, fishing, or container ships
 * [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images
-* [Gold Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
-* [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
-* [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
 * [MATTER](https://github.com/periakiva/MATTER) -> a Sentinel 2 dataset for Self-Supervised Training
-* [Industrial Smoke Plumes](https://zenodo.org/record/4250706)
-* [MARIDA: Marine Debris Archive](https://github.com/marine-debris/marine-debris.github.io)
 * [S2GLC](https://s2glc.cbk.waw.pl/) -> High resolution Land Cover Map of Europe
 * [Generating Imperviousness Maps from Multispectral Sentinel-2 Satellite Imagery](https://zenodo.org/record/7058860#.ZDrAeuzMLdo)
 * [Sentinel-2 Water Edges Dataset (SWED)](https://openmldata.ukho.gov.uk/)
-* [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
 * [Sentinel2 Munich480](https://www.kaggle.com/datasets/artelabsuper/sentinel2-munich480) -> dataset for crop mapping by exploiting the time series of Sentinel-2 satellite
 * [Meadows vs Orchards](https://www.kaggle.com/datasets/baptistel/meadows-vs-orchards) -> a pixel time series dataset
-* [SEN12_GUM](https://zenodo.org/record/6914898) -> SEN12 Global Urban Mapping Dataset
-* [Sentinel-1&2 Image Pairs (SAR & Optical)](https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain)
 * [Sentinel-2 Image Time Series for Crop Mapping](https://www.kaggle.com/datasets/ignazio/sentinel2-crop-mapping) -> data for the Lombardy region in Italy
 * [Deforestation in Ukraine from Sentinel2 data](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine)
-* [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
-* [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
 * [satellite-change-events](https://www.cs.cornell.edu/projects/satellite-change-events/) -> CaiRoad & CalFire change detection Sentinel 2 datasets
-* [OMS2CD](https://github.com/Dibz15/OpenMineChangeDetection) -> hand-labelled images for change-detection in open-pit mining areas
-* [coal power plants’ emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants’ emissions, including images, metadata and labels.
-* [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
-* [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
-* [MS-HS-BCD-dataset](https://github.com/arcgislearner/MS-HS-BCD-dataset) -> multisource change detection dataset used in paper: Building Change Detection with Deep Learning by Fusing Spectral and Texture Features of Multisource Remote Sensing Images: A GF-1 and Sentinel 2B Data Case
-* [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
 * [Sentinel-2 dataset for ship detection](https://zenodo.org/records/3923841), also edited and redistributed as [VDS2RAW](https://zenodo.org/records/7982468#.ZIiLxS8QOo4)
 * [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> dataset for paper: AN AUTOMATED SYSTEM TO EVALUATE MINING DISTURBED AREA EXTENTS FROM SENTINEL-2 IMAGERY
-* [CropNet: An Open Large-Scale Dataset with Multiple Modalities for Climate Change-aware Crop Yield Predictions](https://anonymous.4open.science/r/CropNet/README.md) -> terabyte-sized, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
-* [Tiny CropNet dataset](https://github.com/fudong03/MMST-ViT)
 * [CaBuAr](https://github.com/DarthReca/CaBuAr) -> California Burned Areas dataset for delineation
 * [sen12mscr](https://patricktum.github.io/cloud_removal/sen12mscr/) -> Multimodal Cloud Removal
 * [Greenearthnet](https://github.com/vitusbenson/greenearthnet/tree/main) -> dataset specifically designed for high-resolution vegetation forecasting
-* [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset
 * [Floating-Marine-Debris-Data](https://github.com/miguelmendesduarte/Floating-Marine-Debris-Data) -> floating marine debris, with annotations for six debris classes, including plastic, driftwood, seaweed, pumice, sea snot, and sea foam.
 * [Sen2Fire](https://zenodo.org/records/10881058) -> A Challenging Benchmark Dataset for Wildfire Detection using Sentinel Data
 * [L1BSR](https://zenodo.org/records/7826696) -> 3740 pairs of overlapping image crops extracted from two L1B products
 * [GloSoFarID](https://github.com/yzyly1992/GloSoFarID) -> Global multispectral dataset for Solar Farm IDentification
-* [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
 * [MARIDA](https://marine-debris.github.io/index.html) -> Marine Debris detection from Sentinel-2
 * [MADOS](https://github.com/gkakogeorgiou/mados) -> Marine Debris and Oil Spill from Sentinel-2
-* [Sentinel-1 and Sentinel-2 Vessel Detection](https://github.com/allenai/vessel-detection-sentinels)
-* [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
 * [Sentinel-2 dataset for ship detection and characterization](https://zenodo.org/records/10418786) -> RGB
 * [S2-SHIPS](https://github.com/alina2204/contrastive_SSL_ship_detection) -> all 12 channels
 * [ChatEarthNet](https://github.com/zhu-xlab/ChatEarthNet) -> A Global-Scale Image-Text Dataset Empowering Vision-Language Geo-Foundation Models, utilizes Sentinel-2 data with captions generated by ChatGPT
@@ -107,7 +82,6 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [TimeSen2Crop](https://zenodo.org/records/4715631) -> a Million Labeled Samples Dataset of Sentinel 2 Image Time Series for Crop Type Classification
 * [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
 * [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) -> a new multimodal benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations
-* [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
 * [MuS2: A Benchmark for Sentinel-2 Multi-Image Super-Resolution](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F1JMRAT)
 * [Sen4Map](https://datapub.fz-juelich.de/sen4map/) -> Sentinel-2 time series images, covering over 335,125 geo-tagged locations across the European Union. These geo-tagged locations are associated with detailed landcover and land-use information
 * [CloudSEN12Plus](https://huggingface.co/datasets/isp-uv-es/CloudSEN12Plus) -> the largest cloud detection dataset to date for Sentinel-2
@@ -115,7 +89,6 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Fields of The World](https://fieldsofthe.world/) -> instance segmentation of agricultural field boundaries
 * [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> field boundaries with Sentinel-2 and aerial photography
 * [California Wildfire GeoImaging Dataset - CWGID](https://arxiv.org/abs/2409.16380) -> Development and Application of a Sentinel-2 Satellite Imagery Dataset for Deep-Learning Driven Forest Wildfire Detection
-* [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
 * [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations dataset
 * [PhilEO-downstream](https://huggingface.co/datasets/PhilEO-community/PhilEO-downstream) -> a 400GB Sentinel-2 dataset for building density estimation, road segmentation, and land cover classification.
 * [PhilEO-pretrain](https://huggingface.co/datasets/PhilEO-community/PhilEO-pretrain) -> a 500GB global dataset of Sentinel-2 images for model pre-training.
@@ -125,8 +98,39 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Cloud gap-filling with deep learning for improved grassland monitoring](https://zenodo.org/records/11651601)
 * [Remote Sensing Ship Wake Dataset](https://github.com/zjze/RSSW_Dateset)
 * [ERAS-dataset](https://github.com/cscribano/ERAS-dataset) -> Emilia-Romagna Agri Seg (ERAS) field segmentation dataset
+* [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
 
-## Landsat
+### Combined Sentinel
+* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
+* Paid access to Sentinel & Landsat data via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
+* [Jupyter Notebooks for working with Sentinel-5P Level 2 data stored on S3](https://github.com/Sentinel-5P/data-on-s3). The data can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
+* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
+* [earthspy](https://github.com/AdrienWehrle/earthspy) -> Monitor and study any place on Earth and in Near Real-Time (NRT) using the Sentinel Hub services developed by the EO research team at Sinergise
+* [Gold Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
+* [Industrial Smoke Plumes](https://zenodo.org/record/4250706)
+* [MARIDA: Marine Debris Archive](https://github.com/marine-debris/marine-debris.github.io)
+* [OMS2CD](https://github.com/Dibz15/OpenMineChangeDetection) -> hand-labelled images for change-detection in open-pit mining areas
+* [coal power plants' emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants' emissions, including images, metadata and labels.
+* [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
+* [MS-HS-BCD-dataset](https://github.com/arcgislearner/MS-HS-BCD-dataset) -> multisource change detection dataset used in paper: Building Change Detection with Deep Learning by Fusing Spectral and Texture Features of Multisource Remote Sensing Images: A GF-1 and Sentinel 2B Data Case
+* [CropNet: An Open Large-Scale Dataset with Multiple Modalities for Climate Change-aware Crop Yield Predictions](https://anonymous.4open.science/r/CropNet/README.md) -> terabyte-sized, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
+* [Tiny CropNet dataset](https://github.com/fudong03/MMST-ViT)
+* [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
+* [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
+* [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset
+* [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion. Checkout [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS) and many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
+* [Space2Ground](https://github.com/Agri-Hub/Space2Ground) -> dataset with Space (Sentinel-1/2) and Ground (street-level images) components, annotated with crop-type labels for agriculture monitoring.
+* [MSCDUnet](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
+* [OMBRIA](https://github.com/geodrak/OMBRIA) -> Sentinel-1 & 2 dataset for adressing the flood mapping problem
+* [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
+* [SEN12_GUM](https://zenodo.org/record/6914898) -> SEN12 Global Urban Mapping Dataset
+* [Sentinel-1&2 Image Pairs (SAR & Optical)](https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain)
+* [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
+* [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
+* [Sentinel-1 and Sentinel-2 Vessel Detection](https://github.com/allenai/vessel-detection-sentinels)
+* [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
+* [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
+* [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Landsat 4, 5, 7, and 8 imagery on Google](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with Landsat 8 imagery in COG format analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
