@@ -130,7 +130,9 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sentinel-1 and Sentinel-2 Vessel Detection](https://github.com/allenai/vessel-detection-sentinels)
 * [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
 * [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
-* [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)## Landsat
+* [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
+
+## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Landsat 4, 5, 7, and 8 imagery on Google](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with Landsat 8 imagery in COG format analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
