@@ -99,6 +99,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Remote Sensing Ship Wake Dataset](https://github.com/zjze/RSSW_Dateset)
 * [ERAS-dataset](https://github.com/cscribano/ERAS-dataset) -> Emilia-Romagna Agri Seg (ERAS) field segmentation dataset
 * [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
+* [SeasoNet](https://zenodo.org/records/6979994) -> A Seasonal Scene Classification, Segmentation and Retrieval Dataset for Satellite Imagery over Germany. Land cover classes based on the CORINE Land Cover database (CLC) 2018
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
