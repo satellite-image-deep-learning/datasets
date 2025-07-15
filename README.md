@@ -416,6 +416,7 @@ SatlasPretrain is a large-scale pre-training dataset for tasks that involve unde
 * Paper and code demonstrating domain adaptation to Sentinel-2 and Planetscope imagery
 * Extends the [GID15 large scale semantic segmentation dataset](https://captain-whu.github.io/GID15/)
 * [GID](https://x-ytong.github.io/project/GID.html) -> the Gaofen Image Dataset is a large-scale land-cover dataset with Gaofen-2 (GF-2) satellite images
+* [MM-5B Dataset](https://github.com/AI-Tianlong/HieraRS) -> Multi-Modal Five-Billion-Pixels is a large-scale, multi-modal, hierarchical Land Cover and Land Use (LCLU) dataset, built upon the Five-Billion-Pixels foundation.
 
 ## RF100 object detection benchmark
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
