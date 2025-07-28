@@ -562,7 +562,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [So2Sat-POP-DL](https://github.com/zhu-xlab/So2Sat-POP-DL) -> Dataset discovery: So2Sat Population dataset covering 98 EU cities
 * [HouseTS](https://www.kaggle.com/datasets/shengkunwang/housets-dataset) -> Long-term, Multimodal Housing Dataset Across 30 U.S. Metropolitan Area. Uses NAIP. [With paper](https://arxiv.org/abs/2506.00765)
 * [10,000 Crop Field Boundaries across India](https://zenodo.org/records/7315090) -> using Airbus SPOT
-* [DFC2025-OEM-SAR-Baseline](https://github.com/cliffbb/DFC2025-OEM-SAR-Baseline) -> VHR SAR used in the 2025 IEEE GRSS Data Fusion Contest Track 1: All-Weather Land Cover Mapping
+* [OpenEarthMap-SAR](https://github.com/cliffbb/OpenEarthMap-SAR) -> VHR SAR used in the 2025 IEEE GRSS Data Fusion Contest Track 1: All-Weather Land Cover Mapping. Utilises data from Umbra and Capella Space
 
 ### Change Detection
 * [S2Looking](https://github.com/S2Looking/Dataset) -> A Satellite Side-Looking Dataset for Building Change Detection, [paper](https://arxiv.org/abs/2107.09244)
