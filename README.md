@@ -285,7 +285,7 @@ Vehicle Detection in Aerial Imagery. Bounding box annotations
 * [pytorch-vedai](https://github.com/MichelHalmes/pytorch-vedai)
 
 ## Cars Overhead With Context (COWC)
-Large set of annotated cars from overhead. Established baseline for object detection and counting tasks. Annotations in bounding box formatr
+Large set of annotated cars from overhead. Established baseline for object detection and counting tasks. Annotations in bounding box format
 * http://gdo152.ucllnl.org/cowc/
 * https://github.com/LLNL/cowc
 * [Detecting cars from aerial imagery for the NATO Innovation Challenge](https://arthurdouillard.com/post/nato-challenge/)
