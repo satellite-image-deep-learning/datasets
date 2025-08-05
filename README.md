@@ -545,6 +545,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Urban Vehicle Segmentation Dataset (UV6K)](https://zenodo.org/records/8404754)
 * [ShipRSImageNet](https://github.com/zzndream/ShipRSImageNet) -> A Large-scale Fine-Grained Dataset for Ship Detection in High-Resolution Optical Remote Sensing Images
 * [VME: A Satellite Imagery Dataset and Benchmark for Detecting Vehicles in the Middle East and Beyond](https://github.com/nalemadi/VME_CDSI_dataset_benchmark)
+* [VHRV: Very High-Resolution Benchmark Dataset for Vessel Detection](https://github.com/buyukkanber/vhrv)
 
 ### Land Use & Land Cover
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
