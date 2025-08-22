@@ -165,6 +165,7 @@ Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later
 * [ARGO ship classification dataset](https://zenodo.org/records/6058710) -> 1750 labelled images from PlanetScope-4-Band satelites. Created [here](https://github.com/elizamanelli/ship_dataset/tree/main)
 * [Marine Debris Dataset for Object Detection in Planetscope Imagery](https://cmr.earthdata.nasa.gov/search/concepts/C2781412735-MLHUB.html)
 * [LitterLines](https://github.com/geoJoost/LitterLines) -> An Annotated Dataset for Detection of Marine Litter Windrows in PlanetScope Imagery
+* [FloodPlanet Inundation Dataset](https://zenodo.org/records/15238572) -> multi-sensor co-registered dataset labeled based on 3m PlanetScope data and spatially overlapping, temporally near Sentinel-1, Sentinel-2, and Landsat-8 data
 
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
