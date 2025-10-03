@@ -102,6 +102,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [SeasoNet](https://zenodo.org/records/6979994) -> A Seasonal Scene Classification, Segmentation and Retrieval Dataset for Satellite Imagery over Germany. Land cover classes based on the CORINE Land Cover database (CLC) 2018
 * [EuroCropsML](https://github.com/dida-do/eurocropsml) -> a ready-to-use benchmark dataset for few-shot crop type classification using Sentinel-2 imagery
 * [CanadaFireSat](https://github.com/eceo-epfl/CanadaFireSat-Data) -> Sentinel-2 Level-1C time series
+* [ssl4eco](https://github.com/PlekhanovaElena/ssl4eco) -> a recipe for building pretraining sets that capture the geographical and phenological diversity of ecosystems across the globe
+* [IRRISIGHT](https://github.com/Nibir088/IRRISIGHT) -> a large-scale, multimodal remote sensing dataset for irrigation classification, soil-water mapping, and agricultural monitoring.
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
