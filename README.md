@@ -118,7 +118,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [coal power plants' emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants' emissions, including images, metadata and labels.
 * [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
 * [MS-HS-BCD-dataset](https://github.com/arcgislearner/MS-HS-BCD-dataset) -> multisource change detection dataset used in paper: Building Change Detection with Deep Learning by Fusing Spectral and Texture Features of Multisource Remote Sensing Images: A GF-1 and Sentinel 2B Data Case
-* [CropNet: An Open Large-Scale Dataset with Multiple Modalities for Climate Change-aware Crop Yield Predictions](https://anonymous.4open.science/r/CropNet/README.md) -> terabyte-sized, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
+* [CropNet: An Open Large-Scale Dataset with Multiple Modalities for Climate Change-aware Crop Yield Predictions](https://github.com/fudong03/CropNet) -> terabyte-sized, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
 * [Tiny CropNet dataset](https://github.com/fudong03/MMST-ViT)
 * [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
 * [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
