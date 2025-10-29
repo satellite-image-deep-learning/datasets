@@ -136,6 +136,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
 * [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
 * [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
+* [CropClimateX](https://github.com/drnhhl/CropClimateX) -> A large-scale Multitask, Multisensory Dataset for Crop Monitoring under Climate Extremes
+* [SmallMinesDS](https://huggingface.co/datasets/ellaampy/SmallMinesDS) -> A Multimodal Dataset for Mapping Artisanal and Small-Scale Gold Mines. Imagery reused in [CocoaMiningDS](https://huggingface.co/datasets/ellaampy/CocoaMiningDS)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -615,6 +617,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [TimeMatch](https://zenodo.org/records/5636422) -> dataset for cross-region adaptation for crop identification from SITS in four different regions in Europe
 * [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
 * [Remote Sensing Satellite Video Dataset for Super-resolution](https://zenodo.org/record/6969604#.ZCBd-OzMJhE)
+* [SpatioTemporalYield](https://huggingface.co/datasets/ellaampy/SpatioTemporalYield) -> covers the USA’s top five corn-producing states: Iowa, Illinois, Indiana, Nebraska, and Minnesota.
 
 ### Hyperspectral & Multi-modal
 * [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
