@@ -104,6 +104,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [CanadaFireSat](https://github.com/eceo-epfl/CanadaFireSat-Data) -> Sentinel-2 Level-1C time series
 * [ssl4eco](https://github.com/PlekhanovaElena/ssl4eco) -> a recipe for building pretraining sets that capture the geographical and phenological diversity of ecosystems across the globe
 * [IRRISIGHT](https://github.com/Nibir088/IRRISIGHT) -> a large-scale, multimodal remote sensing dataset for irrigation classification, soil-water mapping, and agricultural monitoring.
+* [SentinelKilnDB](https://sustainability-lab.github.io/sentinelkilndb/) -> Sentinel-2 dataset for monitoring brick kiln emissions in South Asia
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -609,6 +610,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Digital Typhoon Dataset](https://github.com/kitamoto-lab/digital-typhoon/) -> aimed at benchmarking machine learning models for long-term spatio-temporal data
 * [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
 * [RSHaze+](https://zenodo.org/records/13837162) -> remote sensing dehazing datasets in PhDnet: A novel physic-aware dehazing network for remote sensing images
+* [GMSEUS](https://github.com/stidjaco/GMSEUS) -> A comprehensive ground-mounted solar energy dataset with sub-array design metadata in the United States
 
 ### Agricultural & Environmental
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
