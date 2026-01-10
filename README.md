@@ -105,6 +105,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [ssl4eco](https://github.com/PlekhanovaElena/ssl4eco) -> a recipe for building pretraining sets that capture the geographical and phenological diversity of ecosystems across the globe
 * [IRRISIGHT](https://github.com/Nibir088/IRRISIGHT) -> a large-scale, multimodal remote sensing dataset for irrigation classification, soil-water mapping, and agricultural monitoring.
 * [SentinelKilnDB](https://sustainability-lab.github.io/sentinelkilndb/) -> Sentinel-2 dataset for monitoring brick kiln emissions in South Asia
+* [MSSWD - Multi-Spectral Ship Wake Dataset](https://zenodo.org/records/13870226)
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -571,6 +572,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [HouseTS](https://www.kaggle.com/datasets/shengkunwang/housets-dataset) -> Long-term, Multimodal Housing Dataset Across 30 U.S. Metropolitan Area. Uses NAIP. [With paper](https://arxiv.org/abs/2506.00765)
 * [10,000 Crop Field Boundaries across India](https://zenodo.org/records/7315090) -> using Airbus SPOT
 * [OpenEarthMap-SAR](https://github.com/cliffbb/OpenEarthMap-SAR) -> VHR SAR used in the 2025 IEEE GRSS Data Fusion Contest Track 1: All-Weather Land Cover Mapping. Utilises data from Umbra and Capella Space
+* [Tokyo Land Use Land Cover Dataset](https://github.com/Tusaifei/Tokyo_dataset) ->  0.5-m resolution images, two kinds of 10-m resolution LCPs, and two kinds of 30-m resolution LCPs
 
 ### Change Detection
 * [S2Looking](https://github.com/S2Looking/Dataset) -> A Satellite Side-Looking Dataset for Building Change Detection, [paper](https://arxiv.org/abs/2107.09244)
@@ -585,6 +587,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [LEVIR-CC-Dataset](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) -> A Large Dataset for Remote Sensing Image Change Captioning
 * [GDCLD](https://zenodo.org/records/13612636) -> A globally distributed dataset of coseismic landslide mapping via multi-source high-resolution remote sensing images
 * [BANet change dataset - RS image to cadastral map](https://github.com/lqycrystal/BANet)
+* [Indian Cities Change Detection (ICCD) Dataset](https://ieee-dataport.org/documents/indian-cities-change-detection-iccd-dataset)
 
 ### SAR-Specific Datasets
 * [HRSID](https://github.com/chaozhong2010/HRSID) -> high resolution sar images dataset for ship detection, semantic segmentation, and instance segmentation tasks
@@ -611,6 +614,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
 * [RSHaze+](https://zenodo.org/records/13837162) -> remote sensing dehazing datasets in PhDnet: A novel physic-aware dehazing network for remote sensing images
 * [GMSEUS](https://github.com/stidjaco/GMSEUS) -> A comprehensive ground-mounted solar energy dataset with sub-array design metadata in the United States
+* [MultiviewRS](https://github.com/fmenat/multiviewRS-datasets) -> List of remote sensing (RS) multi-view datasets for exploring multi-view learning
+* [SatDepth](https://satdepth.pythonanywhere.com/) -> A Novel Dataset for Satellite Image Matching and Depth Estimation
 
 ### Agricultural & Environmental
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
@@ -620,6 +625,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
 * [Remote Sensing Satellite Video Dataset for Super-resolution](https://zenodo.org/record/6969604#.ZCBd-OzMJhE)
 * [SpatioTemporalYield](https://huggingface.co/datasets/ellaampy/SpatioTemporalYield) -> covers the USA’s top five corn-producing states: Iowa, Illinois, Indiana, Nebraska, and Minnesota.
+* [Palm Tree Dataset](https://github.com/NourO93/Palm-Tree-Dataset/tree/main)
+* [ts-satfire](https://www.kaggle.com/datasets/z789456sx/ts-satfire) -> A Multi-Task Satellite Image Time-Series Dataset for Wildfire Detection and Prediction
 
 ### Hyperspectral & Multi-modal
 * [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
