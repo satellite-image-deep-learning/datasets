@@ -32,57 +32,117 @@
 
 ## Sentinel
 As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions)
-* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
+
+### Sentinel-1 (SAR)
+* [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
+* [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
+* [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
+
+### Sentinel-2 (Optical)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
 * [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F)
-* Paid access to Sentinel & Landsat data via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
-* [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
-* [BigEarthNet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels. Also available [in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html#bigearthnet)
-* [Jupyter Notebooks for working with Sentinel-5P Level 2 data stored on S3](https://github.com/Sentinel-5P/data-on-s3). The data can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
-* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
 * [Analyzing Sentinel-2 satellite data in Python with Keras](https://github.com/jensleitloff/CNN-Sentinel)
-* [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
 * [SEN2VENµS](https://zenodo.org/record/6514159#.YoRxM5PMK3I) -> a dataset for the training of Sentinel-2 super-resolution algorithms
+* [M3LEO](https://huggingface.co/M3LEO) -> [Github](https://github.com/spaceml-org/M3LEO). A very large scale georeferenced dataset of Sentinel 1/2 imagery plus interferometric SAR products and auxiliary datasets such as Land cover, Biomass and Digital Elevation Models.
 * [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion. Checkout [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS) and many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
-* [Sen4AgriNet](https://github.com/Orion-AI-Lab/S4A) -> A Sentinel-2 multi-year, multi-country benchmark dataset for crop classification and segmentation with deep learning, with [website](https://www.sen4agrinet.space.noa.gr/) and [models](https://github.com/Orion-AI-Lab/S4A-Models)
-* [earthspy](https://github.com/AdrienWehrle/earthspy) -> Monitor and study any place on Earth and in Near Real-Time (NRT) using the Sentinel Hub services developed by the EO research team at Sinergise
-* [Space2Ground](https://github.com/Agri-Hub/Space2Ground) -> dataset with Space (Sentinel-1/2) and Ground (street-level images) components, annotated with crop-type labels for agriculture monitoring.
+* [SEN2NAIP](https://huggingface.co/datasets/tacofoundation/SEN2NAIPv2) -> Spatially and spectrally harmonized Sen-2 + NAIP dataset for 4x RGB-NIR super-resolution.
+* [Sen4AgriNet](https://github.com/Orion-AI-Lab/S4A) -> A Sentinel-2 multi-year, multi-country benchmark dataset for crop classification and segmentation with deep learning, with and [models](https://github.com/Orion-AI-Lab/S4A-Models)
 * [sentinel2tools](https://github.com/QuantuMobileSoftware/sentinel2tools) -> downloading & basic processing of Sentinel 2 imagesry. Read [Sentinel2tools: simple lib for downloading Sentinel-2 satellite images](https://medium.com/geekculture/sentinel2tools-simple-lib-for-downloading-sentinel-2-satellite-images-f8a6be3ee894)
 * [open-sentinel-map](https://github.com/VisionSystemsInc/open-sentinel-map) -> The OpenSentinelMap dataset contains Sentinel-2 imagery and per-pixel semantic label masks derived from OpenStreetMap
-* [MSCDUnet](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
-* [OMBRIA](https://github.com/geodrak/OMBRIA) -> Sentinel-1 & 2 dataset for adressing the flood mapping problem
 * [Canadian-cropland-dataset](https://github.com/bioinfoUQAM/Canadian-cropland-dataset) -> a novel patch-based dataset compiled using optical satellite images of Canadian agricultural croplands retrieved from Sentinel-2
 * [Sentinel-2 Cloud Cover Segmentation Dataset](https://mlhub.earth/data/ref_cloud_cover_detection_challenge_v1) on Radiant mlhub
 * [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
 * [fMoW-Sentinel](https://purl.stanford.edu/vg497cb6002) -> The Functional Map of the World - Sentinel-2 corresponding images (fMoW-Sentinel) dataset consists of image time series collected by the Sentinel-2 satellite, corresponding to locations from the Functional Map of the World (fMoW) dataset across several different times. Used in [SatMAE](https://github.com/sustainlab-group/SatMAE)
 * [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.Y4iEFezP1hE) -> a dataset for deep learning of surface water features on Sentinel-2 satellite images. See [this ref using it in torchgeo](https://towardsdatascience.com/artificial-intelligence-for-geospatial-analysis-with-pytorchs-torchgeo-part-1-52d17e409f09)
 * [Ship-S2-AIS dataset](https://zenodo.org/record/7229756#.Y5GsgOzP1hE) -> 13k tiles extracted from 29 free Sentinel-2 products. 2k images showing ships in Denmark sovereign waters: one may detect cargos, fishing, or container ships
-* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
-* [Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
-* [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
-* [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
+* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images
 * [MATTER](https://github.com/periakiva/MATTER) -> a Sentinel 2 dataset for Self-Supervised Training
-* [Industrial Smoke Plumes](https://zenodo.org/record/4250706)
-* [MARIDA: Marine Debris Archive](https://github.com/marine-debris/marine-debris.github.io)
 * [S2GLC](https://s2glc.cbk.waw.pl/) -> High resolution Land Cover Map of Europe
 * [Generating Imperviousness Maps from Multispectral Sentinel-2 Satellite Imagery](https://zenodo.org/record/7058860#.ZDrAeuzMLdo)
 * [Sentinel-2 Water Edges Dataset (SWED)](https://openmldata.ukho.gov.uk/)
-* [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
 * [Sentinel2 Munich480](https://www.kaggle.com/datasets/artelabsuper/sentinel2-munich480) -> dataset for crop mapping by exploiting the time series of Sentinel-2 satellite
 * [Meadows vs Orchards](https://www.kaggle.com/datasets/baptistel/meadows-vs-orchards) -> a pixel time series dataset
-* [SEN12_GUM](https://zenodo.org/record/6914898) -> SEN12 Global Urban Mapping Dataset
-* [Sentinel-2 dataset for ship detection](https://zenodo.org/record/3923841) -> includes AIS data
-* [Sentinel-1&2 Image Pairs (SAR & Optical)](https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain)
 * [Sentinel-2 Image Time Series for Crop Mapping](https://www.kaggle.com/datasets/ignazio/sentinel2-crop-mapping) -> data for the Lombardy region in Italy
 * [Deforestation in Ukraine from Sentinel2 data](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine)
+* [satellite-change-events](https://www.cs.cornell.edu/projects/satellite-change-events/) -> CaiRoad & CalFire change detection Sentinel 2 datasets
+* [Sentinel-2 dataset for ship detection](https://zenodo.org/records/3923841), also edited and redistributed as [VDS2RAW](https://zenodo.org/records/7982468#.ZIiLxS8QOo4)
+* [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> dataset for paper: AN AUTOMATED SYSTEM TO EVALUATE MINING DISTURBED AREA EXTENTS FROM SENTINEL-2 IMAGERY
+* [CaBuAr](https://github.com/DarthReca/CaBuAr) -> California Burned Areas dataset for delineation
+* [sen12mscr](https://patricktum.github.io/cloud_removal/sen12mscr/) -> Multimodal Cloud Removal
+* [Greenearthnet](https://github.com/vitusbenson/greenearthnet/tree/main) -> dataset specifically designed for high-resolution vegetation forecasting
+* [Floating-Marine-Debris-Data](https://github.com/miguelmendesduarte/Floating-Marine-Debris-Data) -> floating marine debris, with annotations for six debris classes, including plastic, driftwood, seaweed, pumice, sea snot, and sea foam.
+* [Sen2Fire](https://zenodo.org/records/10881058) -> A Challenging Benchmark Dataset for Wildfire Detection using Sentinel Data
+* [L1BSR](https://zenodo.org/records/7826696) -> 3740 pairs of overlapping image crops extracted from two L1B products
+* [GloSoFarID](https://github.com/yzyly1992/GloSoFarID) -> Global multispectral dataset for Solar Farm IDentification
+* [MARIDA](https://marine-debris.github.io/index.html) -> Marine Debris detection from Sentinel-2
+* [MADOS](https://github.com/gkakogeorgiou/mados) -> Marine Debris and Oil Spill from Sentinel-2
+* [Sentinel-2 dataset for ship detection and characterization](https://zenodo.org/records/10418786) -> RGB
+* [S2-SHIPS](https://github.com/alina2204/contrastive_SSL_ship_detection) -> all 12 channels
+* [ChatEarthNet](https://github.com/zhu-xlab/ChatEarthNet) -> A Global-Scale Image-Text Dataset Empowering Vision-Language Geo-Foundation Models, utilizes Sentinel-2 data with captions generated by ChatGPT
+* [UKFields](https://github.com/Spiruel/UKFields) -> over 2.3 million automatically delineated field boundaries spanning England, Wales, Scotland, and Northern Ireland
+* [ShipWakes](https://zenodo.org/records/7947694) -> Keypoints Method for Recognition of Ship Wake Components in Sentinel-2 Images by Deep Learning
+* [TimeSen2Crop](https://zenodo.org/records/4715631) -> a Million Labeled Samples Dataset of Sentinel 2 Image Time Series for Crop Type Classification
+* [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
+* [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) -> a new multimodal benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations
+* [MuS2: A Benchmark for Sentinel-2 Multi-Image Super-Resolution](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F1JMRAT)
+* [Sen4Map](https://datapub.fz-juelich.de/sen4map/) -> Sentinel-2 time series images, covering over 335,125 geo-tagged locations across the European Union. These geo-tagged locations are associated with detailed landcover and land-use information
+* [CloudSEN12Plus](https://huggingface.co/datasets/isp-uv-es/CloudSEN12Plus) -> the largest cloud detection dataset to date for Sentinel-2
+* [mayrajeo S2 ship detection](https://github.com/mayrajeo/ship-detection) -> labels for Detecting marine vessels from Sentinel-2 imagery with YOLOv8
+* [Fields of The World](https://fieldsofthe.world/) -> instance segmentation of agricultural field boundaries
+* [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> field boundaries with Sentinel-2 and aerial photography
+* [California Wildfire GeoImaging Dataset - CWGID](https://arxiv.org/abs/2409.16380) -> Development and Application of a Sentinel-2 Satellite Imagery Dataset for Deep-Learning Driven Forest Wildfire Detection
+* [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations dataset
+* [PhilEO-downstream](https://huggingface.co/datasets/PhilEO-community/PhilEO-downstream) -> a 400GB Sentinel-2 dataset for building density estimation, road segmentation, and land cover classification.
+* [PhilEO-pretrain](https://huggingface.co/datasets/PhilEO-community/PhilEO-pretrain) -> a 500GB global dataset of Sentinel-2 images for model pre-training.
+* [KappaSet: Sentinel-2 KappaZeta Cloud and Cloud Shadow Masks](https://zenodo.org/records/7100327)
+* [AllClear](https://allclear.cs.cornell.edu/) A Comprehensive Dataset and Benchmark for Cloud Removal in Satellite Imagery
+* [Sentinel-2 reference cloud masks generated by an active learning method](https://zenodo.org/records/1460961)
+* [Cloud gap-filling with deep learning for improved grassland monitoring](https://zenodo.org/records/11651601)
+* [Remote Sensing Ship Wake Dataset](https://github.com/zjze/RSSW_Dateset)
+* [ERAS-dataset](https://github.com/cscribano/ERAS-dataset) -> Emilia-Romagna Agri Seg (ERAS) field segmentation dataset
+* [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
+* [SeasoNet](https://zenodo.org/records/6979994) -> A Seasonal Scene Classification, Segmentation and Retrieval Dataset for Satellite Imagery over Germany. Land cover classes based on the CORINE Land Cover database (CLC) 2018
+* [EuroCropsML](https://github.com/dida-do/eurocropsml) -> a ready-to-use benchmark dataset for few-shot crop type classification using Sentinel-2 imagery
+* [CanadaFireSat](https://github.com/eceo-epfl/CanadaFireSat-Data) -> Sentinel-2 Level-1C time series
+* [ssl4eco](https://github.com/PlekhanovaElena/ssl4eco) -> a recipe for building pretraining sets that capture the geographical and phenological diversity of ecosystems across the globe
+* [IRRISIGHT](https://github.com/Nibir088/IRRISIGHT) -> a large-scale, multimodal remote sensing dataset for irrigation classification, soil-water mapping, and agricultural monitoring.
+* [SentinelKilnDB](https://sustainability-lab.github.io/sentinelkilndb/) -> Sentinel-2 dataset for monitoring brick kiln emissions in South Asia
+* [MSSWD - Multi-Spectral Ship Wake Dataset](https://zenodo.org/records/13870226)
+
+### Combined Sentinel
+* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
+* Paid access to Sentinel & Landsat data via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
+* [Jupyter Notebooks for working with Sentinel-5P Level 2 data stored on S3](https://github.com/Sentinel-5P/data-on-s3). The data can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
+* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
+* [earthspy](https://github.com/AdrienWehrle/earthspy) -> Monitor and study any place on Earth and in Near Real-Time (NRT) using the Sentinel Hub services developed by the EO research team at Sinergise
+* [Gold Mining and clandestine airstrips datasets](https://github.com/earthrise-media/mining-detector)
+* [Industrial Smoke Plumes](https://zenodo.org/record/4250706)
+* [MARIDA: Marine Debris Archive](https://github.com/marine-debris/marine-debris.github.io)
+* [OMS2CD](https://github.com/Dibz15/OpenMineChangeDetection) -> hand-labelled images for change-detection in open-pit mining areas
+* [coal power plants' emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants' emissions, including images, metadata and labels.
+* [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
+* [MS-HS-BCD-dataset](https://github.com/arcgislearner/MS-HS-BCD-dataset) -> multisource change detection dataset used in paper: Building Change Detection with Deep Learning by Fusing Spectral and Texture Features of Multisource Remote Sensing Images: A GF-1 and Sentinel 2B Data Case
+* [CropNet: An Open Large-Scale Dataset with Multiple Modalities for Climate Change-aware Crop Yield Predictions](https://github.com/fudong03/CropNet) -> terabyte-sized, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
+* [Tiny CropNet dataset](https://github.com/fudong03/MMST-ViT)
 * [Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery](https://zenodo.org/record/5644746)
 * [METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping](https://stanfordmlgroup.github.io/projects/meter-ml/) -> data [on Zenodo](https://zenodo.org/record/6911013)
-* [satellite-change-events](https://www.cs.cornell.edu/projects/satellite-change-events/) -> CaiRoad & CalFire change detection Sentinel 2 datasets
-* [OMS2CD](https://github.com/Dibz15/OpenMineChangeDetection) -> hand-labelled images for change-detection in open-pit mining areas
-* [coal power plants’ emissions](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> a dataset of coal power plants’ emissions, including images, metadata and labels.
-* [RapidAI4EO](https://rapidai4eo.radiant.earth/) -> dense time series satellite imagery sampled at 500,000 locations across Europe, comprising S2 & Planet imagery, with CORINE Land Cover multiclass labels for 2018
-* [Sentinel 2 super-resolved data cubes - 92 scenes over 2 regions in Switzerland spanning 5 years](https://ieee-dataport.org/documents/sentinel-2-super-resolved-data-cubes-92-scenes-over-2-regions-switzerland-spanning-5-years)
+* [MultiSenGE](https://zenodo.org/records/6375466) -> large-scale multimodal and multitemporal benchmark dataset
+* [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion. Checkout [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS) and many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
+* [Space2Ground](https://github.com/Agri-Hub/Space2Ground) -> dataset with Space (Sentinel-1/2) and Ground (street-level images) components, annotated with crop-type labels for agriculture monitoring.
+* [MSCDUnet](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
+* [OMBRIA](https://github.com/geodrak/OMBRIA) -> Sentinel-1 & 2 dataset for adressing the flood mapping problem
+* [Satellite Burned Area Dataset](https://zenodo.org/record/6597139#.Y9ufiezP1hE) -> segmentation dataset containing several satellite acquisitions related to past forest wildfires. It contains 73 acquisitions from Sentinel-2 and Sentinel-1 (Copernicus).
+* [SEN12_GUM](https://zenodo.org/record/6914898) -> SEN12 Global Urban Mapping Dataset
+* [Sentinel-1&2 Image Pairs (SAR & Optical)](https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain)
+* [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
+* [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Multi-resolution time-series images from Landsat-8, Sentinel-1, and Sentinel-2
+* [Sentinel-1 and Sentinel-2 Vessel Detection](https://github.com/allenai/vessel-detection-sentinels)
+* [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
+* [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
+* [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
+* [CropClimateX](https://github.com/drnhhl/CropClimateX) -> A large-scale Multitask, Multisensory Dataset for Crop Monitoring under Climate Extremes
+* [SmallMinesDS](https://huggingface.co/datasets/ellaampy/SmallMinesDS) -> A Multimodal Dataset for Mapping Artisanal and Small-Scale Gold Mines. Imagery reused in [CocoaMiningDS](https://huggingface.co/datasets/ellaampy/CocoaMiningDS)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -92,6 +152,16 @@ Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat
 * https://github.com/kylebarron/landsat-mosaic-latest -> Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
 * [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> This repo hosts all the code for landsatlive.live website and APIs.
+* [LandsatSCD](https://github.com/ggsDing/SCanNet/tree/main) -> a change detection dataset, it consists of 8468 pairs of images, each having the spatial resolution of 416 × 416
+* [The Landsat Irish Coastal Segmentation Dataset](https://zenodo.org/records/8414665)
+
+## VENμS
+Vegetation and Environment monitoring on a New Micro-Satellite ([VENμS](https://en.wikipedia.org/wiki/VEN%CE%BCS))
+* [VENUS L2A Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/venus-l2a-cogs/)
+* [VENuS cloud mask training dataset](https://zenodo.org/records/7040177)
+* [Sen2Venµs](https://zenodo.org/records/6514159) -> a dataset for the training of Sentinel-2 super-resolution algorithms
+* [sen2venus-pytorch-dataset](https://github.com/piclem/sen2venus-pytorch-dataset) -> torch dataloader and other utilities
+
 
 ## Maxar
 Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
@@ -99,13 +169,18 @@ Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.
 * [WorldView-2 European Cities](https://earth.esa.int/eogateway/catalog/worldview-2-european-cities) -> dataset covering the most populated areas in Europe at 40 cm resolution
 
 ## Planet
+Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later in this page
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 * Planet have made imagery available via kaggle competitions
+* [Alberta Wells Dataset](https://zenodo.org/records/13743323) -> Pinpointing Oil and Gas Wells from Satellite Imagery
+* [ARGO ship classification dataset](https://zenodo.org/records/6058710) -> 1750 labelled images from PlanetScope-4-Band satelites. Created [here](https://github.com/elizamanelli/ship_dataset/tree/main)
+* [Marine Debris Dataset for Object Detection in Planetscope Imagery](https://cmr.earthdata.nasa.gov/search/concepts/C2781412735-MLHUB.html)
+* [LitterLines](https://github.com/geoJoost/LitterLines) -> An Annotated Dataset for Detection of Marine Litter Windrows in PlanetScope Imagery
+* [FloodPlanet Inundation Dataset](https://zenodo.org/records/15238572) -> multi-sensor co-registered dataset labeled based on 3m PlanetScope data and spatially overlapping, temporally near Sentinel-1, Sentinel-2, and Landsat-8 data
 
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
 * http://weegee.vision.ucmerced.edu/datasets/landuse.html
-* Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
 * Also [available as a multi-label dataset](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d)
 * Read [Vision Transformers for Remote Sensing Image Classification](https://www.mdpi.com/2072-4292/13/3/516/htm) where a Vision Transformer classifier achieves 98.49% classification accuracy on Merced
 
@@ -115,7 +190,7 @@ Land use classification dataset of Sentinel-2 satellite images covering 13 spect
 * Repos using fastai [here](https://github.com/shakasom/Deep-Learning-for-Satellite-Imagery) and [here](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html)
 * [evolved_channel_selection](http://matpalm.com/blog/evolved_channel_selection/) -> explores the trade off between mixed resolutions and whether to use a channel at all, with [repo](https://github.com/matpalm/evolved_channel_selection)
 * RGB version available as [dataset in pytorch](https://pytorch.org/vision/stable/generated/torchvision.datasets.EuroSAT.html#torchvision.datasets.EuroSAT) with the 13 band version [in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html#eurosat). Checkout the tutorial on [data augmentation with this dataset](https://torchgeo.readthedocs.io/en/latest/tutorials/transforms.html)
-* RGB and 13 band versions [in tensorflow](https://www.tensorflow.org/datasets/catalog/eurosat)
+* [EuroSAT-SAR](https://huggingface.co/datasets/wangyi111/EuroSAT-SAR) -> matched each Sentinel-2 image in EuroSAT with one Sentinel-1 patch according to the geospatial coordinates
 
 ## PatternNet
 Land use classification dataset with 38 classes and 800 RGB JPG images for each class
@@ -139,6 +214,7 @@ A large-scale benchmark dataset for object detection in optical remote sensing i
 * [ors-detection](https://github.com/Vlad15lav/ors-detection) -> Object Detection on the DIOR dataset using YOLOv3
 * [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 * [Tools](https://github.com/CrazyStoneonRoad/Tools) -> for dealing with the DIOR
+* [Object_Detection_Satellite_Imagery_Yolov8_DIOR](https://github.com/JohnPPinto/Object_Detection_Satellite_Imagery_Yolov8_DIOR)
 
 ## Multiscene
 MultiScene dataset aims at two tasks: Developing algorithms for multi-scene recognition & Network learning with noisy labels
@@ -163,7 +239,6 @@ A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images. Se
 A Large-scale Dataset for Instance Segmentation in Aerial Images
 * https://captain-whu.github.io/iSAID/dataset.html
 * Uses images from the DOTA dataset
-* [Object Detection in Aerial Imagery](https://arxiv.org/abs/2211.15479) -> shows the performance of two-stage, one-stage and attention based object detectors on the iSAID dataset
 
 ## HRSC RGB ship object detection dataset
 * https://www.kaggle.com/datasets/guofeng/hrsc2016
@@ -205,6 +280,8 @@ Annotated high-resolution satellite imagery for building damage assessment, prec
 * [metadamagenet](https://github.com/nimaafshar/metadamagenet) -> pytorch solution
 * [U-Net models from michal2409](https://github.com/michal2409/xView2)
 * [DAHiTra](https://github.com/nka77/DAHiTra) -> code for 2022 [paper](https://arxiv.org/abs/2208.02205): Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
+* [Damage assessment using Amazon SageMaker geospatial capabilities and custom SageMaker models](https://aws.amazon.com/blogs/machine-learning/damage-assessment-using-amazon-sagemaker-geospatial-capabilities-and-custom-sagemaker-models/)
+* [Xview2_Strong_Baseline](https://github.com/PaulBorneP/Xview2_Strong_Baseline) -> a simple implementation of a strong baseline
 
 ## xView3: Detecting dark vessels in SAR
 Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels
@@ -224,12 +301,14 @@ Large set of annotated cars from overhead. Established baseline for object detec
 * http://gdo152.ucllnl.org/cowc/
 * https://github.com/LLNL/cowc
 * [Detecting cars from aerial imagery for the NATO Innovation Challenge](https://arthurdouillard.com/post/nato-challenge/)
+* [LINZ and UGRC](https://github.com/humansensinglab/AGenDA/tree/main/Data)
 
-## AI-TOD - tiny object detection
-The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets. Annotations in bounding box format
+## AI-TOD & AI-TOD-v2 - tiny object detection
+The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets. Annotations in bounding box format. V2 is a meticulous relabelling of the v1 dataset
 * https://github.com/jwwangchn/AI-TOD
+* https://chasel-tsui.github.io/AI-TOD-v2/
 * [NWD](https://github.com/jwwangchn/NWD) -> code for 2021 [paper](https://arxiv.org/abs/2110.13389): A Normalized Gaussian Wasserstein Distance for Tiny Object Detection. Uses AI-TOD dataset
-* [AI-TOD-v2](https://chasel-tsui.github.io/AI-TOD-v2/) -> meticulously relabelling of the v1 dataset
+* [ORFENet](https://github.com/dyl96/ORFENet) -> Tiny Object Detection in Remote Sensing Images Based on Object Reconstruction and Multiple Receptive Field Adaptive Feature Enhancement. Uses LEVIR-ship & AI-TOD-v2
 
 ## RarePlanes
 * [RarePlanes](https://registry.opendata.aws/rareplanes/) -> incorporates both real and synthetically generated satellite imagery including aircraft. Read the [arxiv paper](https://arxiv.org/abs/2006.02963) and checkout [this repo](https://github.com/jdc08161063/RarePlanes). Note the dataset is available through the AWS Open-Data Program for free download
@@ -244,7 +323,7 @@ A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
 
 ## AIRS (Aerial Imagery for Roof Segmentation)
 Public dataset for roof segmentation from very-high-resolution aerial imagery (7.5cm). Covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
-* [On Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation)
+* [On Kaggle](https://www.kaggle.com/datasets/atilol/aerialimageryforroofsegmentation)
 * [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 
 ## Inria building/not building segmentation dataset
@@ -277,17 +356,19 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 * [ChangeDetection_wOnera](https://github.com/tonydp03/ChangeDetection_wOnera)
 * [OSCD + additional Dates](https://github.com/granularai/fabric) -> extended with three different dates
+* [MSOSCD](https://github.com/Lihy256/MSCDUnet) -> change detection datasets containing VHR, multispectral (Sentinel-2) and SAR (Sentinel-1)
 
 ## SECOND - semantic change detection
 * https://captain-whu.github.io/SCD/
 * Change detection at the pixel level
 
-## Amazon and Atlantic Forest dataset for semantic segmentation with Sentinel 2
+## Amazon and Atlantic Forest dataset
+For semantic segmentation with Sentinel 2
 * [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE)
-* [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
-* [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping
+* [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> An attention-based U-Net for detecting deforestation within satellite sensor imagery
+* [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> Rethinking attention gated TransU-Net for deforestation mapping
 
-## fMoW - Functional Map of the World
+## Functional Map of the World ( fMoW)
 * https://github.com/fMoW/dataset
 * RGB & multispectral variants
 * High resolution, chip classification dataset
@@ -302,6 +383,13 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * The [MiniFrance-DFC22 (MF-DFC22) dataset](https://ieee-dataport.org/competitions/data-fusion-contest-2022-dfc2022) extends and modifies the [MiniFrance dataset](https://ieee-dataport.org/open-access/minifrance) for training semi-supervised semantic segmentation models for land use/land cover mapping
 * [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 * https://github.com/mveo/mveo-challenge
+
+## FLAIR
+Semantic segmentation and domain adaptation challenge proposed by the French National Institute of Geographical and Forest Information (IGN). Uses a dataset composed of over 70,000 aerial imagery patches with pixel-based annotations and 50,000 Sentinel-2 satellite acquisitions.
+* [Challenge on codalab](https://codalab.lisn.upsaclay.fr/competitions/13447)
+* [FLAIR-2 github](https://github.com/IGNF/FLAIR-2)
+* [flair-2 8th place solution](https://github.com/association-rosia/flair-2)
+* [IGNF HuggingFace](https://huggingface.co/IGNF)
 
 ## ISPRS
 Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
@@ -340,6 +428,8 @@ SatlasPretrain is a large-scale pre-training dataset for tasks that involve unde
 * 24 land cover classes
 * Paper and code demonstrating domain adaptation to Sentinel-2 and Planetscope imagery
 * Extends the [GID15 large scale semantic segmentation dataset](https://captain-whu.github.io/GID15/)
+* [GID](https://x-ytong.github.io/project/GID.html) -> the Gaofen Image Dataset is a large-scale land-cover dataset with Gaofen-2 (GF-2) satellite images
+* [MM-5B Dataset](https://github.com/AI-Tianlong/HieraRS) -> Multi-Modal Five-Billion-Pixels is a large-scale, multi-modal, hierarchical Land Cover and Land Use (LCLU) dataset, built upon the Five-Billion-Pixels foundation.
 
 ## RF100 object detection benchmark
 RF100 is compiled from 100 real world datasets that straddle a range of domains. The aim is that performance evaluation on this dataset will enable a more nuanced guide of how a model will perform in different domains. Contains 10k aerial images
@@ -352,11 +442,14 @@ SATIN is a multi-task remote sensing classification metadataset consisting of 27
 * [Website](https://satinbenchmark.github.io/)
 * [Data](https://huggingface.co/datasets/jonathan-roberts1/SATIN)
 
-## Tensorflow datasets
-* [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
-* [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) -> EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
-* [BigEarthNet](https://www.tensorflow.org/datasets/catalog/bigearthnet) -> a large-scale Sentinel-2 land use classification dataset, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels. Official website includes version of the dataset with Sentinel 1 & 2 chips
-* [so2sat](https://www.tensorflow.org/datasets/catalog/so2sat) -> a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by Sentinel 1 & 2
+## SODA-A rotated bounding boxes
+* https://shaunyuan22.github.io/SODA/
+* SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes
+* https://github.com/shaunyuan22/CFINet
+
+## EarthView from Satellogic
+* https://huggingface.co/datasets/satellogic/EarthView
+* Dataset for foundational models, with Sentinel 1 & 2 and 1m RGB
 
 ## Microsoft datasets
 * [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints), [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints), [Kenya-Nigeria](https://github.com/microsoft/KenyaNigeriaBuildingFootprints) and [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
@@ -382,11 +475,12 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 ## Image captioning datasets
 * [RSICD](https://github.com/201528014227051/RSICD_optimal) -> 10921 images with five sentences descriptions per image. Used in  [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd), models at [this repo](https://github.com/arampacha/CLIP-rsicd)
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset contains 10077 pairs of bi-temporal remote sensing images and 50385 sentences describing the differences between images. Uses LEVIR-CD imagery
+* [ChatEarthNet](https://github.com/zhu-xlab/ChatEarthNet) -> A Global-Scale Image-Text Dataset Empowering Vision-Language Geo-Foundation Models, utilizes Sentinel-2 data with captions generated by ChatGPT
 
 ## Weather Datasets
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
-* NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
-* Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
+* NOAA (requires BigQuery) -> https://www.kaggle.com/datasets/noaa/goes16/home
+* Time series weather data for several US cities -> https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data
 * [DeepWeather](https://github.com/adamhazimeh/DeepWeather) -> improve weather forecasting accuracy by analyzing satellite images
 
 ## Cloud datasets
@@ -399,11 +493,14 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
 
 ## Forest datasets
+* [OpenForest](https://github.com/RolnickLab/OpenForest) -> A catalogue of open access forest datasets
 * [awesome-forests](https://github.com/blutjens/awesome-forests) -> A curated list of ground-truth forest datasets for the machine learning and forestry community
 * [ReforesTree](https://github.com/gyrrei/ReforesTree) -> A dataset for estimating tropical forest biomass based on drone and field data
 * [yosemite-tree-dataset](https://github.com/nightonion/yosemite-tree-dataset) -> a benchmark dataset for tree counting from aerial images
-* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
-* [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in [An attention-based U-Net for detecting deforestation within satellite sensor imagery](https://www.sciencedirect.com/science/article/pii/S0303243422000113)
+* [Amazon Rainforest dataset for semantic segmentation](https://zenodo.org/record/3233081#.Y6LPLOzP1hE) -> Sentinel 2 images. Used in the paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
+* [Amazon and Atlantic Forest image datasets for semantic segmentation](https://zenodo.org/record/4498086#.Y6LPLuzP1hE) -> Sentinel 2 images. Used in paper 'An attention-based U-Net for detecting deforestation within satellite sensor imagery'
+* [TreeSatAI](https://zenodo.org/records/6780578) -> Sentinel-1, Sentinel-2
+* [PureForest](https://huggingface.co/datasets/IGNF/PureForest) -> VHR RGB + Near-Infrared & lidar, each patch represents a monospecific forest
 
 ## Geospatial datasets
 * [Resource Watch](https://resourcewatch.org/data/explore) provides a wide range of geospatial datasets and a UI to visualise them
@@ -424,7 +521,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
 * [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime) -> bounding boxes
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6) -> bounding boxes
-* [Dataset of thermal and visible aerial images for multi-modal and multi-spectral image registration and fusion](https://www.sciencedirect.com/science/article/pii/S2352340920302201) -> The dataset consists of 30 visible images and their metadata, 80 thermal images and their metadata, and a visible georeferenced orthoimage.
 * [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://github.com/exb7900/BIRDSAI) -> Thermal IR videos of humans and animals
 * [ERA: A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
 * [DroneVehicle](https://github.com/VisDrone/DroneVehicle) -> Drone-based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning. Annotations are rotated bounding boxes. With [Github repo](https://github.com/SunYM2020/UA-CMDet)
@@ -435,86 +531,140 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [aeroscapes](https://github.com/ishann/aeroscapes) -> semantic segmentation benchmark comprises of images captured using a commercial drone from an altitude range of 5 to 50 metres.
 * [ALTO](https://github.com/MetaSLAM/ALTO) -> Aerial-view Large-scale Terrain-Oriented. For deep learning based UAV visual place recognition and localization tasks.
 * [HIT-UAV-Infrared-Thermal-Dataset](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) -> A High-altitude Infrared Thermal Object Detection Dataset for Unmanned Aerial Vehicles
+* [caltech-aerial-rgbt-dataset](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset) -> synchronized RGB, thermal, GPS, and IMU data
+* [Leafy Spurge Dataset](https://leafy-spurge-dataset.github.io/) -> Real-world Weed Classification Within Aerial Drone Imagery
+* [UAV-HSI-Crop-Dataset](https://github.com/MrSuperNiu/UAV-HSI-Crop-Dataset) -> dataset for "HSI-TransUNet: A Transformer based semantic segmentation model for crop mapping from UAV hyperspectral imagery"
+* [UAVVaste](https://github.com/PUTvision/UAVVaste) -> COCO-like dataset and effective waste detection in aerial images
 
 ## Other datasets
-* [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
-* [EORSSD-dataset](https://github.com/rmcong/EORSSD-dataset) -> Extended Optical Remote Sensing Saliency Detection (EORSSD) Dataset
-* [RSD46-WHU](https://github.com/RSIA-LIESMARS-WHU/RSD46-WHU) -> 46 scene classes for image classification, free for education, research and commercial use
+
+### Object Detection & Classification
 * [RSOD-Dataset](https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-) -> dataset for object detection in PASCAL VOC format. Aircraft, playgrounds, overpasses & oiltanks
 * [VHR-10_dataset_coco](https://github.com/chaozhong2010/VHR-10_dataset_coco) -> Object detection and instance segmentation dataset based on NWPU VHR-10 dataset. RGB & SAR
-* [HRSID](https://github.com/chaozhong2010/HRSID) -> high resolution sar images dataset for ship detection, semantic segmentation, and instance segmentation tasks
 * [MAR20](https://gcheng-nwpu.github.io/) -> Military Aircraft Recognition dataset
-* [RSSCN7](https://github.com/palewithout/RSSCN7) -> Dataset of the article “Deep Learning Based Feature Selection for Remote Sensing Scene Classification”
 * [Sewage-Treatment-Plant-Dataset](https://github.com/peijinwang/Sewage-Treatment-Plant-Dataset) -> object detection
 * [TGRS-HRRSD-Dataset](https://github.com/CrazyStoneonRoad/TGRS-HRRSD-Dataset) -> High Resolution Remote Sensing Detection (HRRSD)
+* [OGST](https://data.mendeley.com/datasets/bkxj8z84m9/3) -> Oil and Gas Tank Dataset
+* [SearchAndRescueNet](https://github.com/michaelthoreau/SearchAndRescueNet) -> Satellite Imagery for Search And Rescue Dataset, with example Faster R-CNN model
+* [UBC-dataset](https://github.com/AICyberTeam/UBC-dataset) -> a dataset for building detection and classification from very high-resolution satellite imagery with the focus on object-level interpretation of individual buildings
+* [Building_Dataset](https://github.com/QiaoWenfan/Building_Dataset) -> High-speed Rail Line Building Dataset Display
+* [RID](https://github.com/TUMFTM/RID) -> Roof Information Dataset for CV-Based Photovoltaic Potential Assessment. With [paper](https://www.mdpi.com/2072-4292/14/10/2299)
+* [APKLOT](https://github.com/langheran/APKLOT) -> A dataset for aerial parking block segmentation
+* [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD) -> SAR-ACD consists of 4322 aircraft clips with 6 civil aircraft categories and 14 other aircraft categories
+* [SODA](https://shaunyuan22.github.io/SODA/) -> A large-scale Small Object Detection dataset. SODA-A comprises 2510 high-resolution images of aerial scenes, which has 800203 instances annotated with oriented rectangle box annotations over 9 classes.
+* [urban-tree-detection-data](https://github.com/jonathanventura/urban-tree-detection-data) -> Dataset for training and evaluating tree detectors in urban environments with aerial imagery
+* [Satellite imagery datasets containing ships](https://github.com/NaLiu613/Satellite-Imagery-Datasets-Containing-Ships) -> A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks
+* [Roofline-Extraction](https://github.com/loosgagnet/Roofline-Extraction) -> dataset for paper 'Knowledge-Based 3D Building Reconstruction (3DBR) Using Single Aerial Images and Convolutional Neural Networks (CNNs)'
+* [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> datasets for the paper 'A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image'
+* [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Synthetic dataset and pretrained models for Detectron2
+* [SV248S](https://github.com/xdai-dlgvv/SV248S) -> Single Object Tracking Dataset, tracking Vehicle, Large-Vehicle, Ship and Airplane
+* [NWPU-MOC](https://github.com/lyongo/NWPU-MOC) -> A Benchmark for Fine-grained Multi-category Object Counting in Aerial Images
+* [Vehicle Perception from Satellite](https://github.com/Chenxi1510/Vehicle-Perception-from-Satellite-Videos) -> a large-scale benchmark for traffic monitoring from satellite
+* [SARDet-100K](https://github.com/zcablii/SARDet_100K) -> Large-Scale Synthetic Aperture Radar (SAR) Object Detection
+* [Urban Vehicle Segmentation Dataset (UV6K)](https://zenodo.org/records/8404754)
+* [ShipRSImageNet](https://github.com/zzndream/ShipRSImageNet) -> A Large-scale Fine-Grained Dataset for Ship Detection in High-Resolution Optical Remote Sensing Images
+* [VME: A Satellite Imagery Dataset and Benchmark for Detecting Vehicles in the Middle East and Beyond](https://github.com/nalemadi/VME_CDSI_dataset_benchmark)
+* [VHRV: Very High-Resolution Benchmark Dataset for Vessel Detection](https://github.com/buyukkanber/vhrv)
+
+### Land Use & Land Cover
+* [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
+* [RSD46-WHU](https://github.com/RSIA-LIESMARS-WHU/RSD46-WHU) -> 46 scene classes for image classification, free for education, research and commercial use
+* [RSSCN7](https://github.com/palewithout/RSSCN7) -> Dataset of the article "Deep Learning Based Feature Selection for Remote Sensing Scene Classification"
+* [geonrw](https://ieee-dataport.org/open-access/geonrw) -> orthorectified aerial photographs, LiDAR derived digital elevation models and segmentation maps with 10 classes. With [repo](https://github.com/gbaier/geonrw)
+* [Attribute-Cooperated-Classification-Datasets](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets) -> Three datasets based on AID, UCM, and Sydney. For each image, there is a label of scene classification and a label vector of attribute items.
+* [open_earth_map](https://github.com/bao18/open_earth_map) -> a benchmark dataset for global high-resolution land cover mapping
+* [Mumbai-Semantic-Segmentation-Dataset](https://github.com/GeoAI-Research-Lab/Mumbai-Semantic-Segmentation-Dataset)
+* [GAMUS](https://github.com/EarthNets/RSI-MMSegmentation) ->  A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
+* [openWUSU](https://github.com/AngieNikki/openWUSU) -> WUSU is a semantic understanding dataset focusing on urban structure and the urbanization process in Wuhan
+* [RSE_Cross-city](https://github.com/danfenghong/RSE_Cross-city) -> Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks
+* [AErial Lane](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> AErial Lane (AEL) Dataset is a first large-scale aerial image dataset built for lane detection, with high-quality polyline lane annotations on high-resolution images of around 80 kilometers of road
+* [Chesapeake Roads Spatial Context (RSC)](https://github.com/isaaccorley/ChesapeakeRSC)
+* [So2Sat-POP-DL](https://github.com/zhu-xlab/So2Sat-POP-DL) -> Dataset discovery: So2Sat Population dataset covering 98 EU cities
+* [HouseTS](https://www.kaggle.com/datasets/shengkunwang/housets-dataset) -> Long-term, Multimodal Housing Dataset Across 30 U.S. Metropolitan Area. Uses NAIP. [With paper](https://arxiv.org/abs/2506.00765)
+* [10,000 Crop Field Boundaries across India](https://zenodo.org/records/7315090) -> using Airbus SPOT
+* [OpenEarthMap-SAR](https://github.com/cliffbb/OpenEarthMap-SAR) -> VHR SAR used in the 2025 IEEE GRSS Data Fusion Contest Track 1: All-Weather Land Cover Mapping. Utilises data from Umbra and Capella Space
+* [Tokyo Land Use Land Cover Dataset](https://github.com/Tusaifei/Tokyo_dataset) ->  0.5-m resolution images, two kinds of 10-m resolution LCPs, and two kinds of 30-m resolution LCPs
+
+### Change Detection
+* [S2Looking](https://github.com/S2Looking/Dataset) -> A Satellite Side-Looking Dataset for Building Change Detection, [paper](https://arxiv.org/abs/2107.09244)
+* [Haiming-Z/MtS-WH-reference-map](https://github.com/Haiming-Z/MtS-WH-reference-map) -> a reference map for change detection based on MtS-WH
+* [MtS-WH-Dataset](https://github.com/rulixiang/MtS-WH-Dataset) -> Multi-temporal Scene WuHan (MtS-WH) Dataset
+* [SZTAKI](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html) -> A Ground truth collection for change detection in optical aerial images taken with several years time differences
+* [DSIFN](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset) -> change detection dataset, it consists of six large bi-temporal high resolution images covering six cities in China
+* [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
+* [3DCD](https://sites.google.com/uniroma1.it/3dchangedetection/home-page) -> infer 3D CD maps using only remote sensing optical bitemporal images as input without the need of Digital Elevation Models (DEMs)
+* [TUE-CD](https://github.com/RSMagneto/MSI-Net) -> A change detection detection for building damage estimation after earthquake
+* [Hi-UCD](https://github.com/Daisy-7/Hi-UCD-S) -> ultra-High Urban Change Detection for urban semantic change detection
+* [LEVIR-CC-Dataset](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset) -> A Large Dataset for Remote Sensing Image Change Captioning
+* [GDCLD](https://zenodo.org/records/13612636) -> A globally distributed dataset of coseismic landslide mapping via multi-source high-resolution remote sensing images
+* [BANet change dataset - RS image to cadastral map](https://github.com/lqycrystal/BANet)
+* [Indian Cities Change Detection (ICCD) Dataset](https://ieee-dataport.org/documents/indian-cities-change-detection-iccd-dataset)
+
+### SAR-Specific Datasets
+* [HRSID](https://github.com/chaozhong2010/HRSID) -> high resolution sar images dataset for ship detection, semantic segmentation, and instance segmentation tasks
+* [LS-SSDD-v1.0-OPEN](https://github.com/TianwenZhang0825/LS-SSDD-v1.0-OPEN) -> Large-Scale SAR Ship Detection Dataset
+* [WHU-SEN-City](https://github.com/whu-csl/WHU-SEN-City) -> A paired SAR-to-optical image translation dataset which covers 34 big cities of China
+* [SAR_vehicle_detection_dataset](https://github.com/whu-csl/SAR_vehicle_detection_dataset) -> 104 SAR images for vehicle detection, collected from Sandia MiniSAR/FARAD SAR images and MSTAR images
+* [AIR-PolSAR-Seg](https://github.com/AICyberTeam/AIR-PolSAR-Seg) -> a challenging PolSAR terrain segmentation dataset
+* [QXS-SAROPT](https://github.com/yaoxu008/QXS-SAROPT) -> Optical and SAR pairing dataset from the [paper](https://arxiv.org/abs/2103.08259): The QXS-SAROPT Dataset for Deep Learning in SAR-Optical Data Fusion
+* [SynthWakeSAR](https://data.bris.ac.uk/data/dataset/30kvuvmatwzij2mz1573zqumfx) -> A Synthetic SAR Dataset for Deep Learning Classification of Ships at Sea, with [paper](https://www.mdpi.com/2072-4292/14/16/3999)
+* [SAR2Opt-Heterogeneous-Dataset](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset) -> SAR-optical images to be used as a benchmark in change detection and image transaltion on remote sensing images
+* [OpenSARWake](https://github.com/libzzluo/OpenSARWake) -> A SAR ship wake rotation detection benchmark dataset.
+
+### Specialized Applications
 * [MUSIC4HA](https://github.com/gistairc/MUSIC4HA) -> MUltiband Satellite Imagery for object Classification (MUSIC) to detect Hot Area
 * [MUSIC4GC](https://github.com/gistairc/MUSIC4GC) -> MUltiband Satellite Imagery for object Classification (MUSIC) to detect Golf Course
 * [MUSIC4P3](https://github.com/gistairc/MUSIC4P3) -> MUltiband Satellite Imagery for object Classification (MUSIC) to detect Photovoltaic Power Plants (solar panels)
 * [ABCDdataset](https://github.com/gistairc/ABCDdataset) -> damage detection dataset to identify whether buildings have been washed-away by tsunami
-* [OGST](https://data.mendeley.com/datasets/bkxj8z84m9/3) -> Oil and Gas Tank Dataset
-* [LS-SSDD-v1.0-OPEN](https://github.com/TianwenZhang0825/LS-SSDD-v1.0-OPEN) -> Large-Scale SAR Ship Detection Dataset
-* [S2Looking](https://github.com/S2Looking/Dataset) -> A Satellite Side-Looking Dataset for Building Change Detection, [paper](https://arxiv.org/abs/2107.09244)
-* [Zurich Summer Dataset](https://sites.google.com/site/michelevolpiresearch/data/zurich-dataset) -> Semantic segmentation of urban scenes
-* [AISD](https://github.com/RSrscoder/AISD) -> Aerial Imagery dataset for Shadow Detection
-* [Awesome-Remote-Sensing-Relative-Radiometric-Normalization-Datasets](https://github.com/ArminMoghimi/Awesome-Remote-Sensing-Relative-Radiometric-Normalization-Datasets)
-* [SearchAndRescueNet](https://github.com/michaelthoreau/SearchAndRescueNet) -> Satellite Imagery for Search And Rescue Dataset, with example Faster R-CNN model
-* [geonrw](https://ieee-dataport.org/open-access/geonrw) -> orthorectified aerial photographs, LiDAR derived digital elevation models and segmentation maps with 10 classes. With [repo](https://github.com/gbaier/geonrw)
 * [Thermal power plans dataset](https://github.com/wenxinYin/AIR-TPPDD)
-* [University1652-Baseline](https://github.com/layumi/University1652-Baseline) -> A Multi-view Multi-source Benchmark for Drone-based Geo-localization
-* [benchmark_ISPRS2021](https://github.com/whuwuteng/benchmark_ISPRS2021) -> A new stereo dense matching benchmark dataset for deep learning
-* [WHU-SEN-City](https://github.com/whu-csl/WHU-SEN-City) -> A paired SAR-to-optical image translation dataset which covers 34 big cities of China
-* [SAR_vehicle_detection_dataset](https://github.com/whu-csl/SAR_vehicle_detection_dataset) -> 104 SAR images for vehicle detection, collected from Sandia MiniSAR/FARAD SAR images and MSTAR images
-* [ERA-DATASET](https://github.com/zhu-xlab/ERA-DATASET) -> A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos
-* [SSL4EO-S12](https://github.com/zhu-xlab/SSL4EO-S12) -> a large-scale dataset for self-supervised learning in Earth observation
-* [UBC-dataset](https://github.com/AICyberTeam/UBC-dataset) -> a dataset for building detection and classification from very high-resolution satellite imagery with the focus on object-level interpretation of individual buildings
-* [AIR-CD](https://github.com/AICyberTeam/AIR-CD) -> a challenging cloud detection data set called AIR-CD, with higher spatial resolution and more representative landcover types
-* [AIR-PolSAR-Seg](https://github.com/AICyberTeam/AIR-PolSAR-Seg) -> a challenging PolSAR terrain segmentation dataset
-* [HRC_WHU](https://github.com/dr-lizhiwei/HRC_WHU) -> High-Resolution Cloud Detection Dataset comprising 150 RGB images and a resolution varying from 0.5 to 15 m in different global regions
-* [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
-* [Building_Dataset](https://github.com/QiaoWenfan/Building_Dataset) -> High-speed Rail Line Building Dataset Display
-* [Haiming-Z/MtS-WH-reference-map](https://github.com/Haiming-Z/MtS-WH-reference-map) -> a reference map for change detection based on MtS-WH
-* [MtS-WH-Dataset](https://github.com/rulixiang/MtS-WH-Dataset) -> Multi-temporal Scene WuHan (MtS-WH) Dataset
-* [Multi-modality-image-matching](https://github.com/StaRainJ/Multi-modality-image-matching-database-metrics-methods) -> image matching dataset including several remote sensing modalities
-* [RID](https://github.com/TUMFTM/RID) -> Roof Information Dataset for CV-Based Photovoltaic Potential Assessment. With [paper](https://www.mdpi.com/2072-4292/14/10/2299)
-* [APKLOT](https://github.com/langheran/APKLOT) -> A dataset for aerial parking block segmentation
-* [QXS-SAROPT](https://github.com/yaoxu008/QXS-SAROPT) -> Optical and SAR pairing dataset from the [paper](https://arxiv.org/abs/2103.08259): The QXS-SAROPT Dataset for Deep Learning in SAR-Optical Data Fusion
-* [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD) -> SAR-ACD consists of 4322 aircraft clips with 6 civil aircraft categories and 14 other aircraft categories
-* [SODA](https://shaunyuan22.github.io/SODA/) -> A large-scale Small Object Detection dataset. SODA-A comprises 2510 high-resolution images of aerial scenes, which has 800203 instances annotated with oriented rectangle box annotations over 9 classes.
-* [Data-CSHSI](https://github.com/YuxiangZhang-BIT/Data-CSHSI) -> Open source datasets for Cross-Scene Hyperspectral Image Classification, includes Houston, Pavia & HyRank datasets
-* [SynthWakeSAR](https://data.bris.ac.uk/data/dataset/30kvuvmatwzij2mz1573zqumfx) -> A Synthetic SAR Dataset for Deep Learning Classification of Ships at Sea, with [paper](https://www.mdpi.com/2072-4292/14/16/3999)
-* [SAR2Opt-Heterogeneous-Dataset](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset) -> SAR-optical images to be used as a benchmark in change detection and image transaltion on remote sensing images
-* [urban-tree-detection-data](https://github.com/jonathanventura/urban-tree-detection-data) -> Dataset for training and evaluating tree detectors in urban environments with aerial imagery
-* [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
-* [Attribute-Cooperated-Classification-Datasets](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets) -> Three datasets based on AID, UCM, and Sydney. For each image, there is a label of scene classification and a label vector of attribute items.
-* [dynnet](https://github.com/aysim/dynnet) -> DynamicEarthNet: Daily Multi-Spectral Satellite Dataset for Semantic Change Segmentation
-* [open_earth_map](https://github.com/bao18/open_earth_map) -> a benchmark dataset for global high-resolution land cover mapping
-* [Satellite imagery datasets containing ships](https://github.com/NaLiu613/Satellite-Imagery-Datasets-Containing-Ships) -> A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks
 * [SolarDK](https://arxiv.org/abs/2212.01260) -> A high-resolution urban solar panel image classification and localization dataset
-* [Roofline-Extraction](https://github.com/loosgagnet/Roofline-Extraction) -> dataset for paper 'Knowledge-Based 3D Building Reconstruction (3DBR) Using Single Aerial Images and Convolutional Neural Networks (CNNs)'
-* [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> datasets for the paper 'A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image'
-* [PanCollection](https://github.com/liangjiandeng/PanCollection) -> Pansharpening Datasets from WorldView 2, WorldView 3, QuickBird, Gaofen 2 sensors
-* [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Synthetic dataset and pretrained models for Detectron2
-* [Remote Sensing Satellite Video Dataset for Super-resolution](https://zenodo.org/record/6969604#.ZCBd-OzMJhE)
-* [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo) -> A Challenging Benchmark for Stereo Matching of High-Resolution Satellite Images
-* [BH-POOLS & BH-WATERTANKS](http://patreo.dcc.ufmg.br/2020/07/29/bh-pools-watertanks-datasets/) -> segmentation dataset of swimming pools and water tanks in Brazil
-* [BrazilDAM Dataset](http://patreo.dcc.ufmg.br/2020/01/27/brazildam-dataset/) -> a multi sensor (Landsat 8 and Sentinel 2) and multitemporal dataset that consists of multispectral images of ore tailings dams throughout Brazil
-* [Bridge Dataset](http://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/) -> 500 images each containing at least one bridge
-* [Brazilian Cerrado-Savanna Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-cerrado-savanna-scenes-dataset/) -> 1,311 multi-spectral scenes extracted from images acquired by the RapidEye are partitioned into 4 classes: Agriculture, Arboreal, Herbaceous and Shrubby Vegetation
-* [Brazilian Coffee Scenes Dataset](http://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/)
-* [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
-* [Road-Change-Detection-Dataset](https://github.com/fightingMinty/Road-Change-Detection-Dataset)
-* [3DCD](https://sites.google.com/uniroma1.it/3dchangedetection/home-page) -> infer 3D CD maps using only remote sensing optical bitemporal images as input without the need of Digital Elevation Models (DEMs)
+* [Oil and Gas Infrastructure Mapping (OGIM) database](https://zenodo.org/record/7922117) -> includes locations and facility attributes of oil and gas infrastructure types that are important sources of methane emissions
+* [Overhead Wind Turbine Dataset - NAIP](https://zenodo.org/records/7385227#.Y419qezMLdr)
+* [CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds](https://zenodo.org/records/10042922) -> the dataset consists of 1,780 MODIS satellite images hand-labeled for the presence of more than 12,000 ship tracks.
+* [Digital Typhoon Dataset](https://github.com/kitamoto-lab/digital-typhoon/) -> aimed at benchmarking machine learning models for long-term spatio-temporal data
+* [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
+* [RSHaze+](https://zenodo.org/records/13837162) -> remote sensing dehazing datasets in PhDnet: A novel physic-aware dehazing network for remote sensing images
+* [GMSEUS](https://github.com/stidjaco/GMSEUS) -> A comprehensive ground-mounted solar energy dataset with sub-array design metadata in the United States
+* [MultiviewRS](https://github.com/fmenat/multiviewRS-datasets) -> List of remote sensing (RS) multi-view datasets for exploring multi-view learning
+* [SatDepth](https://satdepth.pythonanywhere.com/) -> A Novel Dataset for Satellite Image Matching and Depth Estimation
+
+### Agricultural & Environmental
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
 * [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> soybean dataset
-* [HySpecNet-11k](https://hyspecnet.rsim.berlin/) -> a large-scale hyperspectral benchmark dataset
-* [Mumbai-Semantic-Segmentation-Dataset](https://github.com/GeoAI-Research-Lab/Mumbai-Semantic-Segmentation-Dataset)
-* [SZTAKI](http://web.eee.sztaki.hu/remotesensing/airchange_benchmark.html) -> A Ground truth collection for change detection in optical aerial images taken with several years time differences
-* [DSIFN](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset) -> change detection dataset, it consists of six large bi-temporal high resolution images covering six cities in China
-* [SV248S](https://github.com/xdai-dlgvv/SV248S) -> Single Object Tracking Dataset, tracking Vehicle, Large-Vehicle, Ship and Airplane
-* [GAMUS](https://github.com/EarthNets/RSI-MMSegmentation) ->  A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
-* [Oil and Gas Infrastructure Mapping (OGIM) database](https://zenodo.org/record/7922117) -> includes locations and facility attributes of oil and gas infrastructure types that are important sources of methane emissions
+* [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
+* [TimeMatch](https://zenodo.org/records/5636422) -> dataset for cross-region adaptation for crop identification from SITS in four different regions in Europe
+* [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
+* [Remote Sensing Satellite Video Dataset for Super-resolution](https://zenodo.org/record/6969604#.ZCBd-OzMJhE)
+* [SpatioTemporalYield](https://huggingface.co/datasets/ellaampy/SpatioTemporalYield) -> covers the USA’s top five corn-producing states: Iowa, Illinois, Indiana, Nebraska, and Minnesota.
+* [Palm Tree Dataset](https://github.com/NourO93/Palm-Tree-Dataset/tree/main)
+* [ts-satfire](https://www.kaggle.com/datasets/z789456sx/ts-satfire) -> A Multi-Task Satellite Image Time-Series Dataset for Wildfire Detection and Prediction
 
-## Kaggle
+### Hyperspectral & Multi-modal
+* [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
+* [Data-CSHSI](https://github.com/YuxiangZhang-BIT/Data-CSHSI) -> Open source datasets for Cross-Scene Hyperspectral Image Classification, includes Houston, Pavia & HyRank datasets
+* [HySpecNet-11k](https://hyspecnet.rsim.berlin/) -> a large-scale hyperspectral benchmark dataset
+* [STARCOP dataset: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning Models](https://zenodo.org/records/7863343)
+* [Toulouse Hyperspectral Data Set](https://www.toulouse-hyperspectral-data-set.com/)
+* [Toulouse Hyperspectral Data Set](https://github.com/Romain3Ch216/TlseHypDataSet)
+* [Multi-modality-image-matching](https://github.com/StaRainJ/Multi-modality-image-matching-database-metrics-methods) -> image matching dataset including several remote sensing modalities
+* [PanCollection](https://github.com/liangjiandeng/PanCollection) -> Pansharpening Datasets from WorldView 2, WorldView 3, QuickBird, Gaofen 2 sensors
+
+### Benchmark & Foundation Models
+* [EORSSD-dataset](https://github.com/rmcong/EORSSD-dataset) -> Extended Optical Remote Sensing Saliency Detection (EORSSD) Dataset
+* [ERA-DATASET](https://github.com/zhu-xlab/ERA-DATASET) -> A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos
+* [SSL4EO-S12](https://github.com/zhu-xlab/SSL4EO-S12) -> a large-scale dataset for self-supervised learning in Earth observation
+* [AIR-CD](https://github.com/AICyberTeam/AIR-CD) -> a challenging cloud detection data set called AIR-CD, with higher spatial resolution and more representative landcover types
+* [HRC_WHU](https://github.com/dr-lizhiwei/HRC_WHU) -> High-Resolution Cloud Detection Dataset comprising 150 RGB images and a resolution varying from 0.5 to 15 m in different global regions
+* [University1652-Baseline](https://github.com/layumi/University1652-Baseline) -> A Multi-view Multi-source Benchmark for Drone-based Geo-localization
+* [benchmark_ISPRS2021](https://github.com/whuwuteng/benchmark_ISPRS2021) -> A new stereo dense matching benchmark dataset for deep learning
+* [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo) -> A Challenging Benchmark for Stereo Matching of High-Resolution Satellite Images
+* [GeoPile pretraining dataset](https://github.com/mmendiet/GFM) -> compiles imagery from other datasets including RSD46-WHU, MLRSNet and RESISC45 for pretraining of Foundational models
+* [pangaea-bench](https://github.com/yurujaja/pangaea-bench) -> A Global and Inclusive Benchmark for Geospatial Foundation Models
+* [VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding](https://vrsbench.github.io/)
+* [SeeFar](https://coastalcarbon.ai/seefar) -> Satellite Agnostic Multi-Resolution Dataset for Geospatial Foundation Models
+* [dynnet](https://github.com/aysim/dynnet) -> DynamicEarthNet: Daily Multi-Spectral Satellite Dataset for Semantic Change Segmentation
+* [Awesome-Remote-Sensing-Relative-Radiometric-Normalization-Datasets](https://github.com/ArminMoghimi/Awesome-Remote-Sensing-Relative-Radiometric-Normalization-Datasets)
+* [AISD](https://github.com/RSrscoder/AISD) -> Aerial Imagery dataset for Shadow Detection## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
 The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
@@ -561,8 +711,8 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 ### Kaggle - Airbus ship detection challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
 * Rating - medium, most solutions using deep-learning, many kernels, [good example kernel](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
+* [Detecting ships in satellite imagery: five years later…](https://medium.com/artificialis/detecting-ships-in-satellite-imagery-five-years-later-28df2e83f987)
 * I believe there was a problem with this dataset, which led to many complaints that the competition was ruined
-* [Deep Learning for Ship Detection and Segmentation](https://towardsdatascience.com/deep-learning-for-ship-detection-and-segmentation-71d223aca649) -> treated as instance segmentation problem, with [notebook](https://github.com/abhinavsagar/kaggle-notebooks/blob/master/ship_segmentation.ipynb)
 * [Lessons Learned from Kaggle’s Airbus Challenge](https://towardsdatascience.com/lessons-learned-from-kaggles-airbus-challenge-252e25c5efac)
 * [Airbus-Ship-Detection](https://github.com/kheyer/Airbus-Ship-Detection) -> This solution scored 139 out of 884 for the competition, combines ResNeXt50 based classifier and a U-net segmentation model
 * [Ship-Detection-Project](https://github.com/ZTong1201/Ship-Detection-Project) -> uses Mask R-CNN and UNet model
@@ -572,29 +722,20 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
 * [Image Segmentation: Kaggle experience](https://towardsdatascience.com/image-segmentation-kaggle-experience-9a41cb8924f0) -> Medium article by gold medal winner Vlad Shmyhlo
 
-### Kaggle - Shipsnet classification dataset
-* https://www.kaggle.com/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
+### Kaggle - Ships in Google Earth
+* https://www.kaggle.com/datasets/tomluther/ships-in-google-earth
+* 794 jpegs showing various sized ships in satellite imagery, annotations in Pascal VOC format for object detection models
+* [/kaggle-ships-in-satellite-imagery-with-YOLOv8](https://github.com/robmarkcole/kaggle-ships-in-satellite-imagery-with-YOLOv8)
+
+### Kaggle - Classify Ships in San Franciso Bay using Planet satellite imagery
+* https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery
 * 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, 3 meter pixel size
 * [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
-
-### Kaggle - Ships in Google Earth
-* https://www.kaggle.com/tomluther/ships-in-google-earth
-* 794 jpegs showing various sized ships in satellite imagery, annotations in Pascal VOC format for object detection models
-* [kaggle-ships-in-Google-Earth-yolov5](https://github.com/robmarkcole/kaggle-ships-in-Google-Earth-yolov5)
-
-### Kaggle - Ships in San Franciso Bay
-* https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery
-* 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, provided by Planet
 * [DeepLearningShipDetection](https://github.com/PenguinDan/DeepLearningShipDetection)
 * [Ship-Detection-Using-Satellite-Imagery](https://github.com/Dhruvisha29/Ship-Detection-Using-Satellite-Imagery)
 
-### Kaggle - Swimming pool and car detection using satellite imagery
-* https://www.kaggle.com/kbhartiya83/swimming-pool-and-car-detection
-* 3750 satellite images of residential areas with annotation data for swimming pools and cars
-* [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5)
-
 ### Kaggle - Planesnet classification dataset
-* https://www.kaggle.com/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
+* https://www.kaggle.com/datasets/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
 * 20x20 RGB images, the "plane" class includes 8000 images and the "no-plane" class includes 24000 images
 * [Dataset repo](https://github.com/rhammell/planesnet) and [planesnet-detector](https://github.com/rhammell/planesnet-detector) demonstrates a small CNN classifier on this dataset
 * [ergo-planes-detector](https://github.com/evilsocket/ergo-planes-detector) -> An ergo based project that relies on a convolutional neural network to detect airplanes from satellite imagery, uses the PlanesNet dataset
@@ -607,6 +748,11 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Faster RCNN to detect airplanes](https://github.com/ShubhankarRawat/Airplane-Detection-for-Satellites)
 * [aircraft-detection-from-satellite-images-yolov3](https://github.com/emrekrtorun/aircraft-detection-from-satellite-images-yolov3)
 
+### Kaggle - Swimming pool and car detection using satellite imagery
+* https://www.kaggle.com/datasets/kbhartiya83/swimming-pool-and-car-detection
+* 3750 satellite images of residential areas with annotation data for swimming pools and cars
+* [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5)
+
 ### Kaggle - Draper challenge to place images in order of time
 * https://www.kaggle.com/c/draper-satellite-image-chronology/data
 * Rating - hard. Not many useful kernels.
@@ -615,11 +761,10 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [deep-cnn-sat-image-time-series](https://github.com/MickyDowns/deep-cnn-sat-image-time-series) -> uses LSTM
 
 ### Kaggle - Dubai segmentation
-* https://www.kaggle.com/humansintheloop/semantic-segmentation-of-aerial-imagery
+* https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery
 * 72 satellite images of Dubai, the UAE, and is segmented into 6 classes
 * [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
-* [Multiclass-semantic-segmentation-in-satallite-images](https://github.com/tahirjhan/Multiclass-semantic-segmentation-in-satallite-images) -> uses keras
 * [Semantic-Segmentation-using-U-Net](https://github.com/Anay21110/Semantic-Segmentation-using-U-Net) -> uses keras
 * [unet_satelite_image_segmentation](https://github.com/nassimaliou/unet_satelite_image_segmentation)
 
@@ -637,11 +782,11 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
 ### Kaggle - Deepsat classification challenge
 Not satellite but airborne imagery. Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and near infrared. The training and test labels are one-hot encoded 1x6 vectors. Each image patch is size normalized to 28x28 pixels. Data in `.mat` Matlab format. JPEG?
-* [Sat4](https://www.kaggle.com/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three**
-* [Sat6](https://www.kaggle.com/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
+* [Sat4](https://www.kaggle.com/datasets/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three**
+* [Sat6](https://www.kaggle.com/datasets/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
 
 ### Kaggle - High resolution ship collections 2016 (HRSC2016)
-* https://www.kaggle.com/guofeng/hrsc2016
+* https://www.kaggle.com/datasets/guofeng/hrsc2016
 * Ship images harvested from Google Earth
 * [HRSC2016_SOTA](https://github.com/ming71/HRSC2016_SOTA) -> Fair comparison of different algorithms on the HRSC2016 dataset
 
@@ -684,18 +829,17 @@ In this challenge, you will build a model to classify cloud organization pattern
 * [Oil-Storage-Tanks-Data-Preparation-YOLO-Format](https://github.com/shah0nawaz/Oil-Storage-Tanks-Data-Preparation-YOLO-Format)
 
 ### Kaggle - Satellite images of hurricane damage
-* https://www.kaggle.com/kmader/satellite-images-of-hurricane-damage
+* https://www.kaggle.com/datasets/kmader/satellite-images-of-hurricane-damage
 * https://github.com/dbuscombe-usgs/HurricaneHarvey_buildingdamage
 
 ### Kaggle - Austin Zoning Satellite Images
-* https://www.kaggle.com/franchenstein/austin-zoning-satellite-images
+* https://www.kaggle.com/datasets/franchenstein/austin-zoning-satellite-images
 * classify a images of Austin into one of its zones, such as residential, industrial, etc. 3667 satellite images
 
 ### Kaggle - Statoil/C-CORE Iceberg Classifier Challenge
 Classify the target in a SAR image chip as either a ship or an iceberg. The dataset for the competition included 5000 images extracted from multichannel SAR data collected by the Sentinel-1 satellite. Top entries used ensembles to boost prediction accuracy from about 92% to 97%.
 * https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data
 * [An interview with David Austin: 1st place winner](https://pyimagesearch.com/2018/03/26/interview-david-austin-1st-place-25000-kaggles-popular-competition/)
-* [Deep Learning for Iceberg detection in Satellite Images](https://towardsdatascience.com/deep-learning-for-iceberg-detection-in-satellite-images-c667acf4bad0)
 * [radar-image-recognition](https://github.com/siarez/radar-image-recognition)
 * [Iceberg-Classification-Using-Deep-Learning](https://github.com/mankadronit/Iceberg-Classification-Using-Deep-Learning) -> uses keras
 * [Deep-Learning-Project](https://github.com/singh-shakti94/Deep-Learning-Project) -> uses keras
@@ -705,19 +849,19 @@ Classify the target in a SAR image chip as either a ship or an iceberg. The data
 * [fastai solution](https://github.com/smarkochev/ds_notebooks/blob/master/Statoil_Kaggle_competition_google_colab_notebook.ipynb)
 
 ### Kaggle - Land Cover Classification Dataset from DeepGlobe Challenge - segmentation
-* https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset
+* https://www.kaggle.com/datasets/balraj98/deepglobe-land-cover-classification-dataset
 * [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 * [DeepGlobe Land Cover Classification Challenge solution](https://github.com/GeneralLi95/deepglobe_land_cover_classification_with_deeplabv3plus)
 
 ### Kaggle - Next Day Wildfire Spread
 A Data Set to Predict Wildfire Spreading from Remote-Sensing Data
-* https://www.kaggle.com/fantineh/next-day-wildfire-spread
+* https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread
 * https://arxiv.org/abs/2112.02447
 
 ### Kaggle - Satellite Next Day Wildfire Spread
 Inspired by the above dataset, using different data sources
-* https://www.kaggle.com/satellitevu/satellite-next-day-wildfire-spread
+* https://www.kaggle.com/datasets/satellitevu/satellite-next-day-wildfire-spread
 * https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon
 
 ## Kaggle - Spacenet 7 Multi-Temporal Urban Change Detection
@@ -740,7 +884,7 @@ Inspired by the above dataset, using different data sources
 
 ## Kaggle - Overhead-MNIST
 * A Benchmark Satellite Dataset as Drop-In Replacement for MNIST
-* https://www.kaggle.com/datamunge/overheadmnist -> kaggle
+* https://www.kaggle.com/datasets/datamunge/overheadmnist -> kaggle
 * https://arxiv.org/abs/2102.04266 -> paper
 * https://github.com/reveondivad/ov-mnist -> github
 
@@ -762,19 +906,18 @@ Inspired by the above dataset, using different data sources
 * [noaa](https://github.com/darraghdog/noaa) -> UNET, object detection and image level regression approaches
 
 ### Kaggle - miscellaneous
-* https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
-* https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial oil tanks with bounding box annotations, estimate tank fill % from shadows
-* https://www.kaggle.com/airbusgeo/airbus-wind-turbines-patches -> Airbus SPOT satellites images over wind turbines for classification
-* https://www.kaggle.com/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes -> CGI planes object detection dataset
-* https://www.kaggle.com/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
-* https://www.kaggle.com/andrewmvd/ship-detection -> 621 images of boats and ships
-* https://www.kaggle.com/alpereniek/vehicle-detection-from-satellite-images-data-set
-* https://www.kaggle.com/sergiishchus/maxar-satellite-data -> Example Maxar data at 15 cm resolution
-* https://www.kaggle.com/cici118/swimming-pool-detection-algarves-landscape
+* https://www.kaggle.com/datasets/reubencpereira/spatial-data-repo -> Satellite + loan data
+* https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks -> Image data of industrial oil tanks with bounding box annotations, estimate tank fill % from shadows
+* https://www.kaggle.com/datasets/airbusgeo/airbus-wind-turbines-patches -> Airbus SPOT satellites images over wind turbines for classification
+* https://www.kaggle.com/datasets/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes -> CGI planes object detection dataset
+* https://www.kaggle.com/datasets/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
+* https://www.kaggle.com/datasets/andrewmvd/ship-detection -> 621 images of boats and ships
+* https://www.kaggle.com/datasets/alpereniek/vehicle-detection-from-satellite-images-data-set
+* https://www.kaggle.com/datasets/sergiishchus/maxar-satellite-data -> Example Maxar data at 15 cm resolution
+* https://www.kaggle.com/datasets/cici118/swimming-pool-detection-algarves-landscape
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
 * https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset -> segment roads
 * https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks -> Image data of industrial Oil Storage Tanks with bounding box annotations
-* https://www.kaggle.com/datasets/eba5cd4e52d5143594ae149e68a496f2b3dce25ad6ed76dd9c60e7069b0d18fb -> Center Pivot Irrigation Systems
 * https://www.kaggle.com/competitions/widsdatathon2019/ -> Palm oil plantations
 * https://www.kaggle.com/datasets/siddharthkumarsah/ships-in-aerial-images -> Ships/Vessels in Aerial Images
 * https://www.kaggle.com/datasets/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects -> Aerial dataset for maritime Search and Rescue applications
