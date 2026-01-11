@@ -44,6 +44,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
 * [Analyzing Sentinel-2 satellite data in Python with Keras](https://github.com/jensleitloff/CNN-Sentinel)
 * [SEN2VENµS](https://zenodo.org/record/6514159#.YoRxM5PMK3I) -> a dataset for the training of Sentinel-2 super-resolution algorithms
+* [M3LEO](https://huggingface.co/M3LEO) -> [Github](https://github.com/spaceml-org/M3LEO). A very large scale georeferenced dataset of Sentinel 1/2 imagery plus interferometric SAR products and auxiliary datasets such as Land cover, Biomass and Digital Elevation Models.
+* [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion. Checkout [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS) and many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
 * [SEN2NAIP](https://huggingface.co/datasets/tacofoundation/SEN2NAIPv2) -> Spatially and spectrally harmonized Sen-2 + NAIP dataset for 4x RGB-NIR super-resolution.
 * [Sen4AgriNet](https://github.com/Orion-AI-Lab/S4A) -> A Sentinel-2 multi-year, multi-country benchmark dataset for crop classification and segmentation with deep learning, with and [models](https://github.com/Orion-AI-Lab/S4A-Models)
 * [sentinel2tools](https://github.com/QuantuMobileSoftware/sentinel2tools) -> downloading & basic processing of Sentinel 2 imagesry. Read [Sentinel2tools: simple lib for downloading Sentinel-2 satellite images](https://medium.com/geekculture/sentinel2tools-simple-lib-for-downloading-sentinel-2-satellite-images-f8a6be3ee894)
