@@ -436,6 +436,12 @@ RF100 is compiled from 100 real world datasets that straddle a range of domains.
 * https://www.rf100.org/
 * https://github.com/roboflow-ai/roboflow-100-benchmark
 
+## SATIN (SATellite ImageNet)
+SATIN is a multi-task remote sensing classification metadataset consisting of 27 datasets grouped into 6 tasks. The imagery spans 5 orders of magnitude of resolution, over 250 distinct class labels, and many field of view sizes. The overall SATIN benchmark, as well as each of the 27 constituent datasets, are released via HuggingFace. A public leaderboard is provided to guide and track the progress of vision-language models on SATIN. 
+* [Paper](https://arxiv.org/abs/2304.11619)
+* [Website](https://satinbenchmark.github.io/)
+* [Data](https://huggingface.co/datasets/jonathan-roberts1/SATIN)
+
 ## SODA-A rotated bounding boxes
 * https://shaunyuan22.github.io/SODA/
 * SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes
