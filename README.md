@@ -299,6 +299,7 @@ Large set of annotated cars from overhead. Established baseline for object detec
 * http://gdo152.ucllnl.org/cowc/
 * https://github.com/LLNL/cowc
 * [Detecting cars from aerial imagery for the NATO Innovation Challenge](https://arthurdouillard.com/post/nato-challenge/)
+* [LINZ and UGRC](https://github.com/humansensinglab/AGenDA/tree/main/Data)
 
 ## AI-TOD & AI-TOD-v2 - tiny object detection
 The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets. Annotations in bounding box format. V2 is a meticulous relabelling of the v1 dataset
