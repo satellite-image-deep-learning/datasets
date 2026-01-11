@@ -348,7 +348,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
 * [Sentinel-2 Cloud Cover Segmentation Dataset](https://mlhub.earth/data/ref_cloud_cover_detection_challenge_v1) on Radiant mlhub
 * [cloudsen12](https://cloudsen12.github.io/) -> see [video](https://youtu.be/GhQwnVhJ1wo)
-* [WHUS2-CD+](https://zenodo.org/record/5511793) -> 36 manually labeled cloud masks at 10m resolution and corresponding Sentinel-2 images evenly distributed over China mainland, and used to train CD-FM3SF [cloud-model] (https://github.com/Neooolee/WHUS2-CD)
+* [WHUS2-CD+](https://zenodo.org/record/5511793) -> 36 manually labeled cloud masks at 10m resolution and corresponding Sentinel-2 images evenly distributed over China mainland, and used to train CD-FM3SF [cloud-model](https://github.com/Neooolee/WHUS2-CD)
 * [HRC_WHU](https://github.com/dr-lizhiwei/HRC_WHU) -> High-Resolution Cloud Detection Dataset comprising 150 RGB images and a resolution varying from 0.5 to 15 m in different global regions
 * [AIR-CD](https://github.com/AICyberTeam/AIR-CD) -> a challenging cloud detection data set called AIR-CD, with higher spatial resolution and more representative landcover types
 * [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
