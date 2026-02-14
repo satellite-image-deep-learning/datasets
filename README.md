@@ -109,6 +109,9 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [IRRISIGHT](https://github.com/Nibir088/IRRISIGHT) -> a large-scale, multimodal remote sensing dataset for irrigation classification, soil-water mapping, and agricultural monitoring.
 * [SentinelKilnDB](https://sustainability-lab.github.io/sentinelkilndb/) -> Sentinel-2 dataset for monitoring brick kiln emissions in South Asia
 * [MSSWD - Multi-Spectral Ship Wake Dataset](https://zenodo.org/records/13870226)
+* [MOSAIC-SEN2-CC](https://github.com/ChangeCapsInRS/MOSAIC-SEN2-CC) -> A Multispectral Dataset and Adaptation Framework for Remote Sensing Change Captioning
+* [PLUTo](https://zenodo.org/records/15629667) -> post-deforestation land uses across the tropics
+* [SentinelKilnDB](https://github.com/rishabh-mondal/SENTINELKILNDB_NeurIPS_2025) -> A Large-Scale Dataset and Benchmark for Oriented Bounding Box (OBB) Brick Kiln Detection in South Asia Using Satellite Imagery
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -143,6 +146,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
 * [CropClimateX](https://github.com/drnhhl/CropClimateX) -> A large-scale Multitask, Multisensory Dataset for Crop Monitoring under Climate Extremes
 * [SmallMinesDS](https://huggingface.co/datasets/ellaampy/SmallMinesDS) -> A Multimodal Dataset for Mapping Artisanal and Small-Scale Gold Mines. Imagery reused in [CocoaMiningDS](https://huggingface.co/datasets/ellaampy/CocoaMiningDS)
+* [Hoss-ReID](https://github.com/Alioth2000/Hoss-ReID) -> Cross-modal Ship Re-Identification via Optical and SAR Imagery
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
