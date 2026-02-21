@@ -112,6 +112,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MOSAIC-SEN2-CC](https://github.com/ChangeCapsInRS/MOSAIC-SEN2-CC) -> A Multispectral Dataset and Adaptation Framework for Remote Sensing Change Captioning
 * [PLUTo](https://zenodo.org/records/15629667) -> post-deforestation land uses across the tropics
 * [SentinelKilnDB](https://github.com/rishabh-mondal/SENTINELKILNDB_NeurIPS_2025) -> A Large-Scale Dataset and Benchmark for Oriented Bounding Box (OBB) Brick Kiln Detection in South Asia Using Satellite Imagery
+* [GSDD](https://zenodo.org/records/17161810) -> Global Supraglacial Debris Dataset
+* [MT4AFE](https://zenodo.org/records/15395167) -> Multi-Task Learning for Agricultural Field Extraction
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -147,6 +149,9 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [CropClimateX](https://github.com/drnhhl/CropClimateX) -> A large-scale Multitask, Multisensory Dataset for Crop Monitoring under Climate Extremes
 * [SmallMinesDS](https://huggingface.co/datasets/ellaampy/SmallMinesDS) -> A Multimodal Dataset for Mapping Artisanal and Small-Scale Gold Mines. Imagery reused in [CocoaMiningDS](https://huggingface.co/datasets/ellaampy/CocoaMiningDS)
 * [Hoss-ReID](https://github.com/Alioth2000/Hoss-ReID) -> Cross-modal Ship Re-Identification via Optical and SAR Imagery
+*  [IDEABench Benchmark Dataset](https://github.com/IDEAtlas/ai-dua-mapping) -> Mapping and Benchmarking Urban Deprivation for a Global Sample of Cities
+* [ImpactMesh](https://github.com/IBM/ImpactMesh) -> a large-scale multimodal, multitemporal dataset for flood and wildfire mapping
+* [Sen12Landslides](https://github.com/PaulH97/Sen12Landslides) -> Spatio-Temporal Landslide & Anomaly Detection Dataset
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -166,9 +171,8 @@ Vegetation and Environment monitoring on a New Micro-Satellite ([VENμS](https:/
 * [Sen2Venµs](https://zenodo.org/records/6514159) -> a dataset for the training of Sentinel-2 super-resolution algorithms
 * [sen2venus-pytorch-dataset](https://github.com/piclem/sen2venus-pytorch-dataset) -> torch dataloader and other utilities
 
-
-## Maxar
-Satellites owned by Maxar (formerly DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
+## Vantor
+Satellites owned by Vantor (formerly Maxar & DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
 * [Maxar Open Data Program](https://github.com/opengeos/maxar-open-data) provides pre and post-event high-resolution satellite imagery in support of emergency planning, response, damage assessment, and recovery
 * [WorldView-2 European Cities](https://earth.esa.int/eogateway/catalog/worldview-2-european-cities) -> dataset covering the most populated areas in Europe at 40 cm resolution
 
@@ -181,6 +185,7 @@ Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later
 * [Marine Debris Dataset for Object Detection in Planetscope Imagery](https://cmr.earthdata.nasa.gov/search/concepts/C2781412735-MLHUB.html)
 * [LitterLines](https://github.com/geoJoost/LitterLines) -> An Annotated Dataset for Detection of Marine Litter Windrows in PlanetScope Imagery
 * [FloodPlanet Inundation Dataset](https://zenodo.org/records/15238572) -> multi-sensor co-registered dataset labeled based on 3m PlanetScope data and spatially overlapping, temporally near Sentinel-1, Sentinel-2, and Landsat-8 data
+* [Zhijie_FloodPlanet_2023](https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Zhijie_FloodPlanet_2023) -> 19 flood events that occurred between 2017 and 2020
 
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
@@ -644,6 +649,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [SpatioTemporalYield](https://huggingface.co/datasets/ellaampy/SpatioTemporalYield) -> covers the USA’s top five corn-producing states: Iowa, Illinois, Indiana, Nebraska, and Minnesota.
 * [Palm Tree Dataset](https://github.com/NourO93/Palm-Tree-Dataset/tree/main)
 * [ts-satfire](https://www.kaggle.com/datasets/z789456sx/ts-satfire) -> A Multi-Task Satellite Image Time-Series Dataset for Wildfire Detection and Prediction
+* [GTPBD](https://github.com/Z-ZW-WXQ/GTPBD/) -> Global Terraced Parcel and Boundary Dataset
 
 ### Hyperspectral & Multi-modal
 * [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
