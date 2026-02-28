@@ -114,6 +114,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [SentinelKilnDB](https://github.com/rishabh-mondal/SENTINELKILNDB_NeurIPS_2025) -> A Large-Scale Dataset and Benchmark for Oriented Bounding Box (OBB) Brick Kiln Detection in South Asia Using Satellite Imagery
 * [GSDD](https://zenodo.org/records/17161810) -> Global Supraglacial Debris Dataset
 * [MT4AFE](https://zenodo.org/records/15395167) -> Multi-Task Learning for Agricultural Field Extraction
+* [agripotential](https://github.com/MohammadElSakka/agripotential) ->  a Satellite Image Time Series (STIS) of 34 Sentinel-2 timeframes with 5 classes of agriculutural potential
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
