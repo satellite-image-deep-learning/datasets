@@ -37,6 +37,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
 * [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
 * [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
+* [CYCleSS](https://www.nature.com/articles/s41597-025-06528-x) -> A comprehensive UK crop yield dataset incorporating satellite, weather, and soil type informations
 
 ### Sentinel-2 (Optical)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
@@ -115,6 +116,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [GSDD](https://zenodo.org/records/17161810) -> Global Supraglacial Debris Dataset
 * [MT4AFE](https://zenodo.org/records/15395167) -> Multi-Task Learning for Agricultural Field Extraction
 * [agripotential](https://github.com/MohammadElSakka/agripotential) ->  a Satellite Image Time Series (STIS) of 34 Sentinel-2 timeframes with 5 classes of agriculutural potential
+* [YieldSAT](https://yieldsat.github.io/) -> A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -154,6 +156,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [ImpactMesh](https://github.com/IBM/ImpactMesh) -> a large-scale multimodal, multitemporal dataset for flood and wildfire mapping
 * [Sen12Landslides](https://github.com/PaulH97/Sen12Landslides) -> Spatio-Temporal Landslide & Anomaly Detection Dataset
 * [Cryo-Bench](https://github.com/Sk-2103/Cryo-Bench) -> A Benchmark for Evaluating Geospatial Foundation Models on Cryosphere Applications
+* [BigEarthNet.txt](https://txt.bigearth.net/) -> A Large-Scale Multi-Sensor Image-Text Dataset and Benchmark for Earth Observation
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
