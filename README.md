@@ -38,6 +38,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
 * [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
 * [CYCleSS](https://www.nature.com/articles/s41597-025-06528-x) -> A comprehensive UK crop yield dataset incorporating satellite, weather, and soil type informations
+* [DeepOWT](https://zenodo.org/records/18735421) -> dataset of offshore wind energy infrastructure locations and their temporal deployment dynamics on a global scale.
 
 ### Sentinel-2 (Optical)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
@@ -158,6 +159,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Cryo-Bench](https://github.com/Sk-2103/Cryo-Bench) -> A Benchmark for Evaluating Geospatial Foundation Models on Cryosphere Applications
 * [BigEarthNet.txt](https://txt.bigearth.net/) -> A Large-Scale Multi-Sensor Image-Text Dataset and Benchmark for Earth Observation
 * [Borneo_Forest_Disturbance_Dataset](https://github.com/ColmKeyes/Borneo_Forest_Disturbance_Dataset) -> Forest Disturbance Dataset utilising Sentinel-2 data and RADD alert disturbances.
+* [GeoMeld](https://github.com/MaramAI/GeoMeld) -> 
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -193,6 +195,7 @@ Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later
 * [LitterLines](https://github.com/geoJoost/LitterLines) -> An Annotated Dataset for Detection of Marine Litter Windrows in PlanetScope Imagery
 * [FloodPlanet Inundation Dataset](https://zenodo.org/records/15238572) -> multi-sensor co-registered dataset labeled based on 3m PlanetScope data and spatially overlapping, temporally near Sentinel-1, Sentinel-2, and Landsat-8 data
 * [Zhijie_FloodPlanet_2023](https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Zhijie_FloodPlanet_2023) -> 19 flood events that occurred between 2017 and 2020
+* [LacunaLabels](https://github.com/agroimpacts/lacunalabels) -> A region-wide, multi-year set of crop field boundary labels for Africa
 
 ## UC Merced
 Land use classification dataset with 21 classes and 100 RGB TIFF images for each class. Each image measures 256x256 pixels with a pixel resolution of 1 foot
