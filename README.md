@@ -118,6 +118,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MT4AFE](https://zenodo.org/records/15395167) -> Multi-Task Learning for Agricultural Field Extraction
 * [agripotential](https://github.com/MohammadElSakka/agripotential) ->  a Satellite Image Time Series (STIS) of 34 Sentinel-2 timeframes with 5 classes of agriculutural potential
 * [YieldSAT](https://yieldsat.github.io/) -> A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction
+* [MOSAIC-SEN2-CC](https://zenodo.org/records/19677262) -> A Multispectral Change Captioning Dataset.
+* [Ghana Sentinel-2 Forest Dataset](https://www.kaggle.com/datasets/kwabenaobeng/ghana-sentinel2-forest)
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -159,7 +161,8 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Cryo-Bench](https://github.com/Sk-2103/Cryo-Bench) -> A Benchmark for Evaluating Geospatial Foundation Models on Cryosphere Applications
 * [BigEarthNet.txt](https://txt.bigearth.net/) -> A Large-Scale Multi-Sensor Image-Text Dataset and Benchmark for Earth Observation
 * [Borneo_Forest_Disturbance_Dataset](https://github.com/ColmKeyes/Borneo_Forest_Disturbance_Dataset) -> Forest Disturbance Dataset utilising Sentinel-2 data and RADD alert disturbances.
-* [GeoMeld](https://github.com/MaramAI/GeoMeld) -> 
+* [GeoMeld](https://github.com/MaramAI/GeoMeld) -> a large-scale multimodal remote sensing dataset for semantically grounded foundation modeling. It contains approximately 2.5 million spatially aligned samples spanning optical imagery, SAR, elevation, canopy height, land-cover products, and geographic metadata, paired with semantically grounded captions generated through an agentic captioning framework.
+* [Forest Loss Dataset Northeast India](https://www.kaggle.com/datasets/suranjandas1990/forest-loss-dataset)
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
