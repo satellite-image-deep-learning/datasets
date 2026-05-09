@@ -163,6 +163,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Borneo_Forest_Disturbance_Dataset](https://github.com/ColmKeyes/Borneo_Forest_Disturbance_Dataset) -> Forest Disturbance Dataset utilising Sentinel-2 data and RADD alert disturbances.
 * [GeoMeld](https://github.com/MaramAI/GeoMeld) -> a large-scale multimodal remote sensing dataset for semantically grounded foundation modeling. It contains approximately 2.5 million spatially aligned samples spanning optical imagery, SAR, elevation, canopy height, land-cover products, and geographic metadata, paired with semantically grounded captions generated through an agentic captioning framework.
 * [Forest Loss Dataset Northeast India](https://www.kaggle.com/datasets/suranjandas1990/forest-loss-dataset)
+* [Sentinel2Cap](https://github.com/LucreziaT/Sentinel2Cap) -> contains captions for remote sensing images, both manually annotated and automatically generated with Qwen3-VL-8B-Instruct.
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
