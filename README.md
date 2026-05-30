@@ -631,6 +631,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [BANet change dataset - RS image to cadastral map](https://github.com/lqycrystal/BANet)
 * [Indian Cities Change Detection (ICCD) Dataset](https://ieee-dataport.org/documents/indian-cities-change-detection-iccd-dataset)
 * [FOTBCD-datasets](https://github.com/abdelpy/FOTBCD-datasets) -> FOTBCD: A Geographically Diverse Dataset for Building Change Detection from High-Resolution Aerial Imagery
+* [TERRA-CD](https://github.com/omkarsoak/TERRA-CD) -> Temporal Remote-sensing Repository for Analyzing Change Detection: 5,221 paired Sentinel-2 images from 232 cities across the USA and Europe with 4-class land cover, 3-class vegetation change, and 13-class semantic change masks for multi-class and semantic change detection
 
 ### SAR-Specific Datasets
 * [HRSID](https://github.com/chaozhong2010/HRSID) -> high resolution sar images dataset for ship detection, semantic segmentation, and instance segmentation tasks
