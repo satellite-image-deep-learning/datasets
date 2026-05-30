@@ -674,6 +674,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Palm Tree Dataset](https://github.com/NourO93/Palm-Tree-Dataset/tree/main)
 * [ts-satfire](https://www.kaggle.com/datasets/z789456sx/ts-satfire) -> A Multi-Task Satellite Image Time-Series Dataset for Wildfire Detection and Prediction
 * [GTPBD](https://github.com/Z-ZW-WXQ/GTPBD/) -> Global Terraced Parcel and Boundary Dataset
+* [AI4SmallFarms](https://github.com/jeroengrift/AI4SmallFarms) -> 439,001 field polygons across 62 tiles in Vietnam and Cambodia for crop field boundary delineation in smallholder farms, with multitemporal Sentinel-2 composites, [data](https://doi.org/10.17026/dans-xy6-ngg6)
 
 ### Hyperspectral & Multi-modal
 * [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
