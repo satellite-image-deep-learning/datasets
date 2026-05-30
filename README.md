@@ -628,6 +628,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [GDCLD](https://zenodo.org/records/13612636) -> A globally distributed dataset of coseismic landslide mapping via multi-source high-resolution remote sensing images
 * [BANet change dataset - RS image to cadastral map](https://github.com/lqycrystal/BANet)
 * [Indian Cities Change Detection (ICCD) Dataset](https://ieee-dataport.org/documents/indian-cities-change-detection-iccd-dataset)
+* [FOTBCD-datasets](https://github.com/abdelpy/FOTBCD-datasets) -> FOTBCD: A Geographically Diverse Dataset for Building Change Detection from High-Resolution Aerial Imagery
 
 ### SAR-Specific Datasets
 * [HRSID](https://github.com/chaozhong2010/HRSID) -> high resolution sar images dataset for ship detection, semantic segmentation, and instance segmentation tasks
