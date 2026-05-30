@@ -661,7 +661,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [RSHaze+](https://zenodo.org/records/13837162) -> remote sensing dehazing datasets in PhDnet: A novel physic-aware dehazing network for remote sensing images
 * [GMSEUS](https://github.com/stidjaco/GMSEUS) -> A comprehensive ground-mounted solar energy dataset with sub-array design metadata in the United States
 * [MultiviewRS](https://github.com/fmenat/multiviewRS-datasets) -> List of remote sensing (RS) multi-view datasets for exploring multi-view learning
-* [SatDepth](https://satdepth.pythonanywhere.com/) -> A Novel Dataset for Satellite Image Matching and Depth Estimation
 * [OpenSatMap](https://huggingface.co/datasets/z-hb/OpenSatMap) -> for large-scale map construction and downstream tasks like autonomous driving
 
 ### Agricultural & Environmental
