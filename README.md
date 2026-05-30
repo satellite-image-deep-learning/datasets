@@ -565,6 +565,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [UAV-HSI-Crop-Dataset](https://github.com/MrSuperNiu/UAV-HSI-Crop-Dataset) -> dataset for "HSI-TransUNet: A Transformer based semantic segmentation model for crop mapping from UAV hyperspectral imagery"
 * [UAVVaste](https://github.com/PUTvision/UAVVaste) -> COCO-like dataset and effective waste detection in aerial images
 * [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> A panoptic segmentation dataset of aerial imagery from Brasilia, Brazil.
+* [ELDOR](https://huggingface.co/datasets/IRSC/ELDOR) -> large-scale UAV benchmark for monitoring illegal gold mining in the Amazon rainforest, with manually annotated orthomosaic imagery covering 2,500+ hectares and pixel-level semantic labels for mining activities and ecological structures, supporting segmentation and classification tasks
 
 ## Other datasets
 
