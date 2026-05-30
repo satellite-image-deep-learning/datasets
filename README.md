@@ -120,6 +120,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [YieldSAT](https://yieldsat.github.io/) -> A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction
 * [MOSAIC-SEN2-CC](https://zenodo.org/records/19677262) -> A Multispectral Change Captioning Dataset.
 * [Ghana Sentinel-2 Forest Dataset](https://www.kaggle.com/datasets/kwabenaobeng/ghana-sentinel2-forest)
+* [GeoSR-Bench](https://huggingface.co/datasets/ai-spatial/GeoSR-Bench) -> directly connects super-resolution (SR) with downstream Earth monitoring tasks
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -413,6 +414,7 @@ Semantic segmentation and domain adaptation challenge proposed by the French Nat
 * [FLAIR-2 github](https://github.com/IGNF/FLAIR-2)
 * [flair-2 8th place solution](https://github.com/association-rosia/flair-2)
 * [IGNF HuggingFace](https://huggingface.co/IGNF)
+* [FLAIR-HUB](https://github.com/IGNF/FLAIR-HUB) -> UperFuse code for the FLAIR-HUB dataset
 
 ## ISPRS
 Semantic segmentation dataset. 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
@@ -637,6 +639,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [SynthWakeSAR](https://data.bris.ac.uk/data/dataset/30kvuvmatwzij2mz1573zqumfx) -> A Synthetic SAR Dataset for Deep Learning Classification of Ships at Sea, with [paper](https://www.mdpi.com/2072-4292/14/16/3999)
 * [SAR2Opt-Heterogeneous-Dataset](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset) -> SAR-optical images to be used as a benchmark in change detection and image transaltion on remote sensing images
 * [OpenSARWake](https://github.com/libzzluo/OpenSARWake) -> A SAR ship wake rotation detection benchmark dataset.
+* [NASTaR](https://github.com/Benyaminhosseiny/NASTaR/) -> The NovaSAR Automated Ship Target Recognition (NASTaR) comprises 3415 ship patches extracted from NovaSAR S-band imagery, with labels aligned to AIS (Automatic Identification System) data
 
 ### Specialized Applications
 * [MUSIC4HA](https://github.com/gistairc/MUSIC4HA) -> MUltiband Satellite Imagery for object Classification (MUSIC) to detect Hot Area
