@@ -122,6 +122,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [MOSAIC-SEN2-CC](https://zenodo.org/records/19677262) -> A Multispectral Change Captioning Dataset.
 * [Ghana Sentinel-2 Forest Dataset](https://www.kaggle.com/datasets/kwabenaobeng/ghana-sentinel2-forest)
 * [GeoSR-Bench](https://huggingface.co/datasets/ai-spatial/GeoSR-Bench) -> directly connects super-resolution (SR) with downstream Earth monitoring tasks
+* [MANGO](https://github.com/ROKMC1250/MANGO) -> a global single-date paired dataset for mangrove segmentation.
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
@@ -655,6 +656,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [SolarDK](https://arxiv.org/abs/2212.01260) -> A high-resolution urban solar panel image classification and localization dataset
 * [Oil and Gas Infrastructure Mapping (OGIM) database](https://zenodo.org/record/7922117) -> includes locations and facility attributes of oil and gas infrastructure types that are important sources of methane emissions
 * [Overhead Wind Turbine Dataset - NAIP](https://zenodo.org/records/7385227#.Y419qezMLdr)
+* [CAFOSat](https://github.com/oishee-hoque/CAFOSat) -> a large-scale, high-resolution dataset designed to support infrastructure-aware mapping of Concentrated Animal Feeding Operations (CAFOs) across the United States, using NAIP imagery
 * [CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds](https://zenodo.org/records/10042922) -> the dataset consists of 1,780 MODIS satellite images hand-labeled for the presence of more than 12,000 ship tracks.
 * [Digital Typhoon Dataset](https://github.com/kitamoto-lab/digital-typhoon/) -> aimed at benchmarking machine learning models for long-term spatio-temporal data
 * [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View iNAT Birds 2021: This cross-view birds species dataset consists of paired ground-level bird images and satellite images, along with meta-information associated with the iNaturalist-2021 dataset.
