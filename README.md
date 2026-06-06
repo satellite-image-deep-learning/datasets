@@ -882,7 +882,6 @@ Classify the target in a SAR image chip as either a ship or an iceberg. The data
 * https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data
 * [An interview with David Austin: 1st place winner](https://pyimagesearch.com/2018/03/26/interview-david-austin-1st-place-25000-kaggles-popular-competition/)
 * [radar-image-recognition](https://github.com/siarez/radar-image-recognition)
-* [Iceberg-Classification-Using-Deep-Learning](https://github.com/mankadronit/Iceberg-Classification-Using-Deep-Learning) -> uses keras
 * [Deep-Learning-Project](https://github.com/singh-shakti94/Deep-Learning-Project) -> uses keras
 * [iceberg-classifier-challenge solution by ShehabSunny](https://github.com/ShehabSunny/iceberg-classifier-challenge) -> uses keras
 * [Analyzing Satellite Radar Imagery with Deep Learning](https://uk.mathworks.com/company/newsletters/articles/analyzing-satellite-radar-imagery-with-deep-learning.html) -> by Matlab, uses ensemble with greedy search
