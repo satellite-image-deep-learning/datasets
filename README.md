@@ -167,6 +167,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [GeoMeld](https://github.com/MaramAI/GeoMeld) -> a large-scale multimodal remote sensing dataset for semantically grounded foundation modeling. It contains approximately 2.5 million spatially aligned samples spanning optical imagery, SAR, elevation, canopy height, land-cover products, and geographic metadata, paired with semantically grounded captions generated through an agentic captioning framework.
 * [Forest Loss Dataset Northeast India](https://www.kaggle.com/datasets/suranjandas1990/forest-loss-dataset)
 * [Sentinel2Cap](https://github.com/LucreziaT/Sentinel2Cap) -> contains captions for remote sensing images, both manually annotated and automatically generated with Qwen3-VL-8B-Instruct.
+* [50Cities](https://github.com/rhaensch/50cities) -> a global-scale benchmark for multi-modal land-cover segmentation across 50 urban regions on six continents, with 33 labeled and 17 unlabeled cities, using co-registered Sentinel-1 and Sentinel-2 image pairs
 
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
