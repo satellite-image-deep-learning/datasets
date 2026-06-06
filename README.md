@@ -123,6 +123,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Ghana Sentinel-2 Forest Dataset](https://www.kaggle.com/datasets/kwabenaobeng/ghana-sentinel2-forest)
 * [GeoSR-Bench](https://huggingface.co/datasets/ai-spatial/GeoSR-Bench) -> directly connects super-resolution (SR) with downstream Earth monitoring tasks
 * [MANGO](https://github.com/ROKMC1250/MANGO) -> a global single-date paired dataset for mangrove segmentation.
+* [STTORM-CD-Floods](https://zenodo.org/records/14891438) -> a Sentinel-2 time-series change detection dataset capturing flood events, with 12 training and 4 test scenes provided as RGB composites and 14-channel NumPy arrays (all 13 L1C bands plus a cloud mask)
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
