@@ -656,6 +656,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ABCDdataset](https://github.com/gistairc/ABCDdataset) -> damage detection dataset to identify whether buildings have been washed-away by tsunami
 * [Thermal power plans dataset](https://github.com/wenxinYin/AIR-TPPDD)
 * [SolarDK](https://arxiv.org/abs/2212.01260) -> A high-resolution urban solar panel image classification and localization dataset
+* [BDAPPV — Aerial Images of Rooftop Photovoltaic Installations](https://huggingface.co/datasets/gabrielkasmi/bdappv) -> aerial images of rooftop PV installations in France and Belgium, with segmentation masks and installation metadata. Includes imagery from Google and IGN, supporting segmentation and classification benchmarks as well as distribution-shift evaluation across imagery sources
 * [Oil and Gas Infrastructure Mapping (OGIM) database](https://zenodo.org/record/7922117) -> includes locations and facility attributes of oil and gas infrastructure types that are important sources of methane emissions
 * [Overhead Wind Turbine Dataset - NAIP](https://zenodo.org/records/7385227#.Y419qezMLdr)
 * [CAFOSat](https://github.com/oishee-hoque/CAFOSat) -> a large-scale, high-resolution dataset designed to support infrastructure-aware mapping of Concentrated Animal Feeding Operations (CAFOs) across the United States, using NAIP imagery
