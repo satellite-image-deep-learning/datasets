@@ -200,6 +200,7 @@ Satellites owned by Vantor (formerly Maxar & DigitalGlobe) include [GeoEye-1](ht
 Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later in this page
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 * [Fields of the Planet](https://github.com/taylor-geospatial/fields-of-the-planet) -> a 3 m PlanetScope companion to Fields of The World for field-boundary mapping, pairing 66,584 patches from 24 countries with two seasonal image windows, raster labels, and field polygons
+* [PKLandSeg](https://zenodo.org/records/21065148) -> 3,330 samples for landslide segmentation in Pakistan's Gilgit-Baltistan region, with 3 m PlanetScope RGB imagery, elevation, NDVI, slope, and binary masks at 512×512 pixels; includes fixed training, validation, and test splits
 * Planet have made imagery available via kaggle competitions
 * [Alberta Wells Dataset](https://zenodo.org/records/13743323) -> Pinpointing Oil and Gas Wells from Satellite Imagery
 * [ARGO ship classification dataset](https://zenodo.org/records/6058710) -> 1750 labelled images from PlanetScope-4-Band satelites. Created [here](https://github.com/elizamanelli/ship_dataset/tree/main)
