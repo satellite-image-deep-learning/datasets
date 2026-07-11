@@ -39,6 +39,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
 * [CYCleSS](https://www.nature.com/articles/s41597-025-06528-x) -> A comprehensive UK crop yield dataset incorporating satellite, weather, and soil type informations
 * [DeepOWT](https://zenodo.org/records/18735421) -> dataset of offshore wind energy infrastructure locations and their temporal deployment dynamics on a global scale.
+* [Sentinel-1 SAR Oil Spill Image Dataset, Part I](https://zenodo.org/records/8346860) -> training and validation data for oil-spill detection and segmentation, comprising 2048×2048×2 Sentinel-1 Sigma0 images in decibels and 2048×2048 ground-truth masks in TIFF format
 
 ### Sentinel-2 (Optical)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
