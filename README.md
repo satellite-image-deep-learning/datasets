@@ -223,6 +223,7 @@ Land use classification dataset of Sentinel-2 satellite images covering 13 spect
 * [evolved_channel_selection](http://matpalm.com/blog/evolved_channel_selection/) -> explores the trade off between mixed resolutions and whether to use a channel at all, with [repo](https://github.com/matpalm/evolved_channel_selection)
 * RGB version available as [dataset in pytorch](https://pytorch.org/vision/stable/generated/torchvision.datasets.EuroSAT.html#torchvision.datasets.EuroSAT) with the 13 band version [in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html#eurosat). Checkout the tutorial on [data augmentation with this dataset](https://torchgeo.readthedocs.io/en/latest/tutorials/transforms.html)
 * [EuroSAT-SAR](https://huggingface.co/datasets/wangyi111/EuroSAT-SAR) -> matched each Sentinel-2 image in EuroSAT with one Sentinel-1 patch according to the geospatial coordinates
+* [Similar but Different](https://geospatialml.com/posts/similar-but-different/) -> a 30,927-patch Sentinel-2 land-cover benchmark designed to test whether models use multispectral information when RGB alone cannot easily separate classes; includes 12-band GeoTIFFs and fixed train, validation, and test splits
 
 ## PatternNet
 Land use classification dataset with 38 classes and 800 RGB JPG images for each class
