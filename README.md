@@ -199,6 +199,7 @@ Satellites owned by Vantor (formerly Maxar & DigitalGlobe) include [GeoEye-1](ht
 ## Planet
 Also see Spacenet-7 and the Kaggle ship and plane classifications datasets later in this page
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
+* [Fields of the Planet](https://github.com/taylor-geospatial/fields-of-the-planet) -> a 3 m PlanetScope companion to Fields of The World for field-boundary mapping, pairing 66,584 patches from 24 countries with two seasonal image windows, raster labels, and field polygons
 * Planet have made imagery available via kaggle competitions
 * [Alberta Wells Dataset](https://zenodo.org/records/13743323) -> Pinpointing Oil and Gas Wells from Satellite Imagery
 * [ARGO ship classification dataset](https://zenodo.org/records/6058710) -> 1750 labelled images from PlanetScope-4-Band satelites. Created [here](https://github.com/elizamanelli/ship_dataset/tree/main)
@@ -674,6 +675,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [OpenSatMap](https://huggingface.co/datasets/z-hb/OpenSatMap) -> for large-scale map construction and downstream tasks like autonomous driving
 
 ### Agricultural & Environmental
+* [EuroCropsV2](https://github.com/Martincccc/EuroCropsV2) -> harmonized European crop-parcel data distributed as 153 GeoParquet files by NUTS region and year, plus 18 multi-year stack layers for crop-rotation analysis
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
 * [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> soybean dataset
 * [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
