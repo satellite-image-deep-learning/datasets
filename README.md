@@ -160,6 +160,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [AI2-S2-NAIP](https://huggingface.co/datasets/allenai/s2-naip) -> aligned NAIP, Sentinel-2, Sentinel-1, and Landsat images spanning the entire continental US
 * [POPCORN: High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2](https://popcorn-population.github.io/)
 * [CropClimateX](https://github.com/drnhhl/CropClimateX) -> A large-scale Multitask, Multisensory Dataset for Crop Monitoring under Climate Extremes
+* [CropMapIL Orchard Dataset](https://zenodo.org/records/17800953) -> labels, dataset splits, and multi-temporal Sentinel-1/2 features for mapping 12 orchard types in Israel
 * [SmallMinesDS](https://huggingface.co/datasets/ellaampy/SmallMinesDS) -> A Multimodal Dataset for Mapping Artisanal and Small-Scale Gold Mines. Imagery reused in [CocoaMiningDS](https://huggingface.co/datasets/ellaampy/CocoaMiningDS)
 * [Hoss-ReID](https://github.com/Alioth2000/Hoss-ReID) -> Cross-modal Ship Re-Identification via Optical and SAR Imagery
 *  [IDEABench Benchmark Dataset](https://github.com/IDEAtlas/ai-dua-mapping) -> Mapping and Benchmarking Urban Deprivation for a Global Sample of Cities
