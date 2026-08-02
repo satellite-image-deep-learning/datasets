@@ -35,7 +35,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 
 ### Sentinel-1 (SAR)
 * [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
-* [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery, with [paper](https://ieeexplore.ieee.org/abstract/document/9882096)
+* [mmflood](https://github.com/edornd/mmflood) -> Flood delineation from Sentinel-1 SAR imagery
 * [Sentinel-1 for Science Amazonas](https://sen4ama.gisat.cz/) -> forest lost time series dataset
 * [CYCleSS](https://www.nature.com/articles/s41597-025-06528-x) -> A comprehensive UK crop yield dataset incorporating satellite, weather, and soil type informations
 * [DeepOWT](https://zenodo.org/records/18735421) -> dataset of offshore wind energy infrastructure locations and their temporal deployment dynamics on a global scale.
@@ -390,7 +390,7 @@ It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellit
 * [Onera Satellite Change Detection Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018
 * [Website](https://rcdaudt.github.io/oscd/)
 * [change_detection_onera_baselines](https://github.com/previtus/change_detection_onera_baselines) -> Siamese version of U-Net baseline model
-* [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection) -> with [paper](https://ieeexplore.ieee.org/abstract/document/8518015)
+* [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection)
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 * [ChangeDetection_wOnera](https://github.com/tonydp03/ChangeDetection_wOnera)
 * [OSCD + additional Dates](https://github.com/granularai/fabric) -> extended with three different dates
