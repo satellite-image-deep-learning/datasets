@@ -585,6 +585,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [UAVVaste](https://github.com/PUTvision/UAVVaste) -> COCO-like dataset and effective waste detection in aerial images
 * [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> A panoptic segmentation dataset of aerial imagery from Brasilia, Brazil.
 * [ELDOR](https://huggingface.co/datasets/IRSC/ELDOR) -> large-scale UAV benchmark for monitoring illegal gold mining in the Amazon rainforest, with manually annotated orthomosaic imagery covering 2,500+ hectares and pixel-level semantic labels for mining activities and ecological structures, supporting segmentation and classification tasks
+* [Songdo Vision](https://zenodo.org/records/13828407) -> [GitHub](https://github.com/rfonod/geo-trax). 5,419 high-altitude bird's-eye-view drone frames (4K, 140-150 m altitude) with 274,190 vehicle bounding boxes in 4 classes (car/van, bus, truck, motorcycle) over an urban road network in Songdo, South Korea, in COCO, YOLO and Pascal VOC formats, CC BY 4.0. Paper: Advanced computer vision for extracting georeferenced vehicle trajectories from drone imagery
 
 ## Other datasets
 
