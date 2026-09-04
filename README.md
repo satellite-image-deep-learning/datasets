@@ -127,6 +127,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [GeoSR-Bench](https://huggingface.co/datasets/ai-spatial/GeoSR-Bench) -> directly connects super-resolution (SR) with downstream Earth monitoring tasks
 * [MANGO](https://github.com/ROKMC1250/MANGO) -> a global single-date paired dataset for mangrove segmentation.
 * [STTORM-CD-Floods](https://zenodo.org/records/14891438) -> a Sentinel-2 time-series change detection dataset capturing flood events, with 12 training and 4 test scenes provided as RGB composites and 14-channel NumPy arrays (all 13 L1C bands plus a cloud mask)
+* [S2GAIA](https://github.com/eugeniapapathe/S2GAIA) -> a seasonally aware Sentinel-2 dataset for land-use and land-cover mapping in Greece, containing 34,030 annotated patches from 2017–2024 across 22 classes. Paper: S2GAIA: A seasonally aware multi-year dataset for deep learning-based land cover mapping using Sentinel-2 imagery in Greece
 
 ### Combined Sentinel
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) -> a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
