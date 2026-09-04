@@ -41,6 +41,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [DeepOWT](https://zenodo.org/records/18735421) -> dataset of offshore wind energy infrastructure locations and their temporal deployment dynamics on a global scale.
 * [Sentinel-1 SAR Oil Spill Image Dataset, Part I](https://zenodo.org/records/8346860) -> training and validation data for oil-spill detection and segmentation, comprising 2048×2048×2 Sentinel-1 Sigma0 images in decibels and 2048×2048 ground-truth masks in TIFF format
 * [OPD v1.0.1](https://zenodo.org/records/19606423) -> Sentinel-1-derived Offshore Platform Dataset providing geospatial locations, lifespans, and spatial attributes of offshore oil and gas platforms
+* [OpenSARShip Ship Detection Dataset (OSSDD)](https://huggingface.co/datasets/sylviaHoch/OpenSARShip-Ship-Detection-Dataset) -> 15,197 Sentinel-1 GRD amplitude patches in VV and VH polarization with binary ship masks and axis-aligned and rotated bounding boxes for 55,759 ships. Paper: OSSDD - a New Open Dataset for Sentinel-1 Ship Detection
 
 ### Sentinel-2 (Optical)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
