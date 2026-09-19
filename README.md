@@ -995,7 +995,6 @@ Competitions are an excellent source for accessing clean, ready-to-use satellite
 * https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/ -> building segmentation
 * https://captain-whu.github.io/DOTA/ -> large dataset for object detection in aerial imagery
 * https://spacenet.ai/ -> set of 8 challenges such as road network detection
-* https://huggingface.co/spaces/competitions/ChaBuD-ECML-PKDD2023 -> binary image segmentation task on forest fires monitored over California
 <!-- markdown-link-check-disable -->
 * https://spaceml.org/repo/project/6269285b14d764000d798fde -> ML for floods
 * https://spaceml.org/repo/project/60002402f5647f00129f7287 -> lightning and extreme weather
