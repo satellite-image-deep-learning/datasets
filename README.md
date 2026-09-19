@@ -99,6 +99,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Fields of The World](https://fieldsofthe.world/) -> instance segmentation of agricultural field boundaries
 * [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> field boundaries with Sentinel-2 and aerial photography
 * [California Wildfire GeoImaging Dataset - CWGID](https://arxiv.org/abs/2409.16380) -> Development and Application of a Sentinel-2 Satellite Imagery Dataset for Deep-Learning Driven Forest Wildfire Detection
+* [California Sentinel-2 Active-Fire Segmentation Dataset](https://github.com/MohammadrezaNarimaniUCDavis/California_Sentinel2_Active_Fire_Dataset) -> 2,148 Sentinel-2 false-colour image-mask chips (512x512 pixels at 20 m resolution) with per-pixel active-flame labels across 25 California wildfires from 2020–2026
 * [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations dataset
 * [PhilEO-downstream](https://huggingface.co/datasets/PhilEO-community/PhilEO-downstream) -> a 400GB Sentinel-2 dataset for building density estimation, road segmentation, and land cover classification.
 * [PhilEO-pretrain](https://huggingface.co/datasets/PhilEO-community/PhilEO-pretrain) -> a 500GB global dataset of Sentinel-2 images for model pre-training.
