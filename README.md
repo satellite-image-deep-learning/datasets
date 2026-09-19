@@ -628,7 +628,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [GAMUS](https://github.com/EarthNets/RSI-MMSegmentation) ->  A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
 * [openWUSU](https://github.com/AngieNikki/openWUSU) -> WUSU is a semantic understanding dataset focusing on urban structure and the urbanization process in Wuhan
 * [RSE_Cross-city](https://github.com/danfenghong/RSE_Cross-city) -> Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks
-* [AErial Lane](https://github.com/AidasDir/AerialLaneNet) -> AErial Lane (AEL) Dataset is a first large-scale aerial image dataset built for lane detection, with high-quality polyline lane annotations on high-resolution images of around 80 kilometers of road
 * [Chesapeake Roads Spatial Context (RSC)](https://github.com/isaaccorley/ChesapeakeRSC)
 * [So2Sat-POP-DL](https://github.com/zhu-xlab/So2Sat-POP-DL) -> Dataset discovery: So2Sat Population dataset covering 98 EU cities
 * [HouseTS](https://www.kaggle.com/datasets/shengkunwang/housets-dataset) -> Long-term, Multimodal Housing Dataset Across 30 U.S. Metropolitan Area. Uses NAIP. [With paper](https://arxiv.org/abs/2506.00765)
@@ -1000,4 +999,4 @@ Competitions are an excellent source for accessing clean, ready-to-use satellite
 * https://spaceml.org/repo/project/60002402f5647f00129f7287 -> lightning and extreme weather
 * https://spaceml.org/repo/project/6025107d79c197001219c481/true -> ~1TB dataset for precipitation forecasting
 * https://spaceml.org/repo/project/61c0a1b9ff8868000dfb79e1/true -> Sentinel-2 image super-resolution
-<!-- markdown-link-check-enable --
+<!-- markdown-link-check-enable -->
