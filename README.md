@@ -684,6 +684,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [OpenSatMap](https://huggingface.co/datasets/z-hb/OpenSatMap) -> for large-scale map construction and downstream tasks like autonomous driving
 
 ### Agricultural & Environmental
+* [FBIS-73M](https://huggingface.co/datasets/MykolaL/FBIS-73M) -> [GitHub](https://github.com/Lavreniuk/Delineate-Anything). Large-scale, multi-resolution agricultural field instance segmentation dataset used to train Delineate Anything v2, with 1,478,096 satellite image patches at 0.25–10 m resolution and 74,015,889 field masks. Paper: Delineate Anything v2: A Global Foundation Model for Field Delineation
 * [EuroCropsV2](https://github.com/Martincccc/EuroCropsV2) -> harmonized European crop-parcel data distributed as 153 GeoParquet files by NUTS region and year, plus 18 multi-year stack layers for crop-rotation analysis
 * [Hyperspectral Change Detection Dataset Irrigated Agricultural Area](https://github.com/SicongLiuRS/Hyperspectral-Change-Detection-Dataset-Irrigated-Agricultural-Area)
 * [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> soybean dataset
