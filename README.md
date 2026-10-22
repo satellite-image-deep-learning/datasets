@@ -737,6 +737,9 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ts-satfire](https://www.kaggle.com/datasets/z789456sx/ts-satfire) -> A Multi-Task Satellite Image Time-Series Dataset for Wildfire Detection and Prediction
 * [GTPBD](https://github.com/Z-ZW-WXQ/GTPBD/) -> Global Terraced Parcel and Boundary Dataset
 * [AI4SmallFarms](https://github.com/jeroengrift/AI4SmallFarms) -> 439,001 field polygons across 62 tiles in Vietnam and Cambodia for crop field boundary delineation in smallholder farms, with multitemporal Sentinel-2 composites, [data](https://doi.org/10.17026/dans-xy6-ngg6)
+* [Crop Yield Prediction MODIS](https://huggingface.co/datasets/onef1shy/Crop-Yield-Prediction-MODIS) -> processed 2003–2015 MODIS surface-reflectance, surface-temperature, and land-cover samples for crop-yield regression, distributed as nine-channel yearly arrays and spectral histograms. Paper: DFYP: A Dynamic Fusion Framework with Spectral Channel Attention and Adaptive Operator Learning for Crop Yield Prediction
+* [GeoFM Agriculture Benchmark](https://huggingface.co/datasets/sanmay4119/geofm-agriculture-benchmark) -> representative multi-temporal crop-segmentation and change-detection chips plus fine-tuned SatMAE, Prithvi, and SpectralGPT checkpoints for four US agricultural regions. Paper: Benchmarking Geospatial Foundation Models for Agriculture Applications
+* [CatCrops Dataset](https://www.kaggle.com/datasets/irtaremotesensing/catcrops-dataset) -> approximately 32 GB of parcel-level Sentinel-2 L2A time series and ancillary crop, irrigation, variety, elevation, and location data for early crop-type classification. Paper: Early Crop Type Classification and Mapping Combining Remote Sensing and Ancillary Data
 
 ### Hyperspectral & Multi-modal
 * [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
