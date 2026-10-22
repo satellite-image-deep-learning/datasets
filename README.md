@@ -132,6 +132,21 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [S2GAIA](https://github.com/eugeniapapathe/S2GAIA) -> a seasonally aware Sentinel-2 dataset for land-use and land-cover mapping in Greece, containing 34,030 annotated patches from 2017–2024 across 22 classes. Paper: S2GAIA: A seasonally aware multi-year dataset for deep learning-based land cover mapping using Sentinel-2 imagery in Greece
 * [SwissCrop25](https://huggingface.co/datasets/EOA-team/SwissCrop25) -> a national-scale crop mapping benchmark for Switzerland spanning seven growing seasons (2019–2025), combining Sentinel-2 time series, daily temperature observations, 73 crop categories, and five non-crop land-cover classes. Paper: SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping
 
+* [CASID](https://github.com/Linwei-Chen/CASID) -> 980 full-resolution satellite image and 5-class land-cover label pairs from 30 Asian regions across four climate zones, designed for domain-adaptive semantic segmentation. Paper: CASID: A Large-scale Climate-Aware Satellite Image Dataset for Domain Adaptive Land-Cover Semantic Segmentation
+* [CropGlobe](https://huggingface.co/datasets/x-ytong/CropGlobe) -> more than 300,000 crop-type samples from eight countries for cross-region Sentinel-2 time-series classification. Paper: Invariant Features for Global Crop Type Classification
+* [DISFOR](https://github.com/JR-DIGITAL/DISFOR) -> 3,823 densely labelled Sentinel-2 pixel and chip time series with forest-disturbance timing and causal-agent labels.
+* [Amfitrite Inland Waters HAB](https://huggingface.co/datasets/kostaspic/amfitrite-inland-waters-hab-sentinel2) -> 4,698 multispectral Sentinel-2 tiles of inland waters with low, moderate, or high harmful-algal-bloom labels, water masks, and abundance metadata.
+* [S2LCD](https://huggingface.co/datasets/neuronelab/s2lcd) -> 1,533 Sentinel-2 image patches with five land-cover captions each, using natural language and the EAGLE land-monitoring lexicon.
+* [Middle East AOD Dataset](https://huggingface.co/datasets/BaraaLazkani/Middle_East_AOD_Dataset) -> 6,183 paired 13-band Sentinel-2 L1C scenes and AERONET aerosol-optical-depth observations from 20 Middle East and eastern Mediterranean sites, 2015–2025.
+* [SSL4EO-EU-Forest](https://huggingface.co/datasets/dm4eo/ssl4eo_eu_forest) -> seasonal 12-band Sentinel-2 L2A patches over European forests with broadleaf and conifer forest masks derived from the Copernicus HRL 2018 product.
+* [OlmoEarth Land Cover Change](https://huggingface.co/datasets/allenai/olmoearth_lcc) -> point annotations for detecting and characterising land-cover change from 20-image Sentinel-2 time series, with source and destination classes and change dates.
+* [Crop Burn Detection — Labeled Sentinel-2](https://huggingface.co/datasets/munish0838/crop-burn-detection-labeled) -> labelled Sentinel-2 imagery and metadata for crop-residue burning detection in India during 2025.
+* [EcoFireBias](https://huggingface.co/datasets/moritzrengert1/wildfire_global) -> geographically balanced pre/post-fire Sentinel-2 RGB chips with dNBR severity labels across six continents and five ecosystem groups for evaluating VLM bias.
+* [Archaeological Site Dataset](https://huggingface.co/datasets/lldbrett/archaeological-sites-caa2025) -> 11-channel 1 km Sentinel-2, FABDEM, index, and terrain samples with positive, negative, and unlabelled archaeological-site examples.
+* [EO Crop Type Belgium](https://huggingface.co/datasets/0x365/eo-crop-type-belgium) -> 5,990 nine-band Sentinel-2 patches covering most of Belgium with 10 m WorldCereal crop-type segmentation labels.
+* [scburning](https://huggingface.co/datasets/jfloresf/scburning) -> 1,054 Sentinel-2 image samples for sugar-cane burning segmentation on the north and central coast of Peru; [GitHub](https://github.com/jfloresf17/scburning).
+* [Flood Detection Pair Colombia](https://huggingface.co/datasets/jpmarindiaz/flood-detection-pair-colombia) -> 110 paired pre-event and current Sentinel-2 RGB/SWIR examples from nine Colombian floods, labelled for vision-language flood assessment.
+
 ### Sentinel-3 (Optical)
 * [TMB-S3](https://huggingface.co/datasets/links-ads/tmb-s3) -> [GitHub](https://github.com/links-ads/tmb-s3). A burned-area segmentation dataset of Sentinel-3 OLCI time series for 246 European CEMS wildfire activations (2016–2025), split into 770 bounding boxes of about 25 × 25 km, with CEMS burned-area and analysed-area labels and ESA WorldCover land cover. Paper: Temporal Modelling for Burn Scars on Sentinel-3
 
@@ -183,6 +198,20 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [Sentinel2Cap](https://github.com/LucreziaT/Sentinel2Cap) -> contains captions for remote sensing images, both manually annotated and automatically generated with Qwen3-VL-8B-Instruct.
 * [50Cities](https://github.com/rhaensch/50cities) -> a global-scale benchmark for multi-modal land-cover segmentation across 50 urban regions on six continents, with 33 labeled and 17 unlabeled cities, using co-registered Sentinel-1 and Sentinel-2 image pairs
 
+* [Infra-Bench CLS](https://zenodo.org/records/22978498) -> 600 m Sentinel-1 RTC and seven-band Sentinel-2 L2A tiles centred on critical-infrastructure assets across seven continental regions and four infrastructure sectors.
+* [TreeUQ](https://huggingface.co/datasets/iclr2027kiwi/TreeUQ) -> 45,419 labelled 10 m Bavaria patches with seasonal Sentinel-1/2 composites, tree species, height, count and density rasters, plus optional 20 cm orthophotos.
+* [WaterBench](https://huggingface.co/datasets/ayushprd/WaterBench) -> a 175 GB multimodal coastal and marine benchmark spanning six regression, classification, and segmentation tasks with Sentinel-1/2 and contextual Sentinel-3 imagery.
+* [GeoFlood-275](https://huggingface.co/datasets/jiepanli/GeoFlood-275) -> 275 flood event–AOI pairs and 133,555 patches combining pre-event Sentinel-2, post-event Sentinel-1, terrain, land cover, and flood masks; [GitHub](https://github.com/Henryjiepanli/GeoFlood-275).
+* [BFC-Bench](https://huggingface.co/datasets/eadrah/AgDamage_Benchmark_v1) -> 9,888 global crop-damage chips from 2,760 flood and wildfire events, with pre/post Sentinel-1/2 imagery, damage masks, phenology, and quality-control metadata.
+* [Sentinel Patch Imagery Dataset for China's Cropland](https://huggingface.co/datasets/zerria/Sentinel_Agri_China) -> four-season Sentinel-1 and Sentinel-2 time-series patches over cropland-dominant areas across China in 2021.
+* [CryoSentinel GLOF v3](https://huggingface.co/datasets/abzal-glw/cryosentinel-glof-v3) -> 12-band Sentinel-2, dual-polarisation Sentinel-1, Copernicus DEM, and glacial-lake masks for Central Asian mountain ranges; [GitHub](https://github.com/abzalabdrash/cryosentinel).
+* [GeoPulse-Bench](https://huggingface.co/datasets/nafizrahaman/geopulse-bench) -> event-split 10 m Sentinel-1/2 and DEM benchmarks for floods, burned areas, and stand-replacing forest loss.
+* [Mangrove Biomass and Carbon Stocks in Côte d’Ivoire](https://huggingface.co/datasets/data354/civ_mangrove_biomass_dataset) -> 300 field plots with above- and below-ground biomass, soil carbon, and coincident Sentinel-1/2 measurements from Sassandra and Fresco.
+* [CEMS-HLS](https://huggingface.co/datasets/morenoj11/CEMS-HLS) -> 439 eight-band 512×512 Harmonized Landsat Sentinel-2 scenes with CEMS burn-scar masks from roughly 200 wildfire activations during 2020–2024.
+* [HLS Hail and Wind Damage Events](https://huggingface.co/datasets/SevereWeather/hls-hail-and-wind-damage-events) -> event-split HLS GeoTIFF chips and full scenes paired with hail and wind damage masks.
+* [HWDS-Multimodal](https://huggingface.co/datasets/wbhorn/hail_and_wind_damage_chips) -> 7,665 paired 30 m HLS and Sentinel-1 RTC chips with rasterised hail and wind damage masks.
+* [Hong Kong HLS Phenology](https://github.com/ZiyunYan/hk-hls-phenology) -> 2015–2025 six-band HLS vegetation time series over Hong Kong with 3-day composites, training pixels, a full vegetation cube, and phenology metadata.
+
 ## Landsat
 Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
@@ -195,12 +224,17 @@ Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat
 * [The Landsat Irish Coastal Segmentation Dataset](https://zenodo.org/records/8414665)
 * [Wildfire-Spread-Dataset](https://github.com/BEEILAB/Wildfire-Spread-Dataset) -> ABNextFire: A Multi-Source Deep Learning Based Dataset for Wildfire Spread Prediction
 
+* [LandsatQuake](https://huggingface.co/datasets/Vihaanakshaay/LandsatQuake) -> 1,042 RGB Landsat patches with object-detection and instance-segmentation annotations drawn from 31 landslide inventories in 21 earthquake-prone regions. Paper: LandsatQuake: A Large-Scale Dataset For Practical Landslide Detection
+* [Landsat30-AU](https://huggingface.co/datasets/supermarkioner/Landsat30-AU) -> 196,262 image-caption pairs and 17,725 human-verified VQA samples from Landsat 5, 7, 8, and 9 imagery across Australia over more than 36 years. Paper: Landsat30-AU: A Vision-Language Dataset for Australian Landsat Imagery
+
 ## VENμS
 Vegetation and Environment monitoring on a New Micro-Satellite ([VENμS](https://en.wikipedia.org/wiki/VEN%CE%BCS))
 * [VENUS L2A Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/venus-l2a-cogs/)
 * [VENuS cloud mask training dataset](https://zenodo.org/records/7040177)
 * [Sen2Venµs](https://zenodo.org/records/6514159) -> a dataset for the training of Sentinel-2 super-resolution algorithms
 * [sen2venus-pytorch-dataset](https://github.com/piclem/sen2venus-pytorch-dataset) -> torch dataloader and other utilities
+* [VENµS raw images for vessel detection](https://zenodo.org/records/14174195) -> 284 twelve-band VENµS scenes over Ashdod acquired from 2018–2020, with vessel bounding boxes and AIS-derived identification metadata.
+* [Raw/L0 Multispectral Ship Classification Datasets](https://zenodo.org/records/14847258) -> 64×64 raw multispectral vessel crops from VENµS and Sentinel-2 for ship-type classification.
 
 ## Vantor
 Satellites owned by Vantor (formerly Maxar & DigitalGlobe) include [GeoEye-1](https://en.wikipedia.org/wiki/GeoEye-1), [WorldView-2](https://en.wikipedia.org/wiki/WorldView-2), [3](https://en.wikipedia.org/wiki/WorldView-3) & [4](https://en.wikipedia.org/wiki/WorldView-4)
