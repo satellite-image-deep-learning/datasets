@@ -153,6 +153,7 @@ As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_
 * [KappaSet_AI4QC](https://zenodo.org/records/11121065) -> Sentinel-2 cloud benchmark derived from KappaSet, with 512x512 masks for clear sky, thick cloud, thin cloud and cloud shadow and all 13 spectral bands at their native resolutions.
 * [Global ML-ready dataset for mining areas](https://zenodo.org/records/14195737) -> 1,210 globally distributed 2048x2048 Sentinel-2 tiles with manually verified mine masks, bounding boxes, mine types and train, validation and test splits.
 * [NortheastChinaSoybeanYield20m](https://zenodo.org/records/14263103) -> annual 20 m soybean-yield maps for Northeast China from 2019 to 2023, produced with a WOFOST-GRU framework using Sentinel-2-derived leaf-area index. Paper: NortheastChinaSoybeanYield20m: an annual soybean yield dataset at 20 m in Northeast China from 2019 to 2023
+* [Sentinel-2 vessels and side-by-side vessel pairs](https://github.com/hahner-eo/sentinel2-vessel-pairs) -> hand-reviewed 64x64 Sentinel-2 L2A crops with no_ship, ship and ship_pair classification labels, plus reconstruction and validation code; dataset download pending publication. Paper: A hand-reviewed Sentinel-2 dataset of vessels and side-by-side vessel pairs
 
 ### Sentinel-3 (Optical)
 * [TMB-S3](https://huggingface.co/datasets/links-ads/tmb-s3) -> [GitHub](https://github.com/links-ads/tmb-s3). A burned-area segmentation dataset of Sentinel-3 OLCI time series for 246 European CEMS wildfire activations (2016–2025), split into 770 bounding boxes of about 25 × 25 km, with CEMS burned-area and analysed-area labels and ESA WorldCover land cover. Paper: Temporal Modelling for Burn Scars on Sentinel-3
@@ -310,6 +311,7 @@ A large-scale benchmark dataset for object detection in optical remote sensing i
 * [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 * [Tools](https://github.com/CrazyStoneonRoad/Tools) -> for dealing with the DIOR
 * [Object_Detection_Satellite_Imagery_Yolov8_DIOR](https://github.com/JohnPPinto/Object_Detection_Satellite_Imagery_Yolov8_DIOR)
+* [DIOR on Hugging Face](https://huggingface.co/datasets/HichTala/dior) -> repackaged DIOR optical remote-sensing images with 20 object classes and COCO-format bounding boxes for the Hugging Face datasets library. Paper: Object detection in optical remote sensing images: A survey and a new benchmark
 
 ## LEVIRDet object detection dataset
 [LEVIRDet](https://github.com/QinzheYang/LEVIRDet-release) is a million-scale, 159-category dataset and foundation model for universal remote sensing object detection.
@@ -332,6 +334,7 @@ A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images. Se
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
 * [DOTA2VOCtools](https://github.com/Complicateddd/DOTA2VOCtools) -> dataset split and transform to voc format
 * [dotatron](https://github.com/naivelogic/dotatron) -> 2021 Learning to Understand Aerial Images Challenge on DOTA dataset
+* [DOTA on Hugging Face](https://huggingface.co/datasets/HichTala/dota) -> DOTA aerial imagery split into 512x512 patches with 16 object classes and COCO-format bounding boxes for the Hugging Face datasets library. Paper: DOTA: A Large-Scale Dataset for Object Detection in Aerial Images
 
 ## iSAID instance segmentation dataset
 A Large-scale Dataset for Instance Segmentation in Aerial Images
