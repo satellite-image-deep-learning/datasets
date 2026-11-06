@@ -772,6 +772,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [PanCollection](https://github.com/liangjiandeng/PanCollection) -> Pansharpening Datasets from WorldView 2, WorldView 3, QuickBird, Gaofen 2 sensors
 
 ### Benchmark & Foundation Models
+* [RsEvi-248K](https://huggingface.co/datasets/sesko818/RsEvi-248K) -> Approximately 248K remote-sensing vision-language training records with bounding-box-grounded reasoning for visual question answering, visual grounding, object detection, counting, and scene classification. Paper: Grounding What Matters: Evidence-Aware Credit Assignment for Remote Sensing Reasoning
 * [EORSSD-dataset](https://github.com/rmcong/EORSSD-dataset) -> Extended Optical Remote Sensing Saliency Detection (EORSSD) Dataset
 * [ERA-DATASET](https://github.com/zhu-xlab/ERA-DATASET) -> A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos
 * [SSL4EO-S12](https://github.com/zhu-xlab/SSL4EO-S12) -> a large-scale dataset for self-supervised learning in Earth observation
