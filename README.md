@@ -643,6 +643,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> A panoptic segmentation dataset of aerial imagery from Brasilia, Brazil.
 * [ELDOR](https://huggingface.co/datasets/IRSC/ELDOR) -> large-scale UAV benchmark for monitoring illegal gold mining in the Amazon rainforest, with manually annotated orthomosaic imagery covering 2,500+ hectares and pixel-level semantic labels for mining activities and ecological structures, supporting segmentation and classification tasks
 * [Songdo Vision](https://zenodo.org/records/13828407) -> [GitHub](https://github.com/rfonod/geo-trax). 5,419 high-altitude bird's-eye-view drone frames (4K, 140-150 m altitude) with 274,190 vehicle bounding boxes in 4 classes (car/van, bus, truck, motorcycle) over an urban road network in Songdo, South Korea, in COCO, YOLO and Pascal VOC formats, CC BY 4.0. Paper: Advanced computer vision for extracting georeferenced vehicle trajectories from drone imagery
+* [AVID](https://huggingface.co/datasets/Dharini24/AVID) -> [GitHub](https://github.com/rdharini2001/ICIP_2025_Data_Release). 32,040 weakly aligned RGB-infrared frame pairs from ground-based surveillance of birds and drones, with 35,952 bounding-box annotations and the AVID-C perturbation benchmark. Paper: AVID: A Weakly Aligned RGB-Infrared Dataset and Perturbation Benchmark for Tiny Aerial Targets
 
 ## Other datasets
 
@@ -674,6 +675,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [ShipRSImageNet](https://github.com/zzndream/ShipRSImageNet) -> A Large-scale Fine-Grained Dataset for Ship Detection in High-Resolution Optical Remote Sensing Images
 * [VME: A Satellite Imagery Dataset and Benchmark for Detecting Vehicles in the Middle East and Beyond](https://github.com/nalemadi/VME_CDSI_dataset_benchmark)
 * [VHRV: Very High-Resolution Benchmark Dataset for Vessel Detection](https://github.com/buyukkanber/vhrv)
+* [VesselBench-800K](https://github.com/danfenghong/IEEE_TGRS_VesselBench) -> 800,000 512x512 optical and SAR images, including synthetic sources, for multimodal vessel detection, counting and density estimation. Paper: VesselBench-800K: A Large-scale Perception Benchmark for Multimodal Vessel Detection, Counting, and Density Estimation
 
 ### Land Use & Land Cover
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
